@@ -5,7 +5,4 @@ This course gives an overview of modern statistical techniques for analyzing nat
 
 The assignments, readings, and schedule are subject to change. I will try to give as much advance notice as possible.
 
-- [Schedule](schedule)
-- [Policies](policies)
-- [Grading](grading)
-- [Blog](http://gtnlpclass.wordpress.com/)
+More information is available on the [wiki](https://github.com/jacobeisenstein/gt-nlp-class/wiki)
