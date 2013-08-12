@@ -1,0 +1,5 @@
+
+
+    If you remember RMI from its earliest incarnations, then you understand its usefulness for distributed computing, but maybe not its latest innovations. In this article, Krishnan Viswanath looks at J2SE 5.0's new RMI features, including SSL-based secure RMI, launch-on-demand integration with xinetd, and stubless operation.
+   
+

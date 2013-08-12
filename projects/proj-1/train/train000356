@@ -1,0 +1,25 @@
+
+
+Yesterday, we took up Dan Froomkin's analysis of the NBC poll that showed Bush with only two percent approval rating among black people. The sample seemed especially small (807 people, 89 blacks), and the number -- even for Bush -- staggeringly low. What's more, a poll with a larger sample (Pew) gave Bush an approval rating of 12 percent among black. But, hey, whaddya know: Maybe black people really do hate Bush that much. Though, as our kind Statistics Operative suggests, "[I]f NBC/WSJ wanted to find out how blacks felt about Bush, they would poll a larger sample. But with approval this low, the result is not going to be exactly suspenseful."  Full explanation after the jump. 
+
+RELATED: Two Percent Is Not a Mandate [Wonkette]
+
+Dear Wonkette (and Mr. Froomkin):
+
+Wonkette's statistics are indeed rusty (or maybe she's too drunk to remember her probability theory). The margin of error given on a poll is for the case when opinion is split evenly, in which case the MoE is largest. I have commented on this result here.
+
+But when approval is incredibly low, the margin of error is smaller. In this case the 95% confidence range is 0.0% to 4.5%. In other words, the equivalent MOE is about 2%.
+
+Here's an easier way to think about it. In a sample of 89 black respondents, two said they approved of Bush's performance. If the pollsters did the same survey with 89 more respondents, they might get zero, they might get four - but they are not likely to get 10. This fits with the confidence interval I calculated above.
+
+This is all governed by the properties of the binomial distribution. If you want to play with binomials yourself (I've heard that about you), there is an online calculator at http://cnx.rice.edu/content/m11024/latest/
+
+By the way, I agree that if NBC/WSJ wanted to find out how blacks felt about Bush, they would poll a larger sample. But with approval this low, the result is not going to be exactly suspenseful.
+
+All the best,
+
+Prof. Sam Wang
+
+Princeton University
+
+

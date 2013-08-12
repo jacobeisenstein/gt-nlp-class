@@ -1,0 +1,9 @@
+
+David Pescovitz:
+Mologogo is a free GPS friend-tracking service that works on Nextel phones with Java and GPS, including a $60 Boost 
+Mobile pre-paid handset. Over at the MAKE: Blog, Phil Torronne took Mologogo for a walk. From his post:
+
+The phone will transmit your position to server (Uses Rails, Linux, Google Maps) and you/your friends can view where you are at in real time. I've hacked up tons of solutions to do the same thing, and this is simplest and cheapest (pretty much free if you have the phone, or $60 if you go pre-paid + 0.20 / day).
+
+"Link to MAKE: Blog, Link to Mologogo
+

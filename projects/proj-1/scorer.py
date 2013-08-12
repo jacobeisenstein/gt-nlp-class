@@ -21,19 +21,6 @@ def getConfusion(keyfilename,responsefilename):
                 counts[tuple((keyline,resline))] += 1
     return(counts)
 
-def accuracy(counts):
-    true_pos = 0.0
-    total = 0.0
-    keyclasses = set([x[0] for x in counts.keys()])
-    resclasses = set([x[1] for x in counts.keys()])
-    for keyclass in keyclasses:
-        for resclass in resclasses:
-            c = counts[tuple((keyclass,resclass))]
-            total += float(c)
-            if resclass==keyclass:
-                true_pos += float(c)
-    return(true_pos/total)
-
 def printScoreMessage(counts):
     true_pos = 0
     total = 0

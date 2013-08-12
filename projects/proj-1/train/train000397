@@ -1,0 +1,5 @@
+
+
+    The Classpath Helper project has announced its Beta 0.9 release. "Classpath Helper is an Eclipse based tool that visually depicts many common errors encountered in ClassLoading. Included are showing of obscured (or blocked) classes, Classes that cannot load due to unresolved referenecs, as well as direct dependencies and referenecs between jars. It can even be used to determine unreferenced jars and classes." 
+   
+

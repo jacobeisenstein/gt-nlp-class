@@ -1,0 +1,23 @@
+
+
+(InfoWorld) - Hewlett-Packard Co. (HP) probably isn't the first company IT managers think of when looking for help securing their networks. But the company hopes to take a more active role in helping its customers secure their systems, and helping the IT industry sort out evolving concepts such as identity management, an HP executive said Monday at the HP Technology Forum 2005 in Orlando.
+
+By building security-related technologies into its hardware and software products, HP can remove some of the complexity from trying to secure a company-wide network, said Tony Redmond, vice president and chief technology officer with HP Services. Redmond, along with HP Executive Vice President Ann Livermore and Russ Daniel, vice president and chief technology officer of HP's software division, kicked off the HP Technology Forum by updating HP's user community on current projects and future directions.
+
+The first fruits of HP's growing security research were released earlier this year. HP's Virus Throttler technology allows ProLiant servers and ProCurve networking switches detect abnormal levels of network traffic typically associated with worms, viruses or hacker activity, Redmond said. The technology limits the spread of viruses across a company's network by isolating the affected servers or switches, allowing administrators to catch up to a fast-moving outbreak, he said.
+
+HP also hopes to further protect its customers by partnering with emerging identity management organizations, such as the Liberty Alliance and the WS-Federation, Redmond said in an interview after his keynote address. The goal of these organizations is to develop a single sign-on technology that would allow users to sign onto a network once and have access to several different protected Web sites.
+
+HP belongs to the Liberty Alliance, but thinks it can play a role in bringing the two organizations together to develop a single standard, Redmond said. It has developed its own single sign-on technology within its HP OpenView software that can be deployed within an organization, allowing users to access different password-protected sites within an intranet with a single user name and password. This has improved HP's understanding of the benefits and pitfalls of allowing easy yet protected access to vital information, he said.
+
+"We've got two competing standards. For the good of our customers, we've got to bridge the gap," Redmond said.
+
+HP's growing emphasis on security was welcomed by Craig Gleason, a systems administrator with Tektronix Inc. Gleason's company buys HP's ProLiant servers and is very interested in making sure HP stays up to date with evolving security needs, he said.
+
+If HP can demonstrate that its products are more secure than the competition, users will respond, Gleason said. "People might start calling them just for security," he said.
+
+ADVERTISEMENT
+IBM
+IBM Tivoli Application Management. A better way to manage the business of IT.
+
+

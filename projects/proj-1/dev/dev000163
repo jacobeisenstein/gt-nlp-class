@@ -1,0 +1,5 @@
+
+
+    Logging errors is fine, but do you want to sift through errors logs after the customer has experienced a problem and called to complain? The extensibility of <code>log4j</code> gives you options for handling problems. In this article, Romin Irani shows you how to use <code>log4j</code> to send an instant message when your program logs an error.
+   
+

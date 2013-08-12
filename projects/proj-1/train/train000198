@@ -1,0 +1,5 @@
+
+
+    Hibernate's use of mapping files to define object-relational mappings means that these files are as much a part of your program as the Java code... and sometimes they don't work. Johannes Brodwall shows how you can apply unit testing techniques to test and verify your Hibernate mappings.
+   
+
