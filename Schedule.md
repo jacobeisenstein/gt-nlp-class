@@ -19,7 +19,7 @@
   - Optional reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf)
   - Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf) [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
 + September 3: Language models: n-grams, smoothing, speech recognition
-  - [Project 1](project1) due
+  - [Project 1](project1.md) due
   - Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf) chapter by Michael Collins
   - Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially
 	sections 2.7 and 3 on Kneser-Ney smoothing.
@@ -32,24 +32,24 @@
   - Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
   - Reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
   - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
-  - [Homework 3](homework-3) due
+  - [Homework 3](homework-3.md) due
 + September 12: Sequence labeling 1: part-of-speech tags, hidden Markov models, Viterbi, B-I-O encoding
-  - [Project 2](project2) out
+  - [Project 2](project2.md) out
   - Reading: [Chapter 3 of LXMLS](https://www.l2f.inesc-id.pt/lxmls/guide.pdf) 
   - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 + September 17: Sequence labeling 2: discriminative structure prediction, conditional random fields
-  - [Homework 4](homework-4) due
+  - [Homework 4](homework-4.md) due
   - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
   - Optional reading: [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf)
   - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
 + September 19: Sequence labeling 3: the forward-backward algorithm and unsupervised POS induction
   - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
-  - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf‎)
+  - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 + September 24: Syntax and CFG parsing
-  - [Project 2](project2) due
+  - [Project 2](project-2.md) due
   - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
 + September 26: Lexicalized parsing
-  - [Homework 5](homework-5) due
+  - [Homework 5](homework-5.md) due
   - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
   - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 + October 1: Dependency parsing
@@ -57,7 +57,7 @@
   - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf)
   - Optional reading: [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
 + October 3: Grammar induction and alternative syntactic formalisms
-  - [Homework 6](homework-6) due
+  - [Homework 6](homework-6.md) due
   - Reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf)
   - Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf)
   - Optional reading: [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf)
@@ -65,43 +65,43 @@
   - Optional reading: [Joshi on LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf)
   - Optional reading: [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
 + October 8: Midterm
-  - [Project 3](project 3) out
+  - [Project 3](project-3.md) out
 + October 10: Midterm recap. Semi-supervised learning and domain adaptation.
   - Reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf)
   - Optional reading: [Way more about semi-supervised learning](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
 + October 11: Drop deadline
 + October 15: Fall recess, no class
 + October 17: Compositional semantics
-  - [Project 3](project 3) due
+  - [Project 3](project-3.md) due
   - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
   - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 + October 22: Shallow semantics
   - Video: [Pereira: Low-pass semantics](http://videolectures.net/akbcwekex2012_pereira_semantics/)
 + October 24: Distributional semantics
-  - [Homework 7](homework-7) due
-  - [Project 4](project 4) out  
+  - [Homework 7](homework-7.md) due
+  - [Project 4](project-4.md) out  
   - Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
   - Optional reading: [Semantic compositionality through recursive matrix-vector spaces](http://www.robotics.stanford.edu/~ang/papers/emnlp12-SemanticCompositionalityRecursiveMatrixVectorSpaces.pdf)
   - Optional reading: [Vector-based models of semantic composition](http://homepages.inf.ed.ac.uk/s0453356/composition.pdf)
 + October 29: Anaphora resolution
   - Reading: [An algorithm for pronominal anaphora resolution](http://acl.ldc.upenn.edu/J/J94/J94-4002.pdf)
 + October 31: Coreference resolution
-  - [Homework 8](homework-8) due
+  - [Homework 8](homework-8.md) due
   - Reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf)
   - Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
 + November 5: Discourse structure
-  - [Project 4](project 4) due
+  - [Project 4](project-4.md) due
   - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
   - Optional: [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
 + November 7: Dialogue structure
-  - [Homework 9](homework-9) due
+  - [Homework 9](homework-9.md) due
   - Reading: TBA
 + November 12: Project proposal presentations
 + November 14: Information extraction
-  - [Homework 10](homework-10) due
+  - [Homework 10](homework-10.md) due
   - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
 + November 19: Phrase-based machine translation
-  - [Homework 11](homework-11) due
+  - [Homework 11](homework-11.md) due
   - Reading: [IBM models 1 and 2](papers/collins-ibm12.pdf)
   - Optional reading: [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
 + November 21: Syntactic machine translation
@@ -112,5 +112,5 @@
 + November 28: Thanksgiving, no class
 + December 3: Project presentations
 + December 5: Project presentations
-  - [Homework 12](homework-12) due at the end of class
+  - [Homework 12](homework-12.md) due at the end of class
 
