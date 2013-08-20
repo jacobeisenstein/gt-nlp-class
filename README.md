@@ -33,7 +33,7 @@ Learning goals:
 The assignments, readings, and schedule are subject to change, but I will
 try to give as much advance notice as possible.
 
-- [Schedule](Schedule)
+- [Schedule](Schedule.md)
 - [Grading](https://github.com/jacobeisenstein/gt-nlp-class/wiki/Grading)
 - [Policies](https://github.com/jacobeisenstein/gt-nlp-class/wiki/Policies)
 - [Email list](https://groups.google.com/forum/#!forum/gt-nlp-class-fa2013)
