@@ -4,8 +4,8 @@
 	You should be able to access this PDF for free from a Georgia Tech
 	computer.
 + August 22: Supervised learning: bag-of-words models and naive bayes. 
-  - [Homework 1](homework1) due
-  - [Project 1](project1) out
+  - [Homework 1](homework-1.md) due
+  - [Project 1](project-1.md) out
   - Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf)
   - Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 + August 27: Discriminative classifiers: perceptron, logistic regression, regularization, stochastic gradient descent. 
@@ -14,7 +14,7 @@
   - Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
   - Optional reading: [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf) training
 + August 29: Unsupervised learning: clustering, expectation-maximization, word sense clustering.
-  - [Homework 2](homework2) due
+  - [Homework 2](homework-2.md) due
   - Reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf)
   - Optional reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf)
   - Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf) [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
