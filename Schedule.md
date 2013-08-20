@@ -5,7 +5,7 @@
 	computer.
 + August 22: Supervised learning: bag-of-words models and naive bayes. 
   - [Homework 1](homework-1.md) due
-  - [Project 1](projects/proj-1/project-1.md) out
+  - [Project 1](projects/proj-1/project1.md) out
   - Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf)
   - Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 + August 27: Discriminative classifiers: perceptron, logistic regression, regularization, stochastic gradient descent. 
