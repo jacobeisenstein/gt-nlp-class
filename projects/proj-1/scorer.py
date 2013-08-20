@@ -21,6 +21,9 @@ def getConfusion(keyfilename,responsefilename):
                 counts[tuple((keyline,resline))] += 1
     return(counts)
 
+def accuracy(counts):
+    return sum([y for x,y in counts.items() if x[0] == x[1]]) / float(sum(counts.values()))
+
 def printScoreMessage(counts):
     true_pos = 0
     total = 0
@@ -30,9 +33,9 @@ def printScoreMessage(counts):
     print "%d classes in key: %s" % (len(keyclasses),keyclasses)
     print "%d classes in response: %s" % (len(resclasses),resclasses)
     print "confusion matrix"
-    print "key\t"+"\t".join(resclasses)
+    print "key\\response:\t"+"\t".join(resclasses)
     for i,keyclass in enumerate(keyclasses):
-        print keyclass+"\t",
+        print keyclass+"\t\t",
         for j,resclass in enumerate(resclasses):
             c = counts[tuple((keyclass,resclass))]
             #countarr[i,j] = c
