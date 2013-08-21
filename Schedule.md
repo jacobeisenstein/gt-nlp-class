@@ -3,6 +3,7 @@
 	[Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
 	You should be able to access this PDF for free from a Georgia Tech
 	computer.
+  - [Slides](lectures/lec1.pdf?raw=true)
 + August 22: Supervised learning: bag-of-words models and naive bayes. 
   - [Homework 1](homework-1.md) due
   - [Project 1](projects/proj-1/project1.md) out
