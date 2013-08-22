@@ -3,13 +3,13 @@
 This project is about sentiment classification. You will write code
 for three different classifiers: Naive Bayes, perceptron, and averaged
 perceptron. The scaffolding code is found in
-[this ipython notebook](proj1-problem-set.ipynb). You'll also need this data:
-- [training data](train-imdb.tar.gz)
-- [training key](train-imdb.key)
-- [development data](dev-imdb.tar.gz)
-- [development key](dev-imdb.key)
-- [sentiment vocabulary](sentiment-vocab.tff) by Wiebe et al
-- [scorer code](scorer.py)
+[this ipython notebook](proj-1-problem-set.ipynb?raw=true). You'll also need this data:
+- [training data](train-imdb.tar.gz?raw=true)
+- [training key](train-imdb.key?raw=true)
+- [development data](dev-imdb.tar.gz?raw=true)
+- [development key](dev-imdb.key?raw=true)
+- [sentiment vocabulary](sentiment-vocab.tff?raw=true) by Wiebe et al
+- [scorer code](scorer.py?raw=true)
 
 You can get all of this by cloning the entire course repository using
 "git clone https://github.com/jacobeisenstein/gt-nlp-class.git".
