@@ -9,9 +9,13 @@ perceptron. The scaffolding code is found in
 - [development data](dev-imdb.tar.gz)
 - [development key](dev-imdb.key)
 - [sentiment vocabulary](sentiment-vocab.tff) by Wiebe et al
-- [
+- [scorer code](scorer.py)
 
+You can get all of this by cloning the entire course repository using
+"git clone https://github.com/jacobeisenstein/gt-nlp-class.git".
+If you've already done this, just update the proj-1 directory.
 
+## Ipython notebook ##
 This project involves
 [ipython notebook](http://ipython.org/notebook.html), a web-based IDE
 for python. Notebook allows us to provide you a code scaffolding, and
