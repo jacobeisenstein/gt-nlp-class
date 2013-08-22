@@ -1,6 +1,10 @@
 # Project 1 #
 
-This project is still being developed, but will involve
+This project is about sentiment classification. You will write code
+for three different classifiers: Naive Bayes, perceptron, and averaged
+perceptron. The scaffolding code is found [here](
+
+This project involves
 [ipython notebook](http://ipython.org/notebook.html), a web-based IDE
 for python. Notebook allows us to provide you a code scaffolding, and
 allows you to annotate your code with comments in
