@@ -2,7 +2,15 @@
 
 This project is about sentiment classification. You will write code
 for three different classifiers: Naive Bayes, perceptron, and averaged
-perceptron. The scaffolding code is found [here](
+perceptron. The scaffolding code is found in
+[this ipython notebook](proj1-problem-set.ipynb). You'll also need this data:
+- [training data](train-imdb.tar.gz)
+- [training key](train-imdb.key)
+- [development data](dev-imdb.tar.gz)
+- [development key](dev-imdb.key)
+- [sentiment vocabulary](sentiment-vocab.tff) by Wiebe et al
+- [
+
 
 This project involves
 [ipython notebook](http://ipython.org/notebook.html), a web-based IDE
