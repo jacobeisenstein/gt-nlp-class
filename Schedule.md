@@ -1,18 +1,16 @@
 Please check homeworks and projects for updates. Homeworks are not finalized until the class
 before they are do. Projects are not final until the date that they are "out."
 
-+ August 20: Welcome: History of NLP and modern applications
++ August 20: Welcome: History of NLP and modern applications. [Slides](lectures/lec1.pdf?raw=true)
   - Reading: Chapter 1 of
 	[Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
 	You should be able to access this PDF for free from a Georgia Tech
 	computer.
-  - [Slides](lectures/lec1.pdf?raw=true)
-+ August 22: Supervised learning: bag-of-words models and naive bayes. 
++ August 22: Supervised learning: bag-of-words models and naive bayes. [Notes](lectures/lec2.pdf?raw=true)
   - [Homework 1](homeworks/homework-1.md) due
   - [Project 1](projects/proj-1/project1.md) out
   - Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
   - Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
-  - [Slides](lectures/lec2.pdf?raw=true)
 + August 27: Discriminative classifiers: perceptron, logistic regression, regularization, stochastic gradient descent. 
   - Reading: Chapters 1.3-1.4 of [LXMLS guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
   - Reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
