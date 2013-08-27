@@ -11,12 +11,12 @@ before they are do. Projects are not final until the date that they are "out."
   - [Project 1](projects/proj-1/project1.md) out
   - Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
   - Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
-+ August 27: Discriminative classifiers: perceptron, logistic regression, regularization, stochastic gradient descent. 
++ August 27: Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. [Notes on perceptron](lectures/lec3.pdf?raw=true) [Slides on WSD](lectures/lec3-wsd-slides.pdf?raw=true)
   - Reading: Chapters 1.3-1.4 of [LXMLS guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
   - Reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
   - Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
   - Optional reading: [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf) training
-+ August 29: Unsupervised learning: clustering, expectation-maximization, word sense clustering.
++ August 29: Logistic regression and unsupervised learning; word sense clustering.
   - [Homework 2](homeworks/homework-2.md) due
   - Reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf)
   - Optional reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
