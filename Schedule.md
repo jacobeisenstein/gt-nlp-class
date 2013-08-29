@@ -16,7 +16,7 @@ before they are do. Projects are not final until the date that they are "out."
   - Reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
   - Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
   - Optional reading: [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf) training
-+ August 29: Logistic regression and unsupervised learning; word sense clustering.
++ August 29: Logistic regression and unsupervised learning; word sense clustering. [Notes](lectures/lec4.pdf?raw=true) on logistic regression and EM; [Slides](lectures/lec4-semisup-em.pdf?raw=true) on semi-supervised learning.
   - [Homework 2](homeworks/homework-2.md) due
   - Reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf)
   - Optional reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
