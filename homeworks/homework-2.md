@@ -11,9 +11,9 @@ digits correspond to your birthday.
 
 The file has XML markup of text (from the Brown corpus). Each word is
 marked up for its part of speech and word sense. For example,
-
+~~~~~~
 <wf cmd=done pos=VB lemma=romp wnsn=1 lexsn=2:38:00::>romping</wf>
-
+~~~~~~
 Here, “romp” is the lemma, and the word sense (wnsn) is #1.
 
 Next, go to [WordNet](http://wordnet.princeton.edu/) and click on “Use Wordnet Online”
