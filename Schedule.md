@@ -27,8 +27,8 @@ before they are do. Projects are not final until the date that they are "out."
   - Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially
 	sections 2.7 and 3 on Kneser-Ney smoothing.
   - Optional reading:
-    [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf). Best
-    for students with strong machine learning background.
+    [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf). Requires
+    some machine learning background.
 + September 5: Finite state automata, morphology, semirings
   - Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf)
 + September 10: Finite state transduction, edit distance, finite state composition
