@@ -21,7 +21,7 @@ before they are do. Projects are not final until the date that they are "out."
   - Reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf)
   - Optional reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
   - Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf) [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
-+ September 3: More about EM; Semi-supervised EM; Language models: n-grams, smoothing, speech recognition. [Slides](lectures/lec5-nigam-slides.pdf?raw=true) on semi-supervised learning.
++ September 3: More about EM; Semi-supervised EM; Language models: n-grams, smoothing, speech recognition. [Slides](lectures/lec4-semisup-em.pdf?raw=true) on semi-supervised learning.
   [Notes](lectures/lec5.pdf?raw=true) on EM; [Notes](lectures/lec5-lm.pdf?raw=true) on language models.
   - [Project 1](projects/proj-1/project1.md) due
   - Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) chapter by Michael Collins
