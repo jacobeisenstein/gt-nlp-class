@@ -30,7 +30,7 @@ before they are do. Projects are not final until the date that they are "out."
   - Optional reading:
     [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf). Requires
     some machine learning background.
-  - [Word sense clustering with EM](demos/word-cluster.ipynb?download=true)
+  - [Word sense clustering with EM](demos/word-cluster.ipynb)
 + September 5: Finite state automata, morphology, semirings
   - Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf)
 + September 10: Finite state transduction, edit distance, finite state composition
