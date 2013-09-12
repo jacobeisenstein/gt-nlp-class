@@ -4,7 +4,7 @@ CS 4650 and 7650
 - **Instructor**: Jacob Eisenstein
 - **Semester**: Fall 2013
 - **Time**: Tuesdays and thursdays, 3:00-4:30pm
-- **TA**: Yangfeng Ji
+- **TA**: Yangfeng Ji (jiyfeng at gatech.edu)
 
 This course gives an overview of modern statistical techniques for
 analyzing natural language. The rough organization is to move from
