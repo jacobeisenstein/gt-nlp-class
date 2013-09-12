@@ -32,9 +32,9 @@ before they are do. Projects are not final until the date that they are "out."
     some machine learning background.
   - [Word sense clustering with EM](demos/word-cluster.ipynb)
 + September 5: Language models: n-grams, smoothing, speech recognition; [Notes](lectures/lec6-lm.pdf?raw=true) on language models.
-+ September 10: Finite state automata, morphology, semirings
++ September 10: Finite state automata, morphology, semirings; [Notes](lectures/lec7-morphology.pdf?raw=true) on morphology; [Notes](lectures/lec7-fsa.pdf?raw=true) on FSAs
   - Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf)
-+ September 12: Finite state transduction, edit distance, finite state composition
++ September 12: Finite state transduction, edit distance, finite state composition; [Notes](lectures/lec8-wfsts.pdf?raw=true) on WFSTs
   - Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
   - Reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
   - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
