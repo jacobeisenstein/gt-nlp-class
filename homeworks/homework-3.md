@@ -1,7 +1,7 @@
 Inflectional morphology
 -----------------------
 
-Do the Swahili part of [these exercises](papers/MorphExx.pdf)
+Do the Swahili part of [these exercises](http://pluto.huji.ac.il/~msyfalk/WordStructure/MorphExx.pdf)
 
 Derivational morphology
 -----------------------
