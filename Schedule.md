@@ -40,11 +40,11 @@ before they are do. Projects are not final until the date that they are "out."
   - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
   - [Homework 3](homeworks/homework-3.md) due
 + September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models, Viterbi, B-I-O encoding
-  - [Project 2](project2.md) out
   - Reading: [Chapter 3 of LXMLS](https://www.l2f.inesc-id.pt/lxmls/guide.pdf) 
   - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 + September 19: Sequence labeling 2: discriminative structure prediction, conditional random fields
   - [Homework 4](homeworks/homework-4.md) due
+  - [Project 2](project2.md) out
   - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
   - Optional reading: [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf)
   - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
@@ -52,13 +52,13 @@ before they are do. Projects are not final until the date that they are "out."
   - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
   - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 + September 26: Syntax and CFG parsing
-  - [Project 2](project-2.md) due
   - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
 + October 1: Lexicalized parsing
-  - [Homework 5](homeworks/homework-5.md) due
+  - [Project 2](project-2.md) due
   - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
   - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 + October 3: Dependency parsing
+  - [Homework 5](homeworks/homework-5.md) due
   - Reading: [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf)
   - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf)
   - Optional reading: [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
