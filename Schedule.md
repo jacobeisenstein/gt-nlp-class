@@ -39,7 +39,7 @@ before they are do. Projects are not final until the date that they are "out."
   - Reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
   - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
   - [Homework 3](homeworks/homework-3.md) due
-+ September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models, Viterbi, B-I-O encoding
++ September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models, Viterbi, B-I-O encoding. [Notes](lectures/lec9-pos.pdf?raw=true)
   - Reading: [Chapter 3 of LXMLS](https://www.l2f.inesc-id.pt/lxmls/guide.pdf) 
   - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 + September 19: Sequence labeling 2: discriminative structure prediction, conditional random fields
