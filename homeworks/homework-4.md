@@ -3,7 +3,7 @@ Twitter. Select three English-language tweets that you’d like to work
 with.
 
 Using the annotation system described in
-[this paper](papers/gimpel+etal.acl11.pdf), label the part-of-speech
+[this paper](http://www.ark.cs.cmu.edu/TweetNLP/gimpel+etal.acl11.pdf), label the part-of-speech
 tags of each word in your three tweets.
 
 Next, using the
