@@ -44,7 +44,7 @@ before they are do. Projects are not final until the date that they are "out."
   - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 + September 19: Sequence labeling 2: Viterbi, the Forward algorithm, and B-I-O encoding. [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
   - [Homework 4](homeworks/homework-4.md) due
-  - [Project 2](project2.md) out
+  - [Project 2](projects/proj-2/project2.md) out
   - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
   - Optional reading: [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf)
   - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
