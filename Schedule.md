@@ -39,16 +39,18 @@ before they are do. Projects are not final until the date that they are "out."
   - Reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
   - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
   - [Homework 3](homeworks/homework-3.md) due
-+ September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models, Viterbi, B-I-O encoding. [Notes](lectures/lec9-pos.pdf?raw=true)
++ September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models; [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
   - Reading: [Day 2 of LXMLS](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
   - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
-+ September 19: Sequence labeling 2: discriminative structure prediction, conditional random fields
++ September 19: Sequence labeling 2: Viterbi, the Forward algorithm, and B-I-O encoding
   - [Homework 4](homeworks/homework-4.md) due
   - [Project 2](project2.md) out
   - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
   - Optional reading: [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf)
   - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
-+ September 24: Sequence labeling 3: the forward-backward algorithm and unsupervised POS induction
++ September 24: Sequence labeling 3: discriminative structure
+prediction, conditional random fields, and the forward-backward
+algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true)
   - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
   - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 + September 26: Syntax and CFG parsing
