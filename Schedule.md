@@ -39,10 +39,10 @@ before they are do. Projects are not final until the date that they are "out."
   - Reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
   - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
   - [Homework 3](homeworks/homework-3.md) due
-+ September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models; [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
++ September 17: Sequence labeling 1: part-of-speech tags, hidden Markov models. [Notes](lectures/lec9-pos.pdf?raw=true); [Slides](lectures/lec9-pos-slides.pdf?raw=true)
   - Reading: [Day 2 of LXMLS](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
   - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
-+ September 19: Sequence labeling 2: Viterbi, the Forward algorithm, and B-I-O encoding
++ September 19: Sequence labeling 2: Viterbi, the Forward algorithm, and B-I-O encoding. [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
   - [Homework 4](homeworks/homework-4.md) due
   - [Project 2](project2.md) out
   - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
