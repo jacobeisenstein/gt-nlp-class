@@ -79,21 +79,20 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true)
 + October 17: Semi-supervised learning and domain adaptation.
   - Reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf)
   - Optional reading: [Way more about semi-supervised learning](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
-+ October 22: Compositional semantics
++ October 22: No class. Watch [this video](http://videolectures.net/metaforum2012_pereira_semantic/)
   - [Project 3](project-3.md) due
++ October 24: Compositional semantics
   - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
   - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
-+ October 24: Shallow semantics
-  - Video: [Pereira: Low-pass semantics](http://videolectures.net/akbcwekex2012_pereira_semantics/)
-+ October 29: Distributional semantics
++ October 29: Shallow semantics
+  - Reading: TBD
++ October 31: Distributional semantics
   - [Homework 7](homeworks/homework-7.md) due
   - [Project 4](project-4.md) out  
   - Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
   - Optional reading: [Semantic compositionality through recursive matrix-vector spaces](http://www.robotics.stanford.edu/~ang/papers/emnlp12-SemanticCompositionalityRecursiveMatrixVectorSpaces.pdf)
   - Optional reading: [Vector-based models of semantic composition](http://homepages.inf.ed.ac.uk/s0453356/composition.pdf)
-+ October 31: Anaphora resolution
-  - Reading: [An algorithm for pronominal anaphora resolution](http://acl.ldc.upenn.edu/J/J94/J94-4002.pdf)
-+ November 5: Coreference resolution
++ November 5: Anaphora and coreference resolution
   - [Homework 8](homeworks/homework-8.md) due
   - Reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf)
   - Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
