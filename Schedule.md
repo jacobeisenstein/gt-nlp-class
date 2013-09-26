@@ -50,10 +50,10 @@ before they are do. Projects are not final until the date that they are "out."
   - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
 + September 24: Sequence labeling 3: discriminative structure
 prediction, conditional random fields, and the forward-backward
-algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true)
+algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); [Notes on structure perceptron](lectures/lec11-sequence-labeling.pdf?raw=true)
   - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
   - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
-+ September 26: Syntax and CFG parsing
++ September 26: Syntax and CFG parsing; [Notes on forward-backward](lectures/lec12-crfs.pdf?raw=true); [Notes on CFGs](lectures/lec12-cfls.pdf?raw=true)
   - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
 + October 1: Lexicalized parsing
   - [Project 2](project-2.md) due
