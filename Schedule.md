@@ -1,5 +1,5 @@
 Please check homeworks and projects for updates. Homeworks are not finalized until the class
-before they are do. Projects are not final until the date that they are "out."
+before they are due. Projects are not final until the date that they are "out."
 
 + August 20: Welcome: History of NLP and modern applications. [Slides](lectures/lec1.pdf?raw=true)
   - Reading: Chapter 1 of
