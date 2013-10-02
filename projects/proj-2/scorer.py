@@ -11,7 +11,7 @@ def main():
     counts = getConfusion(key,response)
     printScoreMessage(counts)
 
-def getConfusion(keyfilename,responsefilename):
+def oldGetConfusion(keyfilename,responsefilename):
     counts = defaultdict(int)
     with open(keyfilename,'r') as keyfile:
         with open(responsefilename,'r') as resfile:
@@ -20,6 +20,18 @@ def getConfusion(keyfilename,responsefilename):
                 resline = resfile.readline().rstrip()
                 counts[tuple((keyline,resline))] += 1
     return(counts)
+
+def getConfusion(keyfilename,responsefilename):
+    counts = defaultdict(int)
+    with open(keyfilename,'r') as keyfile:
+        with open(responsefilename,'r') as resfile:
+            for keyline in keyfile:
+                resline = resfile.readline().rstrip()
+                if len(keyline.rstrip())>0:
+                    keyline = keyline.split()[-1].rstrip()
+                    counts[tuple((keyline,resline))] += 1
+    return(counts)
+
 
 def accuracy(counts):
     return sum([y for x,y in counts.items() if x[0] == x[1]]) / float(sum(counts.values()))

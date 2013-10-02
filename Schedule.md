@@ -55,7 +55,7 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 + September 26: Syntax and CFG parsing; [Notes on forward-backward](lectures/lec12-crfs.pdf?raw=true); [Notes on CFGs](lectures/lec12-cfls.pdf?raw=true)
   - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
-+ October 1: Lexicalized parsing
++ October 1: Lexicalized parsing [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
   - [Project 2](project-2.md) due
   - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
   - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
