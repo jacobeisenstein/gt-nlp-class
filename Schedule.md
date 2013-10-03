@@ -67,7 +67,7 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
 + October 8: Midterm
   - [Minimal review notes](lectures/midterm-review.pdf?raw=true)
   - [Project 3](project-3.md) out
-+ October 10: Midterm recap. Grammar induction and alternative syntactic formalisms
++ October 10: Midterm recap. Lexicalized parsing and alternative models of syntax.
   - [Homework 6](homeworks/homework-6.md) due
   - Reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf)
   - Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf)
