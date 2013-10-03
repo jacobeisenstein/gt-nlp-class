@@ -59,12 +59,13 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - [Project 2](project-2.md) due
   - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
   - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
-+ October 3: Dependency parsing
++ October 3: Dependency parsing [Notes](lectures/lec14-depparsing.pdf?raw=true); [Slides on parsing algorithms](lectures/lec14-algorithm-slides.pdf?raw=true); [Slides on PCFG failure cases](lectures/lec14-pcfg-fail.pdf?raw=true)
   - [Homework 5](homeworks/homework-5.md) due
   - Reading: [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf)
   - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf)
   - Optional reading: [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
 + October 8: Midterm
+  - [Minimal review notes](lectures/midterm-review.pdf?raw=true)
   - [Project 3](project-3.md) out
 + October 10: Midterm recap. Grammar induction and alternative syntactic formalisms
   - [Homework 6](homeworks/homework-6.md) due
