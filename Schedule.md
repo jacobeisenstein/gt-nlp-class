@@ -86,7 +86,8 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
   - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 + October 29: Shallow semantics
-  - Reading: TBD
+  - Reading: Sections 1 and 2 of [Automatic labeling of semantic roles](http://acl.ldc.upenn.edu/J/J02/J02-3001.pdf)
+  - Reading: [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf), especially section 4.
 + October 31: Distributional semantics
   - [Homework 7](homeworks/homework-7.md) due
   - [Project 4](project-4.md) out  
