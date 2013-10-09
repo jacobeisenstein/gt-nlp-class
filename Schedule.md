@@ -55,18 +55,19 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 + September 26: Syntax and CFG parsing; [Notes on forward-backward](lectures/lec12-crfs.pdf?raw=true); [Notes on CFGs](lectures/lec12-cfls.pdf?raw=true)
   - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
-+ October 1: Lexicalized parsing
++ October 1: Lexicalized parsing [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
   - [Project 2](project-2.md) due
   - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
   - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
-+ October 3: Dependency parsing
++ October 3: Dependency parsing [Notes](lectures/lec14-depparsing.pdf?raw=true); [Slides on parsing algorithms](lectures/lec14-algorithm-slides.pdf?raw=true); [Slides on PCFG failure cases](lectures/lec14-pcfg-fail.pdf?raw=true)
   - [Homework 5](homeworks/homework-5.md) due
   - Reading: [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf)
   - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf)
   - Optional reading: [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
 + October 8: Midterm
+  - [Minimal review notes](lectures/midterm-review.pdf?raw=true)
   - [Project 3](project-3.md) out
-+ October 10: Midterm recap. Grammar induction and alternative syntactic formalisms
++ October 10: Midterm recap. Lexicalized parsing and alternative models of syntax.
   - [Homework 6](homeworks/homework-6.md) due
   - Reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf)
   - Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf)
@@ -85,7 +86,8 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
   - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 + October 29: Shallow semantics
-  - Reading: TBD
+  - Reading: Sections 1 and 2 of [Automatic labeling of semantic roles](http://acl.ldc.upenn.edu/J/J02/J02-3001.pdf)
+  - Reading: [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf), especially section 4.
 + October 31: Distributional semantics
   - [Homework 7](homeworks/homework-7.md) due
   - [Project 4](project-4.md) out  

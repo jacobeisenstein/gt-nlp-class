@@ -33,6 +33,6 @@ Find two examples of scope ambiguity in the Twitter dataset, showing the possibl
 
 You have now gathered four examples. Provide full syntactic analysis
 for two of them, using the grammar fragment described in the
-[lecture slides](todo:add-href). You may need to make up a few
+[lecture notes](../lectures/lec13-cfg-parsing.pdf?raw=true). You may need to make up a few
 productions of your own to deal with Twitter-specific phenomena like
 hashtags.
