@@ -103,6 +103,7 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
   - Optional: [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
 + November 12: Project proposal presentations
+  - [Project proposal](projects/indie/project.pdf?raw=true) due
   - [Homework 9](homeworks/homework-9.md) due
 + November 14: Information extraction
   - [Homework 10](homeworks/homework-10.md) due
