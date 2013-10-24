@@ -67,7 +67,7 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
 + October 8: Midterm
   - [Minimal review notes](lectures/midterm-review.pdf?raw=true)
   - [Project 3](project-3.md) out
-+ October 10: Midterm recap. Lexicalized parsing and alternative models of syntax.
++ October 10: Midterm recap. Lexicalized parsing and alternative models of syntax. [Notes](lectures/lec15-advanced-parsing.pdf?raw=true); [Slides](lectures/lec15-competitive-parsing-slides.pdf?raw=true)
   - [Homework 6](homeworks/homework-6.md) due
   - Reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf)
   - Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf)
@@ -77,12 +77,12 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Optional reading: [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
 + October 11: Drop deadline
 + October 15: Fall recess, no class
-+ October 17: Semi-supervised learning and domain adaptation.
++ October 17: Semi-supervised learning and domain adaptation. [Notes](lectures/lec16-ssl-notes.pdf?raw=true); [Slides](lectures/lec16-ssl-slides.pdf?raw=true)
   - Reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf)
   - Optional reading: [Way more about semi-supervised learning](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
 + October 22: No class. Watch [this video](http://videolectures.net/metaforum2012_pereira_semantic/)
   - [Project 3](project-3.md) due
-+ October 24: Compositional semantics
++ October 24: Compositional semantics. [Notes](lectures/lec17-semantics.pdf?raw=true)
   - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
   - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 + October 29: Shallow semantics
