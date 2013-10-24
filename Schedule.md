@@ -81,8 +81,8 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf)
   - Optional reading: [Way more about semi-supervised learning](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
 + October 22: No class. Watch [this video](http://videolectures.net/metaforum2012_pereira_semantic/)
-  - [Project 3](project-3.md) due
 + October 24: Compositional semantics. [Notes](lectures/lec17-semantics.pdf?raw=true)
+  - [Project 3](project-3.md) due
   - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
   - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 + October 29: Shallow semantics
