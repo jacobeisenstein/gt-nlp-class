@@ -95,10 +95,10 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Optional reading: [Semantic compositionality through recursive matrix-vector spaces](http://www.robotics.stanford.edu/~ang/papers/emnlp12-SemanticCompositionalityRecursiveMatrixVectorSpaces.pdf)
   - Optional reading: [Vector-based models of semantic composition](http://homepages.inf.ed.ac.uk/s0453356/composition.pdf)
 + November 5: Anaphora and coreference resolution
-  - [Homework 8](homeworks/homework-8.md) due
   - Reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf)
   - Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
 + November 7: Discourse and dialogue
+  - [Homework 8](homeworks/homework-8.md) due
   - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
   - Optional: [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
 + November 12: Information extraction
