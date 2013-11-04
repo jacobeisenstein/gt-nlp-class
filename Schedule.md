@@ -88,7 +88,7 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
 + October 29: Shallow semantics. [Slides](lectures/lec18-srl-slides.pdf?raw=true), [Notes](lectures/lec18-srl-notes.pdf?raw=true).
   - Reading: Sections 1 and 2 of [Automatic labeling of semantic roles](http://acl.ldc.upenn.edu/J/J02/J02-3001.pdf)
   - Reading: [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf), especially section 4.
-+ October 31: Distributional semantics
++ October 31: Distributional semantics [Notes](lectures/lec19-distsim-notes.pdf?raw=true); [Slides](lectures/lec19-distsim-slides.pdf?raw=true)
   - [Homework 7](homeworks/homework-7.md) due
   - [Project 4](project-4.md) out  
   - Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
@@ -99,15 +99,15 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf)
   - Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
 + November 7: Discourse and dialogue
-  - [Project 4](project-4.md) due
   - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
   - Optional: [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
-+ November 12: Project proposal presentations
-  - [Project proposal](projects/indie/project.pdf?raw=true) due
++ November 12: Information extraction
+  - [Project 4](project-4.md) due
   - [Homework 9](homeworks/homework-9.md) due
-+ November 14: Information extraction
-  - [Homework 10](homeworks/homework-10.md) due
   - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
++ November 14: Project proposal presentations
+  - [Project proposal](projects/indie/project.pdf?raw=true) due
+  - [Homework 10](homeworks/homework-10.md) due
 + November 19: Phrase-based machine translation
   - [Homework 11](homeworks/homework-11.md) due
   - Reading: [IBM models 1 and 2](papers/collins-ibm12.pdf)
