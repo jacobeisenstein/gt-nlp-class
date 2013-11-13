@@ -1,6 +1,4 @@
-In this homework, you will RST annotation of a short passage of text
-from the
-"[essay for robo-graders](http://bltnotjustasandwich.com/2012/06/10/les-perelmans-robo-graded-essay/)".
+In this homework, you will RST annotation of a short passage of text.
 
 First, divide the text into elementary discourse units (EDUs). You can
 label each EDU as C0, C1, etc. Then provide an RST parse tree for the
@@ -11,21 +9,14 @@ be found at
 
 Here is the passage:
 
-> Teaching assistants are paid an excessive amount of money. The average
-> teaching assistant makes six times as much money as college
-> presidents. In addition, they often receive a plethora of extra
-> benefits such as private jets, vacations in the south seas, a staring
-> roles in motion pictures. Moreover, in the Dickens novel Great
-> Expectation, Pip makes his fortune by being a teaching assistant. It
-> doesn’t matter what the subject is, since there are three parts to
-> everything you can think of. If you can’t think of more than two, you
-> just have to think harder or come up with something that might fit. An
-> example will often work, like the three causes of the Civil War or
-> abortion or reasons why the ridiculous twenty-one-year-old limit for
-> drinking alcohol should be abolished. A worse problem is when you wind
-> up with more than three subtopics, since sometimes you want to talk
-> about all of them.
+- In today's society, college is ambiguous.
+- We need it to live, but we also need it to love.
+- Moreover, without college most of the world's learning would be egregious.
+- College, however, has myriad costs.
+- One of the most important issues facing the world is how to reduce college costs.
+- Some have argued that college costs are due to the luxuries students now expect.
+- Others have argued that the costs are a result of athletics.
+- In reality, high college costs are the result
+  of excessive pay for teaching assistants.
 
-In my opinion, this text has two parts, and it’s not really possible
-to reconcile them into a single tree. But you are welcome to try. At
-a minimum, provide trees for each part.
+This passage is from Lee Perelman's amusing [Essay for Robo-Reader](http://www.cbc.ca/spark/wp-content/uploads/2012/05/Essays-for-Robo-Reader.pdf).
