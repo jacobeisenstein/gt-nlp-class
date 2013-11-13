@@ -9,6 +9,4 @@ information box on the right side of the wikipedia page). For each
 field, try to design a pattern that would extract the correct value,
 if possible. Would your pattern also apply to other parts of the next
 which do not actually match the desired field? Does the Google
-description actually extract all the information correctly? (for
-Maynard Jackson, it does not.)
-
+description actually extract all the information correctly?

@@ -107,8 +107,9 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
 + November 14: Project proposal presentations
   - [Project proposal](projects/indie/project.pdf?raw=true) due
-  - Proposal slides PDFs are due *at noon*
-  - [Homework 10](homeworks/homework-10.md) due
+  - Proposal slides PDFs are due on Thursday **at noon**. 
+    Aim for two slides per group, plus one per extra person on the group. Aim for two minutes of talking per slide.
+  - [Homework 10](homeworks/homework-10.md) due on **Friday** at 3:05.
 + November 19: Phrase-based machine translation
   - [Homework 11](homeworks/homework-11.md) due
   - Reading: [IBM models 1 and 2](papers/collins-ibm12.pdf)
