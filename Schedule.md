@@ -94,14 +94,14 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
   - Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
   - Optional reading: [Semantic compositionality through recursive matrix-vector spaces](http://www.robotics.stanford.edu/~ang/papers/emnlp12-SemanticCompositionalityRecursiveMatrixVectorSpaces.pdf)
   - Optional reading: [Vector-based models of semantic composition](http://homepages.inf.ed.ac.uk/s0453356/composition.pdf)
-+ November 5: Anaphora and coreference resolution
++ November 5: Anaphora and coreference resolution [Notes](lectures/lec20-coref-notes.pdf?raw=true) [Slides](lectures/lec20-coref-slides.pdf?raw=true)
   - Reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf)
   - Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
-+ November 7: Discourse and dialogue
++ November 7: Discourse and dialogue [Notes](lectures/lec21-discourse-notes.pdf?raw=true) [Slides](lectures/lec21-discourse-slides.pdf?raw=true)
   - [Homework 8](homeworks/homework-8.md) due
   - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
   - Optional: [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
-+ November 12: Information extraction
++ November 12: Information extraction. [Notes](lectures/lec22-ie-notes.pdf?raw=true) [Slides](lectures/lec22-ie.pdf?raw=true)
   - [Project 4](project-4.md) due
   - [Homework 9](homeworks/homework-9.md) due
   - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
