@@ -123,4 +123,5 @@ algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); 
 + December 3: Project presentations
 + December 5: Project presentations
   - [Homework 12](homeworks/homework-12.md) due at 11:59PM
-
++ December 6: Initial project report due at 5PM
++ December 13: Final project report due at 5PM
