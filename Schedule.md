@@ -4,18 +4,21 @@ The class will meet on Tuesdays and Thursdays from 3:05 - 4:25PM, in College of 
 
 Please check homeworks and projects for updates. Homeworks are not finalized until the class before they are due. Projects are not final until the date that they are "out."
 
-+ August 19: Welcome: History of NLP and modern applications. Statistics review. [Slides](lectures/lec1.pdf?raw=true)
-	- Reading: Chapter 1 of
-	[Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
-	You should be able to access this PDF for free from a Georgia Tech
-	computer.
-	- Needed: basic stats review. Maybe [this](http://www.autonlab.org/tutorials/prob18.pdf) and/or [this](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf)
+## August 19: Welcome ## 
+
+- History of NLP and modern applications. Statistics review. [Slides](lectures/lec1.pdf?raw=true)
+- Reading: Chapter 1 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
+You should be able to access this PDF for free from a Georgia Tech computer.
+- Needed: basic stats review. Maybe [this](http://www.autonlab.org/tutorials/prob18.pdf) and/or [this](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf)
 and [this](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
-	- [Project 0](projects/proj-0/project0.md) out
-+ August 21: Supervised learning: bag-of-words models and naive bayes. [Notes](lectures/lec2.pdf?raw=true)
-  - [Homework 1](homeworks/homework-1.md) due
-  - Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
-  - Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
+- [Project 0](projects/proj-0/project0.md) out
+
+## August 21: Supervised learning 1 ##
+
+- Bag-of-words models and naive bayes. [Notes](lectures/lec2.pdf?raw=true)
+- [Homework 1](homeworks/homework-1.md) due
+- Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
+- Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 
 + August 26: Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. [Notes](lectures/lec3.pdf?raw=true) on perceptron; [Slides](lectures/lec3-wsd-slides.pdf?raw=true) on WSD.
   - [Project 0](projects/proj-0/project0.md) due
