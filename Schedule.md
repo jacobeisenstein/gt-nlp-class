@@ -27,14 +27,15 @@ and [this](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 - [Project 1a](projects/proj-1/project1a.md) out
 - Reading: Chapters 1.3-1.4 of [LXMLS guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true) (todo: decide whether to keep this)
 - Reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
-- Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf); [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf). 
-### August 28: Unsupervised learning; document and word sense clustering ###
+- Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf); [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf).
+
+### August 28: Unsupervised learning ###
 
 - Logistic regression and unsupervised learning; word sense clustering. [Notes](lectures/lec4.pdf?raw=true) on logistic regression and EM.
 - [Homework 2](homeworks/homework-2.md) due
 - Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
 - Optional reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf)
-- Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf) [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
+- Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf)  [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
 
 ### September 2: Expectation maximization and Language models ###
 
@@ -66,44 +67,57 @@ and [this](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 
 ### September 16: Sequence labeling 1 ###
 
-- Oart-of-speech tags, hidden Markov models. [Notes](lectures/lec9-pos.pdf?raw=true); [Slides](lectures/lec9-pos-slides.pdf?raw=true)
+- Part-of-speech tags, hidden Markov models. [Notes](lectures/lec9-pos.pdf?raw=true); [Slides](lectures/lec9-pos-slides.pdf?raw=true)
 - [Homework 4](homeworks/homework-4.md) due
 - [Project 2](projects/proj-2/project2.md) out
 - Reading: [Day 2 of LXMLS](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
 - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
-+ September 18: Sequence labeling 2: Viterbi, the Forward algorithm, and B-I-O encoding. [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
-  - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
-  - Optional reading: [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf)
-  - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
+### September 18: Sequence labeling 2 ###
 
-+ September 23: Sequence labeling 3: discriminative structure
-prediction, conditional random fields, and the forward-backward
-algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); [Notes on structure perceptron](lectures/lec11-sequence-labeling.pdf?raw=true)
-  - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
-  - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
+- Viterbi, the Forward algorithm, and B-I-O encoding. [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
+- Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
+- Optional reading: [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf); [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694)
 
-+ September 25: Syntax and CFG parsing; [Notes on forward-backward](lectures/lec12-crfs.pdf?raw=true); [Notes on CFGs](lectures/lec12-cfls.pdf?raw=true)
-  - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
-+ September 30: Lexicalized parsing [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
-  - [Project 2](project-2.md) due
-  - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
-  - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
-+ October 2: Catch-up, midterm review
-+ October 7: Midterm
-  - [Minimal review notes](lectures/midterm-review.pdf?raw=true)
-+ October 9: Midterm review. Dependency parsing (maybe make this lexicalised parsing instead) [Notes](lectures/lec14-depparsing.pdf?raw=true); [Slides on parsing algorithms](lectures/lec14-algorithm-slides.pdf?raw=true); [Slides on PCFG failure cases](lectures/lec14-pcfg-fail.pdf?raw=true)
-  - [Project 3](project-3.md) out
-  - [Homework 5](homeworks/homework-5.md) due
-  - Reading: [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf)
+### September 23: Sequence labeling 3 ###
+
+- Discriminative structure prediction, conditional random fields, and the forward-backward algorithm. [Slides on forward-backward](lectures/sequence-slides.pdf?raw=true); [Notes on structure perceptron](lectures/lec11-sequence-labeling.pdf?raw=true)
+- Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
+- Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
+
+### September 25: Syntax and CFG parsing ###
+
+- Context-free grammars; constituency; parsing
+- [Notes on forward-backward](lectures/lec12-crfs.pdf?raw=true); 
+- [Notes on CFGs](lectures/lec12-cfls.pdf?raw=true)
+- Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf)
+
+### September 30: Dependency parsing ### 
+
+- [Notes](lectures/lec14-depparsing.pdf?raw=true); [Slides on parsing algorithms](lectures/lec14-algorithm-slides.pdf?raw=true); [Slides on PCFG failure cases](lectures/lec14-pcfg-fail.pdf?raw=true)
+- [Homework 5](homeworks/homework-5.md) due
+- [Project 2](project-2.md) due
+- Reading: [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf)
   - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf)
   - Optional reading: [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
+
+
+### October 2: Catch-up, midterm review ###
+
+### October 7: Midterm ###
+- [Minimal review notes](lectures/midterm-review.pdf?raw=true)
+
+### October 9: Midterm recap and lexicalized parsing ###
+- [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
+- [Project 3](project-3.md) out
+- Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
+- Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 
 + October 10: **Drop deadline**
 
 + October 14: Fall recess, no class
 
-+ October 16: More on dependency parsing. Alternative models of syntax. [Notes](lectures/lec15-advanced-parsing.pdf?raw=true); [Slides](lectures/lec15-competitive-parsing-slides.pdf?raw=true)
++ October 16: Alternative models of syntax. [Notes](lectures/lec15-advanced-parsing.pdf?raw=true); [Slides](lectures/lec15-competitive-parsing-slides.pdf?raw=true)
   - [Homework 6](homeworks/homework-6.md) due
   - Reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf)
   - Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf)
