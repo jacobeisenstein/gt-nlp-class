@@ -4,7 +4,7 @@ The class will meet on Tuesdays and Thursdays from 3:05 - 4:25PM, in College of 
 
 Please check homeworks and projects for updates. Homeworks are not finalized until the class before they are due. Projects are not final until the date that they are "out."
 
-## August 19: Welcome ## 
+### August 19: Welcome ###
 
 - History of NLP and modern applications. Statistics review. [Slides](lectures/lec1.pdf?raw=true)
 - Reading: Chapter 1 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
@@ -13,53 +13,64 @@ You should be able to access this PDF for free from a Georgia Tech computer.
 and [this](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 - [Project 0](projects/proj-0/project0.md) out
 
-## August 21: Supervised learning 1 ##
+### August 21: Supervised learning and sentiment analysis ###
 
 - Bag-of-words models and naive bayes. [Notes](lectures/lec2.pdf?raw=true)
 - [Homework 1](homeworks/homework-1.md) due
 - Reading: [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
 - Optional reading: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 
-+ August 26: Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. [Notes](lectures/lec3.pdf?raw=true) on perceptron; [Slides](lectures/lec3-wsd-slides.pdf?raw=true) on WSD.
-  - [Project 0](projects/proj-0/project0.md) due
-  - [Project 1a](projects/proj-1/project1a.md) out
-  - Reading: Chapters 1.3-1.4 of [LXMLS guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true) (todo: decide whether to keep this)
-  - Reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
-  - Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
-  - Optional reading: [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf) training
+### August 26: Supervised learning and word sense disambiguation ###
 
-+ August 28: Logistic regression and unsupervised learning; word sense clustering. [Notes](lectures/lec4.pdf?raw=true) on logistic regression and EM.
-  - [Homework 2](homeworks/homework-2.md) due
-  - Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
-  - Optional reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf) (todo: replace this)
-  - Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf) [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
+- Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. [Notes](lectures/lec3.pdf?raw=true) on perceptron; [Slides](lectures/lec3-wsd-slides.pdf?raw=true) on WSD.
+- [Project 0](projects/proj-0/project0.md) due
+- [Project 1a](projects/proj-1/project1a.md) out
+- Reading: Chapters 1.3-1.4 of [LXMLS guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true) (todo: decide whether to keep this)
+- Reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
+- Optional reading: [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf); [Exponentiated gradient](http://www.cs.columbia.edu/~mcollins/papers/egjournal.pdf). 
+### August 28: Unsupervised learning; document and word sense clustering ###
 
-+ September 2: More about EM; Semi-supervised learning; intro to language models. [Slides](lectures/lec4-semisup-em.pdf?raw=true) on semi-supervised learning. [Notes](lectures/lec5.pdf?raw=true) on EM
-  - [Project 1a](projects/proj-1/project1a.md) due
-  - Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) chapter by Michael Collins
-  - Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing.
-  - Optional reading:
+- Logistic regression and unsupervised learning; word sense clustering. [Notes](lectures/lec4.pdf?raw=true) on logistic regression and EM.
+- [Homework 2](homeworks/homework-2.md) due
+- Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
+- Optional reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf)
+- Optional readings: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf), [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf) [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
+
+### September 2: Expectation maximization and Language models ###
+
+- [Slides](lectures/lec4-semisup-em.pdf?raw=true) on semi-supervised learning. [Notes](lectures/lec5.pdf?raw=true) on EM
+- [Project 1a](projects/proj-1/project1a.md) due
+- Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) chapter by Michael Collins
+- Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing.
+- Optional reading:
     [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf). Requires some machine learning background.
-  - [Word sense clustering with EM](demos/word-cluster.ipynb)
+- Demo: [Word sense clustering with EM](demos/word-cluster.ipynb)
 
-+ September 4: Language models: n-grams, smoothing, speech recognition; [Notes](lectures/lec6-lm.pdf?raw=true) on language models.
-  - [Project 1b](projects/proj-1/project1b.md) out
+### September 4: Language models, smoothing, and speech recognition ###
 
-+ September 9: Finite state automata, morphology, semirings;   [Notes](lectures/lec7-morphology.pdf?raw=true) on morphology; [Notes](lectures/lec7-fsa.pdf?raw=true) on FSAs
-	- Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf)
+- N-grams, smoothing, speech recognition; [Notes](lectures/lec6-lm.pdf?raw=true) on language models.
+- [Project 1b](projects/proj-1/project1b.md) out
 
-+ September 11: Finite state transduction, edit distance, finite state composition; [Notes](lectures/lec8-wfsts.pdf?raw=true) on WFSTs
-  - [Project 1b](projects/proj-1/project1b.md) due
-  - Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
-  - Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
-  - Optional reading: [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
-  - [Homework 3](homeworks/homework-3.md) due
+### September 9: Finite state automata, morphology, semirings ###
 
-+ September 16: Sequence labeling 1: part-of-speech tags, hidden Markov models. [Notes](lectures/lec9-pos.pdf?raw=true); [Slides](lectures/lec9-pos-slides.pdf?raw=true)
-  - [Homework 4](homeworks/homework-4.md) due
-  - [Project 2](projects/proj-2/project2.md) out
-  - Reading: [Day 2 of LXMLS](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
-  - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
+- [Notes](lectures/lec7-morphology.pdf?raw=true) on morphology; [Notes](lectures/lec7-fsa.pdf?raw=true) on FSAs
+- Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf)
+
+### September 11: Finite state transducers ###
+
+- Transduction and composition, edit distance; [Notes](lectures/lec8-wfsts.pdf?raw=true) on WFSTs
+- [Project 1b](projects/proj-1/project1b.md) due
+- [Homework 3](homeworks/homework-3.md) due
+- Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
+- Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf); [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
+
+### September 16: Sequence labeling 1 ###
+
+- Oart-of-speech tags, hidden Markov models. [Notes](lectures/lec9-pos.pdf?raw=true); [Slides](lectures/lec9-pos-slides.pdf?raw=true)
+- [Homework 4](homeworks/homework-4.md) due
+- [Project 2](projects/proj-2/project2.md) out
+- Reading: [Day 2 of LXMLS](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
+- Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
 + September 18: Sequence labeling 2: Viterbi, the Forward algorithm, and B-I-O encoding. [Notes](lectures/lec10-hmm.pdf?raw=true); [Slides on Viterbi](lectures/sequence-slides.pdf?raw=true)
   - Reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf)
