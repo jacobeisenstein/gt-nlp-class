@@ -31,3 +31,13 @@ Students in the first group suffer in the exam and don't understand
 the lectures, and students in the second group suffer in the project
 assignments. My advice is to get the background material first, and
 then take this course.
+
+## Policies ##
+
+Multiple studies have shown that using a laptop in class -- even for taking notes -- reduces students' educational attainment. See [here](http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html) for a popular press article summarizing this research. You are adults and must make your own decision, but my advice is to try pen and paper instead.
+
+There are two types of assignments: homeworks and projects.
+- Homework assignments are due in class, in paper format. Printers are unreliable, so leave a little time to get it printed out. They will not be accepted late; however, you get one "freebie" homework that you can skip.
+- Project assignments are due at the start of class on T-Square. They will be accepted up to three days late. For every 24 hour period after the due date, the grade will be reduced by 20%. It's usually best to just turn in the project on time with what you have.
+ 
+If you cannot make it to office hours, please email me to make an appointment. It's unlikely I'll be able to chat if you just stop by my office. The same is true for the TA.
