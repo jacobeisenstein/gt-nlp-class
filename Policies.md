@@ -1,15 +1,16 @@
-## Office hours ##
+## Getting help ##
+
+TA's office hours will be 11-12 on Friday in the computational linguistics lab (the space next to TSRB 228A). You can TSRB by showing your GTID at the desk. The office is to the left of the stairs on the second floor.
 
 Professor Eisenstein’s office hours will be 11-12 on wednesday in TSRB
-228A. You can TSRB by showing your GTID at the desk. The office is to
-the left of the stairs on the second floor.
+228A. 
 
-TA's office hours will be 11-12 on Friday in the computational linguistics 
-lab (the space next to TSRB 228A).  
+Please send email communication through T-square.
 
 ## Prerequisites ##
 
 This course assumes
+
 - Good coding ability, corresponding to at least a third or
   fourth-year undergraduate CS major. Assignments will be in Python.
 - Background in basic probability, linear algebra, and calculus.
@@ -22,6 +23,7 @@ This course assumes
 
 People sometimes want to take the course without having all of these
 prerequisites. Frequent cases are:
+
 - Junior CS students with strong programming skills but limited
   theoretical and mathematical background,
 - Non-CS students with strong mathematical background but limited
