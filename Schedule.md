@@ -166,6 +166,7 @@ of probability.
 
 - Coherence; discourse connectives; rhetorical structure theory; speech acts. 
 - [Homework 12](homeworks/homework-12.md) due
+- [Project 4](project-4.md) due
 - Reading: likely my notes 
 - Optional: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR);
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
@@ -174,7 +175,7 @@ of probability.
 
 - Reading for comprehension.
 [Notes](lectures/lec22-ie-notes.pdf?raw=true) [Slides](lectures/lec22-ie.pdf?raw=true)
-- [Project 4](project-4.md) due
+- [Independent project proposal](project-5.md) due
 - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
 
 ### November 13: Semi-supervised learning and domain adaptation ###
@@ -214,7 +215,7 @@ of probability.
 
 ### Final business ###
 
-- December 9: Initial project report due at 5PM
+- December 5: Initial project report due at 5PM
 - December 11: Final project report due at 5PM
 
 

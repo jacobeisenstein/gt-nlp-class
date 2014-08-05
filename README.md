@@ -3,9 +3,8 @@ CS 4650 and 7650
 - **Course**: Natural Language Understanding
 - **Instructor**: Jacob Eisenstein
 - **Semester**: Fall 2014
-- **Time**: Tuesdays and thursdays, 3:00-4:30pm
+- **Time**: Tuesdays and thursdays, 3:05-4:25pm
 - **TA**: Umashanthi Pavalanthan (umashanthi at gatech dot edu)
-
 - [Schedule](Schedule.md)
 - [Grading](Grading.md)
 - [Policies](Policies.md)
@@ -19,9 +18,7 @@ models. Along the way we will cover machine learning techniques which
 are especially relevant to natural language processing.
 
 ## Learning goals ##
-- Acquire the fundamental linguistic concepts that are relevant to language
-  technology. This goal will be assessed in the short homework assignments,
-  midterm, and class participation.
+- Acquire the fundamental linguistic concepts that are relevant to language technology. This goal will be assessed in the short homework assignments, midterm, and class participation.
 - Analyze and understand state-of-the-art algorithms and statistical
   techniques for reasoning about linguistic data. This goal will be
   assessed in the midterm, the assigned projects, and class
