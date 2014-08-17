@@ -1,8 +1,7 @@
-**This is a provisional schedule.** Readings, notes, slides, and homework will change.
+CS 4650 and CS 7650 will meet jointly, on Tuesdays and Thursdays from 3:05 - 4:25PM, in College of Computing 101.
 
-The class will meet on Tuesdays and Thursdays from 3:05 - 4:25PM, in College of Computing 101.
+**This is a (permanently) provisional schedule.** Readings, notes, slides, and homework will change. Readings and homeworks are final at the time of the class **before** they are due (e.g., thursdays readings are final on the preceding tuesday); problem sets are final on the day they are "out." Please check for updates until then.
 
-Please check homeworks and projects for updates. Homeworks are not finalized until the class before they are due. Projects are not final until the date that they are "out."
 
 ### August 19: Welcome ###
 
@@ -18,7 +17,7 @@ of probability.
 ### August 21: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
 - Bag-of-words models and naive bayes.
 - [Homework 1](homeworks/homework-1.md) due
-- Reading: my [notes](notes/main.pdf?raw=true), chapter 2.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 2.
 - Optional readings: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf),
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
 
@@ -26,7 +25,7 @@ of probability.
 - Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. 
 - [Project 0](projects/proj-0/project0.md) due
 - [Project 1a](projects/proj-1/project1a.md) out
-- Reading: my [notes](notes/main.pdf?raw=true), chapter 3-3.2.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
 - Optinal reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true);
 [adagrad](jmlr.org/papers/v12/duchi11a.html);
 [Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf). 
@@ -35,7 +34,7 @@ of probability.
 
 - Logistic regression and unsupervised learning; word sense clustering.
 - [Homework 2](homeworks/homework-2.md) due
-- Reading: my [notes](notes/main.pdf?raw=true), chapter 3.3-3.5.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3.3-3.5.
 - Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
 - Optional reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf); [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf); [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf)  [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
 
