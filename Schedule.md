@@ -16,10 +16,11 @@ of probability.
 - [Slides](slides/lec1.pdf?raw=true)
 
 ### August 21: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
-- Bag-of-words models and naive bayes.
+- Bag-of-words models, naive Bayes, and sentiment analysis.
 - [Homework 1](homeworks/homework-1.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 2.
-- Optional readings: [Survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf),
+- Optional readings:
+[Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
 
 ### August 26: Supervised learning 2 (Perceptron) and word sense disambiguation ###
@@ -27,9 +28,10 @@ of probability.
 - [Project 0](psets/ps0.pdf?raw=true) due
 - [Project 1a](projects/proj-1/project1a.md) out
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
-- Optinal reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true);
+- Optional reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true);
 [adagrad](jmlr.org/papers/v12/duchi11a.html);
-[Passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf). 
+[passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf); 
+[survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf),
 
 ### August 28: Supervised learning 3 (Logistic regression) and unsupervised learning ###
 
@@ -39,7 +41,7 @@ of probability.
 - Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
 - Optional reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf); [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf); [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf)  [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
 
-### September 2: Expectation maximization and Language models ###
+### September 2: Expectation maximization and language models ###
 
 - [Project 1a](projects/proj-1/project1a.md) due. 
 - [Project 1b](projects/proj-1/project1b.md) out. 
