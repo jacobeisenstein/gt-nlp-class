@@ -12,7 +12,7 @@ You should be able to access this PDF for free from a Georgia Tech computer.
 - **Optional reading** includes [these](http://www.autonlab.org/tutorials/prob18.pdf) 
 [other](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf) [reviews](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 of probability.
-- [Project 0](projects/proj-0/project0.md) out
+- [Project 0](psets/ps0.pdf?raw=true) out
 
 ### August 21: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
 - Bag-of-words models and naive bayes.
@@ -23,7 +23,7 @@ of probability.
 
 ### August 26: Supervised learning 2 (Perceptron) and word sense disambiguation ###
 - Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. 
-- [Project 0](projects/proj-0/project0.md) due
+- [Project 0](psets/ps0.pdf?raw=true) due
 - [Project 1a](projects/proj-1/project1a.md) out
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
 - Optinal reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true);
