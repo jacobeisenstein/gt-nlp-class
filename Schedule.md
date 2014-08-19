@@ -8,7 +8,7 @@ CS 4650 and CS 7650 will meet jointly, on Tuesdays and Thursdays from 3:05 - 4:2
 - History of NLP and modern applications. Review of probability. 
 - **Reading**: Chapter 1 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
 You should be able to access this PDF for free from a Georgia Tech computer.
-- **Reading**: Section 2.1 of [Foundations of Statistical NLP](http://nlp.stanford.edu/fsnlp/). A PDF version is accessible through the GT library.
+- **Optional reading**: Section 2.1 of [Foundations of Statistical NLP](http://nlp.stanford.edu/fsnlp/). A PDF version is accessible through the GT library.
 - **Optional reading** includes [these](http://www.autonlab.org/tutorials/prob18.pdf) 
 [other](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf) [reviews](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 of probability.

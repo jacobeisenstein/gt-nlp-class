@@ -1,4 +1,5 @@
-This homework is about labeled dependency parsing.
+Labeled Dependency Parsing
+----------
 
 - Choose a wikipedia page, and select two sentences to dependency
 parse. You will prefer short sentences, but make sure there is a

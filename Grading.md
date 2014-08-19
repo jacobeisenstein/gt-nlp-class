@@ -1,7 +1,7 @@
 The graded material for the course consists of:
 
 - 14 short homework assignments. Most of these involve performing linguistic annotation on some text of your choice. Each assignment should take less than thirty minutes. You may skip two, but you must do homework #14, which involves giving feedback on the final project. Each homework is worth 2 points (24 total). This grade includes attendance on the due date, because we will discuss them in class. **You must bring paper copies of your homework to class.**
-- 7 assigned projects. These involve building and using NLP techniques which are at or near the state-of-the-art. They must be done individually. Each project is worth 6 points (42 total).
+- 7 assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. They must be done individually. Each project is worth 6 points (42 total).
 - 1 independent project. This may be done in a group of up to three. It is worth 14 points, including points for the proposal, presentation, and report. This means you should spend roughly twice as long as you spend on each assigned project.
 - 1 in-class midterm exam, worth 20 points. Barring a medical
 emergency, you must take the exam on the day indicated in the schedule.

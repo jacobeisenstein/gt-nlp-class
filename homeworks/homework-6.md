@@ -1,3 +1,6 @@
+Syntactic ambiguity and parsing
+----------
+
 In this homework, you will analyze some syntactic structures in the
 Twitter part-of-speech corpus. You will select sentences from the
 training file oct27.train. You can select any sentences you like, but
