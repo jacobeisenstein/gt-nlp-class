@@ -13,6 +13,7 @@ You should be able to access this PDF for free from a Georgia Tech computer.
 [other](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf) [reviews](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 of probability.
 - [Project 0](psets/ps0.pdf?raw=true) out
+- [Slides](slides/lec1.pdf?raw=true)
 
 ### August 21: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
 - Bag-of-words models and naive bayes.
@@ -174,13 +175,13 @@ of probability.
 
 - Reading for comprehension.
 [Notes](lectures/lec22-ie-notes.pdf?raw=true) [Slides](lectures/lec22-ie.pdf?raw=true)
-- [Independent project proposal](project-5.md) due
 - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
 
 ### November 13: Semi-supervised learning and domain adaptation ###
 
 - Learning from the wrong data
 - Reading: likely my notes 
+- [Independent project proposal](indie.md) due
 - Optional reading:
 - [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
