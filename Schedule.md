@@ -22,6 +22,7 @@ of probability.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
+- [Slides](slides/lec2-slides.pdf?raw=true)
 
 ### August 26: Supervised learning 2 (Perceptron) and word sense disambiguation ###
 - Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. 
