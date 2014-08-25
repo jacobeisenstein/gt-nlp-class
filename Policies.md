@@ -2,10 +2,8 @@
 
 TA's office hours will be 11-12 on Friday in the computational linguistics lab (the space next to TSRB 228A). You can TSRB by showing your GTID at the desk. The office is to the left of the stairs on the second floor.
 
-Professor Eisenstein’s office hours will be 11-12 on wednesday in TSRB
+Professor Eisenstein’s office hours will be 10-11 on Tuesday in TSRB
 228A. 
-
-Please send email communication through T-square.
 
 ## Prerequisites ##
 
