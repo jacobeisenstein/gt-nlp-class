@@ -27,12 +27,12 @@ of probability.
 ### August 26: Supervised learning 2 (Perceptron) and word sense disambiguation ###
 - Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. 
 - [Project 0](psets/ps0.pdf?raw=true) due
-- [Project 1a](projects/proj-1/project1a.md) out
+- [Project 1a](psets/ps1/project1.md) out
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
-- Optional reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true);
-[adagrad](jmlr.org/papers/v12/duchi11a.html);
-[passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf); 
-[survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf),
+- Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true); [survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
+- Optional advanced reading: 
+[adagrad](jmlr.org/papers/v12/duchi11a.html); [passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
+- [Slides](slides/lec3-slides.pdf?raw=true)
 
 ### August 28: Supervised learning 3 (Logistic regression) and unsupervised learning ###
 

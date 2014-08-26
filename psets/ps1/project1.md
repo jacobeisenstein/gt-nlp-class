@@ -6,9 +6,9 @@ This project is about sentiment classification, and you will write code for runn
 - [Project 1b](project-1b.ipynb?raw=true), which includes perceptron (and maybe something else), and goes out on September 3, due September 10.
 
 You'll also need this data:
-- [training data](train-imdb.tar.gz?raw=true)
+- [training data](train-imdb.tgz?raw=true)
 - [training key](train-imdb.key?raw=true)
-- [development data](dev-imdb.tar.gz?raw=true)
+- [development data](dev-imdb.tgz?raw=true)
 - [development key](dev-imdb.key?raw=true)
 - [sentiment vocabulary](sentiment-vocab.tff?raw=true) by Wiebe et al
 - [scorer code](scorer.py?raw=true)
