@@ -34,30 +34,33 @@ of probability.
 [adagrad](jmlr.org/papers/v12/duchi11a.html); [passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
 - [Slides](slides/lec3-slides.pdf?raw=true)
 
-### August 28: Supervised learning 3 (Logistic regression) and unsupervised learning ###
+### August 28: Supervised learning 3 (Logistic regression) ###
 
-- Logistic regression and unsupervised learning; word sense clustering.
+- Logistic regression and online learning
 - [Homework 2](homeworks/homework-2.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3.3-3.5.
-- Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
-- Optional reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf); [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf); [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf)  [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
+- Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 
-### September 2: Expectation maximization and language models ###
+### September 2: Expectation maximization and semi-supervised learning; language models ###
 
-- [Project 1a](projects/proj-1/project1a.md) due. 
+- [Project 1a](projects/proj-1/project1a.md) due on **September 3 at 3pm**
 - [Project 1b](projects/proj-1/project1b.md) out. 
-- Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) chapter by Michael Collins
-- Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
+- Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
+chapter by Michael Collins
+- Optional supplementary reading: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf)
+- Optional advanced reading: [Nigam et al](http://www.kamalnigam.com/papers/emcat-mlj99.pdf); [Word](http://acl.ldc.upenn.edu/P/P95/P95-1026.pdf)  [sense](http://www.d.umn.edu/~tpederse/Pubs/wsdbook-2006-pedersen.pdf) [clustering](http://www.aclweb.org/anthology-new/W/W97/W97-0322.pdf)
 - Demo: [Word sense clustering with EM](demos/word-cluster.ipynb)
 
 ### September 4: Language models, smoothing, and speech recognition ###
 
 - N-grams, smoothing, speech recognition
-- [Homework 3](homeworks/homework-3.md) due
+- Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) - [Homework 3](homeworks/homework-3.md) due
+- Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
+
 
 ### September 9: Finite state automata, morphology, semirings ###
 
-- [Project 1b](projects/proj-1/project1b.md) due. 
+- [Project 1b](projects/proj-1/project1b.md) due on **September 10 at 3pm**
 - Reading: maybe [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf), but more likely my notes.
 
 ### September 11: Finite state transducers ###

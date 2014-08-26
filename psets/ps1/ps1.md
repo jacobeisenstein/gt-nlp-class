@@ -1,6 +1,6 @@
-# Project 1 #
+# Problem Set 1 #
 
-This project is about sentiment classification, and you will write code for running and evaluating various classifiers. There are two parts:
+This pset is about sentiment classification, and you will write code for running and evaluating various classifiers. There are two parts:
 
 - [Problem set 1a](ps-1a.ipynb), which includes dictionary-based classification and Naive Bayes, and goes out on August 26, due September 3.
 - [Problem set 1b](ps-1b.ipynb), which includes perceptron (and maybe something else), and goes out on September 3, due September 10.
@@ -18,7 +18,7 @@ You can get all of this by cloning the entire course repository using
 If you've already done this, just update the ps1 directory.
 
 ## Ipython notebook ##
-This project involves
+This problem set involves
 [ipython notebook](http://ipython.org/notebook.html), a web-based IDE
 for python. Notebook allows us to provide you a code scaffolding, and
 allows you to annotate your code with comments in
@@ -29,7 +29,6 @@ the [2.2.0 version] of the notebook, with Python 2.7.5.
 
 ## Some resources: ##
 
-- [examples of ipython notebooks](https://github.com/ipython/ipython/tree/master/examples/notebooks#a-collection-of-notebooks-for-using-ipython-effectively). Start with "Part 1."
 - [a numerical python cheatsheet](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf)
   for matlab and R users
 - [NLTK](http://nltk.org/), the Natural Language Toolkit, in Python. Note that [the book](http://nltk.org/book/) is available for free.
@@ -37,7 +36,7 @@ the [2.2.0 version] of the notebook, with Python 2.7.5.
 
 ## Submission and honor policy ##
 
-On T-square, you should submit your version of the project notebook. All code should be in the notebook. In project 1b, please also submit your response files to the test data using the appropriate filenames (described in the last section of the notebook).
+On T-square, you should submit your version of the notebook. All code should be in the notebook. In Part 1b, please also submit your response files to the test data using the appropriate filenames (described in the last section of the notebook).
 
 If you have questions about the assignment, please use the class
 [email list](https://groups.google.com/forum/#!forum/gt-nlp-class-fa2013),
