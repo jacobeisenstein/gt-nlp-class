@@ -26,8 +26,8 @@ of probability.
 
 ### August 26: Supervised learning 2 (Perceptron) and word sense disambiguation ###
 - Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. 
-- [Project 0](psets/ps0.pdf?raw=true) due
-- [Project 1a](psets/ps1/project1.md) out
+- [Problem set 0](psets/ps0.pdf?raw=true) due
+- [Problem set 1a](psets/ps1/ps1.md) out
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true); [survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 - Optional advanced reading: 

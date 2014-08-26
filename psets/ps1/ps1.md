@@ -2,8 +2,8 @@
 
 This project is about sentiment classification, and you will write code for running and evaluating various classifiers. There are two parts:
 
-- [Project 1a](project-1a.ipynb?raw=true), which includes dictionary-based classification and Naive Bayes, and goes out on August 26, due September 3.
-- [Project 1b](project-1b.ipynb?raw=true), which includes perceptron (and maybe something else), and goes out on September 3, due September 10.
+- [Problem set 1a](ps-1a.ipynb), which includes dictionary-based classification and Naive Bayes, and goes out on August 26, due September 3.
+- [Problem set 1b](ps-1b.ipynb), which includes perceptron (and maybe something else), and goes out on September 3, due September 10.
 
 You'll also need this data:
 - [training data](train-imdb.tgz?raw=true)
