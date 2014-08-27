@@ -2,8 +2,8 @@
 
 This pset is about sentiment classification, and you will write code for running and evaluating various classifiers. There are two parts:
 
-- [Problem set 1a](ps-1a.ipynb), which includes dictionary-based classification and Naive Bayes, and goes out on August 26, due September 3. (The link is for the iPython notebook.)
-- [Problem set 1b](ps-1b.ipynb), which includes perceptron (and maybe something else), and goes out on September 3, due September 10. (The iPython notebook will be available next week.)
+- [Problem set 1a](ps-1a.ipynb), which includes dictionary-based classification and Naive Bayes, and goes out on August 26, due September 3. To start, open the linked document in iPython Notebook.
+- [Problem set 1b](ps-1b.ipynb), which includes perceptron (and maybe something else), and goes out on September 3, due September 10. The iPython notebook will be available on September 3.
 
 You'll also need this data:
 - [training data](train-imdb.tgz?raw=true)
