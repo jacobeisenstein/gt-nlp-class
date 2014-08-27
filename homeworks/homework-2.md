@@ -2,9 +2,6 @@ This homework is about word senses.
 
 Download the
 [SemCor corpus](http://lit.csci.unt.edu/~rada/downloads/semcor/semcor3.0.tar.gz).
-Note that [this page](http://www.cse.unt.edu/~rada/downloads.html),
-from Rada Mihalcea, has lots of other interesting resources for word
-sense disambiguation.
 
 Open the brown2/tagfiles directory. Select a file whose last two
 digits correspond to your birthday.
