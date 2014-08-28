@@ -25,7 +25,7 @@ of probability.
 - [Slides](slides/lec2-slides.pdf?raw=true)
 
 ### August 26: Supervised learning 2 (Perceptron) and word sense disambiguation ###
-- Discriminative classifiers: perceptron and MIRA; word-sense disambiguation. 
+- Discriminative classifiers: perceptron and passive-aggressive learning; word-sense disambiguation. 
 - [Problem set 0](psets/ps0.pdf?raw=true) due
 - [Problem set 1a](psets/ps1/ps1.md) out
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
