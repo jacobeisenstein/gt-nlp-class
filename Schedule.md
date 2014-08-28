@@ -18,7 +18,7 @@ of probability.
 ### August 21: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
 - Bag-of-words models, naive Bayes, and sentiment analysis.
 - [Homework 1](homeworks/homework-1.md) due
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 2.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
@@ -28,7 +28,7 @@ of probability.
 - Discriminative classifiers: perceptron and passive-aggressive learning; word-sense disambiguation. 
 - [Problem set 0](psets/ps0.pdf?raw=true) due
 - [Problem set 1a](psets/ps1/ps1.md) out
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3-3.2.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 5-5.2.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true); [survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 - Optional advanced reading: 
 [adagrad](jmlr.org/papers/v12/duchi11a.html); [passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
@@ -38,7 +38,7 @@ of probability.
 
 - Logistic regression and online learning
 - [Homework 2](homeworks/homework-2.md) due
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3.3-3.5.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 5.3-5.6.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 
 ### September 2: Expectation maximization and semi-supervised learning; language models ###
