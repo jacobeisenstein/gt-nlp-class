@@ -54,7 +54,8 @@ chapter by Michael Collins
 ### September 4: Language models, smoothing, and speech recognition ###
 
 - N-grams, smoothing, speech recognition
-- Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) - [Homework 3](homeworks/homework-3.md) due
+- Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) 
+- [Homework 3](homeworks/homework-3.md) due
 - Optional reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
 
 
