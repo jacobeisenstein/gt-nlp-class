@@ -44,8 +44,8 @@ of probability.
 
 ### September 2: Expectation maximization and semi-supervised learning; language models ###
 
-- [Project 1a](projects/proj-1/project1a.md) due on **September 3 at 3pm**
-- [Project 1b](projects/proj-1/project1b.md) out. 
+- [Problem set 1a](psets/ps1/ps1.md) due on **September 3 at 3pm**
+- [Problem set 1b](psets/ps1/ps1.md) out on **September 3 at 3pm**
 - Reading: [Expectation maximization](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-em.pdf?raw=true)
 chapter by Michael Collins
 - Optional supplementary reading: [Tutorial on EM](http://www.cc.gatech.edu/~dellaert/em-paper.pdf)
@@ -63,7 +63,7 @@ chapter by Michael Collins
 
 ### September 9: Finite state automata, morphology, semirings ###
 
-- [Project 1b](projects/proj-1/project1b.md) due on **September 10 at 3pm**
+- [Problem set 1b](psets/ps1/ps1.md) due on **September 10 at 3pm**
 - Reading: maybe [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf), but more likely my notes.
 
 ### September 11: Finite state transducers ###
@@ -76,7 +76,7 @@ chapter by Michael Collins
 ### September 16: Sequence labeling 1 ###
 
 - Part-of-speech tags, hidden Markov models. 
-- [Project 2a](projects/proj-2/project2a.md) out
+- [Problem set 2a](psets/ps2/ps2.md) out
 - Reading: likely my notes
 - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
@@ -90,8 +90,8 @@ chapter by Michael Collins
 ### September 23: Sequence labeling 3 ###
 
 - Discriminative structure prediction, conditional random fields, and the forward-backward algorithm.
-- [Project 2a](projects/proj-2/project2a.md) due
-- [Project 2b](projects/proj-2/project2a.md) out
+- [Problem set 2a](psets/ps2/ps2.md) due
+- [Problem set 2b](psets/ps2/ps2.md) out
 - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
 - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 
@@ -103,7 +103,7 @@ chapter by Michael Collins
 
 ### September 30: Dependency parsing ###
 
-- [Project 2b](projects/proj-2/project2a.md) due
+- [Problem set 2b](psets/ps2/ps2.md) due
 - Reading: my notes
 - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
@@ -120,7 +120,7 @@ chapter by Michael Collins
 
 ### October 9: Midterm recap and lexicalized parsing ###
 - [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
-- [Project 3](project-3.md) out
+- [Problem set 3](psets/ps3/ps3.md) out
 - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
 - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 
@@ -135,7 +135,7 @@ chapter by Michael Collins
 ### October 21: Alternative models of syntax ###
 
 - Mostly CCG, but a little about L-TAG and and HPSG.
-- [Project 3](project-3.md) due
+- [Problem set 3](psets/ps3/ps3.md) due
 - Reading: likely my notes, unless I can find something good
 - Optional reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf);
 [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
@@ -160,7 +160,7 @@ chapter by Michael Collins
 ### October 30: Distributional semantics ###
 
 - Vector semantics, latent semantic indexing, neural word embeddings
-- [Project 4](project-4.md) out
+- [Problem set 4](psets/ps4/ps4.md) out
 - Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
 
 ### November 4: Anaphora and coreference resolution ###
@@ -175,7 +175,7 @@ chapter by Michael Collins
 
 - Coherence; discourse connectives; rhetorical structure theory; speech acts. 
 - [Homework 12](homeworks/homework-12.md) due
-- [Project 4](project-4.md) due
+- [Problem set 4](psets/ps4/ps4.md) due
 - Reading: likely my notes 
 - Optional: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR);
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
