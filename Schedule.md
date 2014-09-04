@@ -59,19 +59,20 @@ chapter by Michael Collins
 - Reading: [Language modeling](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-lm.pdf?raw=true) 
 - [Homework 3](homeworks/homework-3.md) due
 - Optional advanced reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
-
+- [Slides](slides/lec6-slides.pdf?raw=true)
 
 ### September 9: Finite state automata, morphology, semirings ###
 
 - [Problem set 1b](psets/ps1/ps1.md) due on **September 10 at 3pm**
-- Reading: maybe [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf), but more likely my notes.
+- Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf) (section 1-3)
+- Supplemental reading: My notes, chapter 9 (not done yet!), [Jurafsky and Martin](http://books.google.com/books/about/Speech_and_language_processing.html?id=km-kngEACAAJ) chapter 2.
 
 ### September 11: Finite state transducers ###
 
 - Transduction and composition, edit distance
 - [Homework 4](homeworks/homework-4.md) due
 - Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
-- Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf); [Mohri and Pereira](http://dx.doi.org/10.1006/csla.2001.0184), 
+- Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf); - More formal additional reading: [Weighted Finite-State Transducers in speech recognition](http://www.cs.nyu.edu/~mohri/pub/csl01.pdf)
 
 ### September 16: Sequence labeling 1 ###
 
