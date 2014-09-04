@@ -60,7 +60,7 @@ chapter by Michael Collins
 - [Homework 3](homeworks/homework-3.md) due
 - Optional advanced reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
 - [Slides](slides/lec6-slides.pdf?raw=true)
-- [Demo](demo/lm.ipynb?raw=true)
+- [Demo](demos/lm.ipynb)
 
 ### September 9: Finite state automata, morphology, semirings ###
 
