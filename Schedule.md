@@ -73,7 +73,7 @@ chapter by Michael Collins
 - [Homework 4](homeworks/homework-4.md) due
 - Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020)
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9.4- (not done yet) 
-- Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf)
+- Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf).
 - More formal additional reading: [Weighted Finite-State Transducers in speech recognition](http://www.cs.nyu.edu/~mohri/pub/csl01.pdf)
 
 ### September 16: Sequence labeling 1 ###
