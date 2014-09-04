@@ -65,13 +65,14 @@ chapter by Michael Collins
 
 - [Problem set 1b](psets/ps1/ps1.md) due on **September 10 at 3pm**
 - Reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf) (section 1-3)
-- Supplemental reading: My notes, chapter 9 (not done yet!), [Jurafsky and Martin](http://books.google.com/books/about/Speech_and_language_processing.html?id=km-kngEACAAJ) chapter 2.
+- Supplemental reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9-9.3; [Jurafsky and Martin](http://books.google.com/books/about/Speech_and_language_processing.html?id=km-kngEACAAJ) chapter 2.
 
 ### September 11: Finite state transducers ###
 
 - Transduction and composition, edit distance
 - [Homework 4](homeworks/homework-4.md) due
-- Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
+- Reading: Chapter 2 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9.4- (not done yet) 
 - Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf); - More formal additional reading: [Weighted Finite-State Transducers in speech recognition](http://www.cs.nyu.edu/~mohri/pub/csl01.pdf)
 
 ### September 16: Sequence labeling 1 ###
