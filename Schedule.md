@@ -77,12 +77,14 @@ chapter by Michael Collins
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 10.4- (not done yet) 
 - Optional reading: [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf).
 - More formal additional reading: [Weighted Finite-State Transducers in speech recognition](http://www.cs.nyu.edu/~mohri/pub/csl01.pdf)
+- [Slides](slides/lec8-slides.pdf?raw=true)
 
 ### September 16: Sequence labeling 1 ###
 
 - Part-of-speech tags, hidden Markov models. 
 - [Problem set 2a](psets/ps2/ps2.md) out
-- Reading: likely my notes
+- Reading: Bender chapter 6
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapters 11 and 12.
 - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
 ### September 18: Sequence labeling 2 ###
