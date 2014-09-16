@@ -86,6 +86,7 @@ chapter by Michael Collins
 - Reading: Bender chapter 6
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapters 11 and 12.
 - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
+- [Slides](slides/lec9-hmm-slides.pdf?raw=true)
 
 ### September 18: Sequence labeling 2 ###
 
