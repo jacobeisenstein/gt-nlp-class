@@ -8,6 +8,8 @@ CS 4650 and CS 7650 will meet jointly, on Tuesdays and Thursdays from 3:05 - 4:2
 - History of NLP and modern applications. Review of probability. 
 - **Reading**: Chapter 1 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
 You should be able to access this PDF for free from a Georgia Tech computer.
+- **Optional reading**: [Functional programming in Python](https://docs.python.org/2/howto/functional.html).
+The scaffolding code in this class will make heavy use of Python's functional programming features, such as iterators, generators, list comprehensions, and lambda expressions. If you haven't seen much of this style of programming before, it will be helpful for you to read up on it before getting started with the problem sets.
 - **Optional reading**: Section 2.1 of [Foundations of Statistical NLP](http://nlp.stanford.edu/fsnlp/). A PDF version is accessible through the GT library.
 - **Optional reading** includes [these](http://www.autonlab.org/tutorials/prob18.pdf) 
 [other](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf) [reviews](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
@@ -99,7 +101,7 @@ chapter by Michael Collins
 
 - Discriminative structure prediction, conditional random fields, and the forward-backward algorithm.
 - [Problem set 2a](psets/ps2/ps2.md) due
-- [Problem set 2b](psets/ps2/ps2.md) out
+- [Problem set 2b](psets/ps2/ps2.md) out (September 24)
 - Reading: [Forward-backward](http://www.cs.columbia.edu/~mcollins/fb.pdf)
 - Optional reading: [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
 
@@ -111,12 +113,11 @@ chapter by Michael Collins
 
 ### September 30: Dependency parsing ###
 
-- [Problem set 2b](psets/ps2/ps2.md) due
+- [Problem set 2b](psets/ps2/ps2.md) due (October 1, 5pm)
 - Reading: my notes
 - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
-
 
 ### October 2: Catch-up, midterm review ###
 
@@ -128,13 +129,14 @@ chapter by Michael Collins
 
 ### October 9: Midterm recap and lexicalized parsing ###
 - [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
-- [Problem set 3](psets/ps3/ps3.md) out
 - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
 - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 
 ### October 10: Drop deadline ###
 
 ### October 14: Fall recess, no class ###
+
+- [Problem set 3](psets/ps3/ps3.md) out
 
 ### October 16: Modern competitive parsing ###
 
