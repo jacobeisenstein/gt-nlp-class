@@ -3,7 +3,7 @@
 This pset is about sequence labeling, focusing on part-of-speech tagging for Twitter. You will implement sequence labeling algorithms that are near the state-of-the-art for this task. There are two parts:
 
 - [Problem set 2a](ps-2a.ipynb), which includes a most-common-class baseline, classification-based tagging using Naive Bayes, the Viterbi algorithm, and Hidden Markov Models (HMM). It is assigned on September 16 and due on September 23.
-- [Problem set 2b](ps-2b.ipynb), which includes classification-based tagging with averaged perceptron, the design of useful features for tagging, and structured perceptron for discriminative sequence labeling. It is assigned on September 23 and due on September 30. As in pset 1, there will be a bakeoff component, and you will get unlabeled test data shortly before the due date.
+- [Problem set 2b](ps-2b.ipynb), which includes classification-based tagging with averaged perceptron, the design of useful features for tagging, and structured perceptron for discriminative sequence labeling. It is assigned on September 24 and due on October 1 at 6pm. As in pset 1, there will be a bakeoff component, and you will get unlabeled test data shortly before the due date.
 
 You will need the following files:
 - [training data](oct27.train?raw=true)
