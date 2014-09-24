@@ -109,12 +109,13 @@ chapter by Michael Collins
 
 - Context-free grammars; constituency; parsing
 - [Homework 6](homeworks/homework-6.md) due
-- Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf) and possibly my notes.
+- Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf) 
+- Optional reading: My notes, chapter 13.
 
 ### September 30: Dependency parsing ###
 
 - [Problem set 2b](psets/ps2/ps2.md) due (October 1, 5pm)
-- Reading: my notes
+- Reading: my notes, chapter 14.
 - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
