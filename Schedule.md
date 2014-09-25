@@ -129,7 +129,6 @@ chapter by Michael Collins
 - [Minimal review notes](lectures/midterm-review.pdf?raw=true) from 2013
 
 ### October 9: Midterm recap and lexicalized parsing ###
-- [Notes](lectures/lec13-cfg-parsing.pdf?raw=true)
 - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
 - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 
@@ -141,15 +140,15 @@ chapter by Michael Collins
 
 ### October 16: Modern competitive parsing ###
 
+- Reading: my notes, chapter 13.
 - [Homework 8](homeworks/homework-8.md) due
 
 ### October 21: Alternative models of syntax ###
 
 - Mostly CCG, but a little about L-TAG and and HPSG.
 - [Problem set 3](psets/ps3/ps3.md) due
-- Reading: likely my notes, unless I can find something good
-- Optional reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf);
-[The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
+- Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf);
+- Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
 
@@ -187,14 +186,13 @@ chapter by Michael Collins
 - Coherence; discourse connectives; rhetorical structure theory; speech acts. 
 - [Homework 12](homeworks/homework-12.md) due
 - [Problem set 4](psets/ps4/ps4.md) due
-- Reading: likely my notes 
-- Optional: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR);
+- Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
+- Optional:
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
 
 ### November 11: Information extraction ###
 
 - Reading for comprehension.
-[Notes](lectures/lec22-ie-notes.pdf?raw=true) [Slides](lectures/lec22-ie.pdf?raw=true)
 - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
 
 ### November 13: Semi-supervised learning and domain adaptation ###
@@ -202,19 +200,18 @@ chapter by Michael Collins
 - Learning from the wrong data
 - Reading: likely my notes 
 - [Independent project proposal](indie.md) due
-- Optional reading:
-- [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
+- Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
   
 ### November 18: Phrase-based machine translation ###
 
 - [Homework 13](homeworks/homework-13.md) due
-- Reading: [IBM models 1 and 2](papers/collins-ibm12.pdf)
+- Reading: Collins, [IBM models 1 and 2](papers/collins-ibm12.pdf)
 - Optional reading: [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
 
 ### November 20: Syntactic machine translation ###
 
-- Reading: [Intro to Synchronous Grammars](http://www.isi.edu/~chiang/papers/synchtut.pdf)
+- Reading: Chiang, [Intro to Synchronous Grammars](http://www.isi.edu/~chiang/papers/synchtut.pdf)
 
 ### November 25: Multilingual NLP (or maybe deep learning) ###
 
