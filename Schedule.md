@@ -126,7 +126,7 @@ chapter by Michael Collins
 
 ### October 7: Midterm ###
 
-- [Minimal review notes](lectures/midterm-review.pdf?raw=true) from 2013
+- [Minimal review notes](notes/review.pdf?raw=true)
 
 ### October 9: Midterm recap and lexicalized parsing ###
 - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
