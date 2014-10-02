@@ -88,7 +88,7 @@ chapter by Michael Collins
 - Reading: Bender chapter 6
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapters 11 and 12.
 - Optional reading: [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
-- [Slides](slides/lec9-hmm-slides.pdf?raw=true)
+- [Slides](slides/sequence-slides.pdf?raw=true)
 
 ### September 18: Sequence labeling 2 ###
 
@@ -111,6 +111,7 @@ chapter by Michael Collins
 - [Homework 6](homeworks/homework-6.md) due
 - Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf) 
 - Optional reading: My notes, chapter 13.
+- [Slides on parsing](slides/parsing-slides.pdf?raw=true)
 
 ### September 30: Dependency parsing ###
 
@@ -119,6 +120,7 @@ chapter by Michael Collins
 - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
+- [Slides on dependency parsing](slides/lec14-depparsing-slides.pdf?raw=true)
 
 ### October 2: Catch-up, midterm review ###
 
