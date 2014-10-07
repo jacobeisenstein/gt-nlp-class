@@ -146,7 +146,7 @@ chapter by Michael Collins
 
 - Mostly CCG, but a little about L-TAG and and HPSG.
 - [Homework 8](homeworks/homework-8.md) due
-- Reading: [Intro to CCG](readings/ccgintro.pdf);
+- Reading: [Intro to CCG](readings/ccgintro.pdf?raw=true);
 - Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)

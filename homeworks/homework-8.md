@@ -10,7 +10,7 @@ Produce CCG analyses for three sentences. You may use the following information:
 - Adverbs have the type (S\NP)/(S\NP)
 - Prepositional phrases have the type (NP\NP)/NP
 
-Analyze two short sentences in CCG
+Analyze the following sentences in CCG:
 
 - "The past is a foreign country."
 - "They do things differently there." (hint: "there" is an adverb)
