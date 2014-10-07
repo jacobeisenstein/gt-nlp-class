@@ -121,6 +121,7 @@ chapter by Michael Collins
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
 - [Slides on dependency parsing](slides/lec14-depparsing-slides.pdf?raw=true)
+- The always useful [language log](http://languagelog.ldc.upenn.edu/nll/?p=7851) on non-projectivity in dependency parsing.
 
 ### October 2: Catch-up, midterm review ###
 
@@ -130,8 +131,9 @@ chapter by Michael Collins
 
 - [Minimal review notes](notes/review.pdf?raw=true)
 
-### October 9: Midterm recap and lexicalized parsing ###
+### October 9: Midterm recap, modern parsing ###
 - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
+- Reading: my notes, sections 13.13 and 13.14
 - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 
 ### October 10: Drop deadline ###
@@ -140,27 +142,23 @@ chapter by Michael Collins
 
 - [Problem set 3](psets/ps3/ps3.md) out
 
-### October 16: Modern competitive parsing ###
-
-- Reading: my notes, chapter 13.
-- [Homework 8](homeworks/homework-8.md) due
-
-### October 21: Alternative models of syntax ###
+### October 16: Alternative models of syntax  ###
 
 - Mostly CCG, but a little about L-TAG and and HPSG.
-- [Problem set 3](psets/ps3/ps3.md) due
+- [Homework 8](homeworks/homework-8.md) due
 - Reading: [Intro to CCG](http://web.uvic.ca/~ling48x/ling484/notes/ccg_intro.pdf);
 - Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
 
-### October 23: Compositional logical semantics ###
+### October 21: Compositional logical semantics ###
 
+- [Problem set 3](psets/ps3/ps3.md) due
 - [Homework 9](homeworks/homework-9.md) due
 - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
 - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 
-### October 28: Shallow semantics ###
+### October 23: Shallow semantics ###
 
 - Frame semantics, and semantic role labeling. 
 - [Homework 10](homeworks/homework-10.md) due
@@ -169,13 +167,13 @@ chapter by Michael Collins
 [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf).
 - Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
 
-### October 30: Distributional semantics ###
+### October 28: Distributional semantics ###
 
 - Vector semantics, latent semantic indexing, neural word embeddings
 - [Problem set 4](psets/ps4/ps4.md) out
 - Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
 
-### November 4: Anaphora and coreference resolution ###
+### October 30: Anaphora and coreference resolution ###
 
 - Knowing who's on first. [Notes](lectures/lec20-coref-notes.pdf?raw=true) [Slides](lectures/lec20-coref-slides.pdf?raw=true)
 - [Homework 11](homeworks/homework-11.md) due
@@ -183,14 +181,18 @@ chapter by Michael Collins
 - Option reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf);
 [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
 
-### November 6: Discourse and dialogue ###
+### November 4: Discourse and dialogue ###
 
-- Coherence; discourse connectives; rhetorical structure theory; speech acts. 
+- Coherence; speech acts, discourse connectives
 - [Homework 12](homeworks/homework-12.md) due
-- [Problem set 4](psets/ps4/ps4.md) due
 - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
 - Optional:
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
+
+### November 6: Discourse parsing ###
+
+- Rhetorical structure theory, Penn Discourse Treebank
+- [Problem set 4](psets/ps4/ps4.md) due
 
 ### November 11: Information extraction ###
 
