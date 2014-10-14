@@ -140,7 +140,7 @@ chapter by Michael Collins
 
 ### October 14: Fall recess, no class ###
 
-- [Problem set 3](psets/ps3/ps3.md) out
+- [Problem set 3](psets/ps3) out
 
 ### October 16: Alternative models of syntax  ###
 
