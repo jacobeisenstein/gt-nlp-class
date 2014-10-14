@@ -153,7 +153,6 @@ chapter by Michael Collins
 
 ### October 21: Compositional logical semantics ###
 
-- [Problem set 3](psets/ps3/ps3.md) due
 - [Homework 9](homeworks/homework-9.md) due
 - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
 - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
@@ -162,6 +161,7 @@ chapter by Michael Collins
 
 - Frame semantics, and semantic role labeling. 
 - [Homework 10](homeworks/homework-10.md) due
+- [Problem set 3](psets/ps3/ps3.md) due
 - Reading: likely my notes.
 - Optional reading:  [Automatic labeling of semantic roles](http://acl.ldc.upenn.edu/J/J02/J02-3001.pdf);
 [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf).
