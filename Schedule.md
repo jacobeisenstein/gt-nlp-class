@@ -134,6 +134,7 @@ chapter by Michael Collins
 ### October 9: Midterm recap, modern parsing ###
 - Reading: [Lexicalized PCFGs](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/lexpcfgs.pdf)
 - Reading: my notes, sections 13.13 and 13.14
+- [Slides](slides/modern-cfg-parsing.pdf?raw=true)
 - Optional reading: [Accurate unlexicalized parsing](http://acl.ldc.upenn.edu/P/P03/P03-1054.pdf)
 
 ### October 10: Drop deadline ###
@@ -147,6 +148,7 @@ chapter by Michael Collins
 - Mostly CCG, but a little about L-TAG and and HPSG.
 - [Homework 8](homeworks/homework-8.md) due
 - Reading: [Intro to CCG](readings/ccgintro.pdf?raw=true);
+- [Slides](slides/beyond-cfg.pdf?raw=true)
 - Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
