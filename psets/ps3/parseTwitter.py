@@ -30,10 +30,14 @@ def conllSeqGenerator(input_file):
 def parseTags(tags,parser):
     trees = []
     try:
-        trees = parser.nbest_parse(tags)
+        if float(nltk.__version__[0]) >= 3:
+            tree_gen = parser.parse(tags)
+            trees = [tree for tree in tree_gen]
+        else:
+            trees = parser.nbest_parse(tags)
     except:
         pass
-    return(trees)
+    return trees
 
 def evalParser(cfg,
                input_file="oct27.clean.train",
