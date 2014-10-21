@@ -158,6 +158,7 @@ chapter by Michael Collins
 - [Homework 9](homeworks/homework-9.md) due
 - Reading: [Manning: Intro to Formal Computational Semantics](http://www.stanford.edu/class/cs224u/readings/cl-semantics-new.pdf)
 - Optional reading: [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
+- [Slides](slides/formal-semantics-slides.pdf?raw=true)
 
 ### October 23: Shallow semantics ###
 
@@ -168,7 +169,6 @@ chapter by Michael Collins
 - Optional reading:  [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf);
 [AMR parsing](http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf)
 - Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
-- [Slides](slides/formal-semantics-slides.pdf?raw=true)
 
 ### October 28: Distributional semantics ###
 
