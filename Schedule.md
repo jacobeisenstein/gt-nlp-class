@@ -164,9 +164,9 @@ chapter by Michael Collins
 - Frame semantics, and semantic role labeling. 
 - [Homework 10](homeworks/homework-10.md) due
 - [Problem set 3](psets/ps3/ps3.md) due
-- Reading: likely my notes.
-- Optional reading:  [Automatic labeling of semantic roles](http://acl.ldc.upenn.edu/J/J02/J02-3001.pdf);
-[SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf).
+- Reading: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
+- Optional reading:  [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf);
+[AMR parsing](http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf)
 - Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
 
 ### October 28: Distributional semantics ###
