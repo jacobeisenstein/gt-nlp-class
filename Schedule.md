@@ -166,9 +166,11 @@ chapter by Michael Collins
 - [Homework 10](homeworks/homework-10.md) due
 - [Problem set 3](psets/ps3) due
 - Reading: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
-- Optional reading:  [SRL via ILP](http://acl.ldc.upenn.edu/C/C04/C04-1197.pdf);
+- Optional reading:  [SRL via ILP](https://www.aclweb.org/anthology/C/C04/C04-1197.pdf); [Syntactic parsing in SRL](http://www.aclweb.org/anthology/J/J08/J08-2005.pdf);
 [AMR parsing](http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf)
 - Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
+- [Slides](slides/srl-slides.pdf?raw=true)
+- [Notes on Integer Linear Programming for SRL](notes/srl-ilp-notes.pdf?raw=true)
 
 ### October 28: Distributional semantics ###
 
