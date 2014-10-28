@@ -177,15 +177,15 @@ chapter by Michael Collins
 - Vector semantics, latent semantic indexing, neural word embeddings
 - [Problem set 4](psets/ps4/ps4.md) out
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
-- Optional: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
+- Optional: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 15;  [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
+- [Slides](slides/distributional-slides.pdf?raw=true)
 
 ### October 30: Anaphora and coreference resolution ###
 
-- Knowing who's on first. [Notes](lectures/lec20-coref-notes.pdf?raw=true) [Slides](lectures/lec20-coref-slides.pdf?raw=true)
+- Knowing who's on first.
 - [Homework 11](homeworks/homework-11.md) due
-- Reading: likely my notes
-- Option reading: [Multi-pass sieve](http://www.stanford.edu/~jurafsky/emnlp10.pdf);
-[Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 16; [Multi-pass sieve](http://www.surdeanu.info/mihai/papers/emnlp10.pdf)  (good coverage of linguistic features that bear on coreference)
+- Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf), [Easy victories and uphill battles](http://www.eecs.berkeley.edu/~gdurrett/papers/durrett-klein-emnlp2013.pdf) (a straightforward machine learning approach to coreference)
 
 ### November 4: Discourse and dialogue ###
 
