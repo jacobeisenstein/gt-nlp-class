@@ -176,7 +176,8 @@ chapter by Michael Collins
 
 - Vector semantics, latent semantic indexing, neural word embeddings
 - [Problem set 4](psets/ps4/ps4.md) out
-- Reading: [Vector-space models](www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
+- Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
+- Optional: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
 
 ### October 30: Anaphora and coreference resolution ###
 
