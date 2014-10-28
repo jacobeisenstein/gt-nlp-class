@@ -175,7 +175,7 @@ chapter by Michael Collins
 ### October 28: Distributional semantics ###
 
 - Vector semantics, latent semantic indexing, neural word embeddings
-- [Problem set 4](psets/ps4/ps4.md) out
+- [Problem set 4](psets/ps4/ps-4.md) out
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
 - Optional: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 15;  [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
 - [Slides](slides/distributional-slides.pdf?raw=true)
@@ -198,7 +198,7 @@ chapter by Michael Collins
 ### November 6: Discourse parsing ###
 
 - Rhetorical structure theory, Penn Discourse Treebank
-- [Problem set 4](psets/ps4/ps4.md) due
+- [Problem set 4](psets/ps4/ps-4.md) due
 
 ### November 11: Information extraction ###
 
