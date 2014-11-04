@@ -186,6 +186,7 @@ chapter by Michael Collins
 - [Homework 11](homeworks/homework-11.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 16; [Multi-pass sieve](http://www.surdeanu.info/mihai/papers/emnlp10.pdf)  (good coverage of linguistic features that bear on coreference)
 - Optional reading: [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf), [Easy victories and uphill battles](http://www.eecs.berkeley.edu/~gdurrett/papers/durrett-klein-emnlp2013.pdf) (a straightforward machine learning approach to coreference)
+- [Slides](slides/coref-slides.pdf)
 
 ### November 4: Discourse and dialogue ###
 
@@ -194,6 +195,7 @@ chapter by Michael Collins
 - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
 - Optional:
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
+- [Slides](slides/discourse-slides.pdf)
 
 ### November 6: Discourse parsing ###
 
