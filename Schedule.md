@@ -212,19 +212,22 @@ chapter by Michael Collins
 
 - Learning from the wrong data
 - Reading: likely my notes 
-- [Independent project proposal](indie.md) due
+- [Independent project proposal](final-project.md) due
 - Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
   
-### November 18: Phrase-based machine translation ###
+### November 18: Final project check-ins ###
+
+- [See here](final-project.md)
+- Please sign up for a five-minute slot [here](https://docs.google.com/document/d/1o2nkMfxjvm3sqE8E25jUIxDQ3Zl-l4xw3_F0XoEnwhU/edit)
+
+### November 20: Machine translation ###
 
 - [Homework 13](homeworks/homework-13.md) due
 - Reading: Collins, [IBM models 1 and 2](papers/collins-ibm12.pdf)
-- Optional reading: [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
+- Optional Reading: Chiang, [Intro to Synchronous Grammars](http://www.isi.edu/~chiang/papers/synchtut.pdf);
+Lopez, [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
 
-### November 20: Syntactic machine translation ###
-
-- Reading: Chiang, [Intro to Synchronous Grammars](http://www.isi.edu/~chiang/papers/synchtut.pdf)
 
 ### November 25: Multilingual NLP (or maybe deep learning) ###
 
@@ -236,6 +239,7 @@ chapter by Michael Collins
 
 ### December 2: Project presentations ###
 
+- [See here](final-project.md)
 - Initial result submissions due December 1 at 5pm.
 
 ### December 4: Current research in NLP; course wrapup ###
@@ -245,6 +249,7 @@ chapter by Michael Collins
 
 ### Final business ###
 
+- [See here](final-project.md)
 - December 5: Initial project report due at 5PM
 - December 11: Final project report due at 5PM
 
