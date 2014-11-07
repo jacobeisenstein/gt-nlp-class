@@ -93,7 +93,7 @@ Similarly, getting good results does not ensure a good grade. Research is not sp
 
 # Presentation and writeup #
 
-On December 2, you will briefly present your results in class. **This means you need to have results by December 2.** A presentation that says "here's what we hope to do" will get poor marks. Based on your presentation, your classmates and I will offer feedback make your project even better. The presentation is worth 2 points, and should focus on the independent part of the project.
+On December 2, you will briefly present your results in class. **This means you need to have results by December 2.** A presentation that says "here's what we hope to do" will get poor marks. Based on your presentation, your classmates and I will offer feedback make your project even better. The presentation is worth 2 points, and should focus on the independent part of the project. **Submit your slides on T-Square in PDF format by 1pm on December 2. No more than two slides per team.**
 
 Of the 10 points for the writeup, the compulsory part will be worth 7 points for individual submissions, 5 points for two-person teams, and 3 points for three-person teams. The freestyle part will be worth 3 points for individual submissions, 5 points for two-person teams, and 7 points for three-person teams. This reflects the fact that I expect larger teams to have to spend less time per person on the compulsory part, and therefore to have more time for the independent part. However, note that all teams get two points for the presentation and two points for the proposal, regardless of size.
 
