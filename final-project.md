@@ -95,9 +95,9 @@ Similarly, getting good results does not ensure a good grade. Research is not sp
 
 On December 2, you will briefly present your results in class. **This means you need to have results by December 2.** A presentation that says "here's what we hope to do" will get poor marks. Based on your presentation, your classmates and I will offer feedback make your project even better. The presentation is worth 2 points, and should focus on the independent part of the project.
 
-Of the 10 points for the writeup, the compulsory part will be worth 7 points for individual submissions, 5 points for two-person teams, and 3 points for three-person teams. The freestyle part will be worth 3 points for individual submissions, 5 points for two-person teams, and 7 points for three-person teams. This reflects the fact that I expect larger teams to have to spend less time on the compulsory part, and therefore to have more time for the independent part. However, note that all teams get two points for the presentation and two points for the proposal, regardless of size.
+Of the 10 points for the writeup, the compulsory part will be worth 7 points for individual submissions, 5 points for two-person teams, and 3 points for three-person teams. The freestyle part will be worth 3 points for individual submissions, 5 points for two-person teams, and 7 points for three-person teams. This reflects the fact that I expect larger teams to have to spend less time per person on the compulsory part, and therefore to have more time for the independent part. However, note that all teams get two points for the presentation and two points for the proposal, regardless of size.
 
-On December 5, you will submit your initial project writeup. I will try to grade it quickly. You can resubmit on December 11; if so, your writeup grade will be the average of the two.
+On December 5, you will submit your initial project writeup. I will try to grade it quickly. You can resubmit on December 11; if so, your writeup grade will be the average of the two submissions.
 
 # Papers about RST #
 
