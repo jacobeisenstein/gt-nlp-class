@@ -229,11 +229,15 @@ chapter by Michael Collins
 Lopez, [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
 
 
-### November 25: Multilingual NLP (or maybe deep learning) ###
+### November 25: Final project lab ###
 
+- Work in teams on final project, drop-in with Prof and TA
+
+<!--
 - Learning to process many languages at once.
 - Reading: [Multisource transfer of delexicalized dependency parsers](http://www.aclweb.org/anthology-new/D/D11/D11-1006.pdf)
 - Optional reading: [Cross-lingual word clusters](http://www.ryanmcd.com/papers/multiclustNAACL2012.pdf); [Climbing the tower of Babel](http://www.icml2010.org/papers/905.pdf)
+-->
 
 ### November 27: Thanksgiving, no class ###
 
