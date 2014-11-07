@@ -22,8 +22,8 @@ These readings may give you some ideas for the independent part of the project.
 - **Friday, November 14**: submit 1-2 page proposal at 5pm. Explain what you want to do in the independent part of the project. (2 points)
 - **Tuesday, November 18**: schedule a 5-minute meeting with me during class time or office hours to talk about your project. [Sign up here](https://docs.google.com/document/d/1o2nkMfxjvm3sqE8E25jUIxDQ3Zl-l4xw3_F0XoEnwhU/edit?usp=sharing).
 - **Tuesday, December 2**: present results in class. (2 points)
-- **Friday, December 5**: initial project report due at 5pm. (10 points)
-- **Thursday, December 11**: final project report due at 5pm. (10 points)
+- **Friday, December 5**: project report due at 5pm. (10 points)
+- **Thursday, December 11**: optionally, submit updated version of project report. 
 
 # Compulsory part of the project #
 
@@ -93,9 +93,9 @@ Similarly, getting good results does not ensure a good grade. Research is not sp
 
 # Presentation and writeup #
 
-On December 2, you will briefly present your results in class. **This means you need to have results by December 2.** A presentation that says "here's what we hope to do" will get poor marks. Based on your presentation, your classmates and I will offer feedback make your project even better. The presentation is worth 2 points.
+On December 2, you will briefly present your results in class. **This means you need to have results by December 2.** A presentation that says "here's what we hope to do" will get poor marks. Based on your presentation, your classmates and I will offer feedback make your project even better. The presentation is worth 2 points, and should focus on the independent part of the project.
 
-Of the 10 points for the writeup, the compulsory part will be worth 6 points for individual submissions, 4 points for two-person teams, and 3 points for three-person teams. The freestyle part will be worth 4 points for individual submissions, 6 points for two-person teams, and 7 points for three-person teams.
+Of the 10 points for the writeup, the compulsory part will be worth 7 points for individual submissions, 5 points for two-person teams, and 3 points for three-person teams. The freestyle part will be worth 3 points for individual submissions, 5 points for two-person teams, and 7 points for three-person teams. This reflects the fact that I expect larger teams to have to spend less time on the compulsory part, and therefore to have more time for the independent part. However, note that all teams get two points for the presentation and two points for the proposal, regardless of size.
 
 On December 5, you will submit your initial project writeup. I will try to grade it quickly. You can resubmit on December 11; if so, your writeup grade will be the average of the two.
 
