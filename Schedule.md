@@ -211,8 +211,8 @@ chapter by Michael Collins
 ### November 13: Semi-supervised learning and domain adaptation ###
 
 - Learning from the wrong data
-- Reading: likely my notes 
-- [Independent project proposal](final-project.md) due
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 17. 
+- [Independent project proposal](final-project.md) due on **November 14 at 5pm**.
 - Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
   
