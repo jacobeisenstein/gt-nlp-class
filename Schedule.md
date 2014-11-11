@@ -207,15 +207,20 @@ chapter by Michael Collins
 
 - Reading for comprehension.
 - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
+- [Slides](slides/ie-slides.pdf)
 
 ### November 13: Semi-supervised learning and domain adaptation ###
 
 - Learning from the wrong data
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 17. 
-- [Independent project proposal](final-project.md) due on **November 14 at 5pm**.
 - Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
-  
+
+### November 16: Final project proposals due ###
+
+- [Independent project proposal](final-project.md) due on **November 16 at 2pm**.
+
+
 ### November 18: Final project check-ins ###
 
 - [See here](final-project.md)

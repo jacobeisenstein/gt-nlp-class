@@ -19,11 +19,13 @@ These readings may give you some ideas for the independent part of the project.
 # Your timeline #
 
 - **Right now**: start thinking about the independent part of your project
-- **Friday, November 14**: submit 1-2 page proposal at 5pm. Explain what you want to do in the independent part of the project. (2 points)
+- **Sunday, November 16**: submit 1-2 page proposal at 2pm. Explain what you want to do in the independent part of the project. (2 points)
 - **Tuesday, November 18**: schedule a 5-minute meeting with me during class time or office hours to talk about your project. [Sign up here](https://docs.google.com/document/d/1o2nkMfxjvm3sqE8E25jUIxDQ3Zl-l4xw3_F0XoEnwhU/edit?usp=sharing).
 - **Tuesday, December 2**: present results in class. (2 points)
 - **Friday, December 5**: project report due at 5pm. (10 points)
 - **Thursday, December 11**: optionally, submit updated version of project report. 
+
+Late assignments will be marked in the same way as problem sets: 20% deduction per 24 hours, with a maximum of 72 hours late before the assignment is no longer accepted.
 
 # Compulsory part of the project #
 
@@ -36,6 +38,8 @@ However, computing these features will require knowing the part-of-speech tags a
 - Here is a [pure python implementation](http://honnibal.wordpress.com/2013/12/18/a-simple-fast-algorithm-for-natural-language-dependency-parsing/) of dependency parsing, and here is the implementation for [POS tagging](http://honnibal.wordpress.com/2013/09/11/a-good-part-of-speechpos-tagger-in-about-200-lines-of-python/). The only potential problem here is that you might not be able to get the trained models, so you'd have to train them yourselves (and you don't have the data). But the models might be out there.
 
 As with previous bakeoffs, you will submit your predicted parses on the test data, and we will evaluate them. You will also submit your code.
+
+Please use an iPython notebook to show how you have implemented this part of the project. Compute your parser accuracy with all features, and also perform ablation tests in which each feature is removed. You can compute the POS tags and dependency parses off-line.
 
 # Freestyle part of the project #
 
@@ -94,6 +98,8 @@ Similarly, getting good results does not ensure a good grade. Research is not sp
 # Presentation and writeup #
 
 On December 2, you will briefly present your results in class. **This means you need to have results by December 2.** A presentation that says "here's what we hope to do" will get poor marks. Based on your presentation, your classmates and I will offer feedback make your project even better. The presentation is worth 2 points, and should focus on the independent part of the project. **Submit your slides on T-Square in PDF format by 1pm on December 2. No more than two slides per team.**
+
+The writeup for the compulsory part should include an iPython notebook showing the dev set scores for your features. For the freestyle part, your writeup should explain your high-level idea, why you thought it would work, how you executed your plan, and how you evaluated it. You can do this with an iPython notebook, or with a more conventional writeup. In either case, you need to use text and figures to make your point.
 
 Of the 10 points for the writeup, the compulsory part will be worth 7 points for individual submissions, 5 points for two-person teams, and 3 points for three-person teams. The freestyle part will be worth 3 points for individual submissions, 5 points for two-person teams, and 7 points for three-person teams. This reflects the fact that I expect larger teams to have to spend less time per person on the compulsory part, and therefore to have more time for the independent part. However, note that all teams get two points for the presentation and two points for the proposal, regardless of size.
 
