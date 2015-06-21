@@ -2,9 +2,9 @@ CS 4650 and 7650
 ==========
 - **Course**: Natural Language Understanding
 - **Instructor**: Jacob Eisenstein
-- **Semester**: Fall 2014
-- **Time**: Tuesdays and thursdays, 3:05-4:25pm
-- **TA**: Umashanthi Pavalanthan (umashanthi at gatech dot edu)
+- **Semester**: Fall 2015
+- **Time**: Mondays and Wednesdays, 3:05-4:25pm
+- **TAs**: TBD
 - [Schedule](Schedule.md)
 - [Grading](Grading.md)
 - [Policies](Policies.md)
@@ -50,3 +50,28 @@ These are completely optional, but might deepen your understanding of the materi
 - [Natural Language Processing with Python](http://www.amazon.com/Natural-Language-Processing-Python-Steven/dp/0596516495)
 shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and also brings a strong linguistic perspective.
 - [Schaum's Outline of Probability and Statistics](http://www.amazon.com/Schaums-Outline-Probability-Statistics-Edition/dp/007179557X/ref=pd_sim_b_1?ie=UTF8&refRID=1R57HWNCW6EEWD1ZRH4C) can help you review the probability and statistics that we use in this course.
+
+## Prerequisites ##
+
+The official prerequisite for CS 4650 is CS 3510/3511, "Design and Analysis of Algorithms." This prequesite is essential because understanding natural language processing algorithms requires familiarity with dynamic programming, as well as automata and formal language theory: finite-state and context-free languages, NP-completeness, etc. While course prerequisites are not enforced for graduate students, prior exposure to analysis of algorithms is very strongly recommended.
+
+Furthermore, this course assumes:
+
+- Good coding ability, corresponding to at least a third or
+  fourth-year undergraduate CS major. Assignments will be in Python.
+- Background in basic probability, linear algebra, and calculus.
+- Familiarity with machine learning is *helpful but not assumed*. Of
+  particular relevance are linear classifiers: perceptron, naive
+  Bayes, and logistic regression.
+
+People sometimes want to take the course without having all of these
+prerequisites. Frequent cases are:
+
+- Junior CS students with strong programming skills but limited
+  theoretical and mathematical background,
+- Non-CS students with strong mathematical background but limited
+  programming experience.
+
+Students in the first group suffer in the exam and don't understand
+the lectures, and students in the second group suffer in the problem sets. My advice is to get the background material first, and
+then take this course.

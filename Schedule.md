@@ -1,6 +1,6 @@
 CS 4650 and CS 7650 will meet jointly, on Mondays and Wednesdays from 3:05 - 4:25PM, in Howey (Physics) L3.
 
-**This is a provisional schedule. Check back in August for more details. But be aware that there will be graded material due no later than the second week of the course (maybe even the first week).**
+This is a provisional schedule. Check back in August for more details. But be aware that **there will be graded material due no later than the second week of the course (maybe even the first week).**
 
 Readings and homeworks are final at the time of the class **before** they are due (e.g., wednesday readings are final on the preceding monday); problem sets are final on the day they are "out." Please check for updates until then.
 
@@ -18,7 +18,6 @@ of probability.
 
 ### August 19: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
 - Bag-of-words models, naive Bayes, and sentiment analysis.
-- [Homework 1](homeworks/homework-1.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
@@ -33,7 +32,6 @@ of probability.
 ### August 26: Supervised learning 3 (Logistic regression) ###
 
 - Logistic regression and online learning
-- [Homework 2](homeworks/homework-2.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 5.3-5.6.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 - [Slides](slides/lec4-slides.pdf?raw=true)
