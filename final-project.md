@@ -41,6 +41,8 @@ As with previous bakeoffs, you will submit your predicted parses on the test dat
 
 Please use an iPython notebook to show how you have implemented this part of the project. Compute your parser accuracy with all features, and also perform ablation tests in which each feature is removed. You can compute the POS tags and dependency parses off-line.
 
+[Here](psets/final_project/tips-for-compulsory-part.md) are some pointers about implementing the compulsory part of the project. 
+
 # Freestyle part of the project #
 
 This is your chance to be creative and try something new. Start early and make a good plan: time spent thinking through your project is worth more than time spent hacking on a bad idea later.
