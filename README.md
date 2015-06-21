@@ -53,7 +53,7 @@ shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and
 
 ## Prerequisites ##
 
-The official prerequisite for CS 4650 is CS 3510/3511, "Design and Analysis of Algorithms." This prequesite is essential because understanding natural language processing algorithms requires familiarity with dynamic programming, as well as automata and formal language theory: finite-state and context-free languages, NP-completeness, etc. While course prerequisites are not enforced for graduate students, prior exposure to analysis of algorithms is very strongly recommended.
+The official prerequisite for CS 4650 is CS 3510/3511, "Design and Analysis of Algorithms." This prerequisite is essential because understanding natural language processing algorithms requires familiarity with dynamic programming, as well as automata and formal language theory: finite-state and context-free languages, NP-completeness, etc. While course prerequisites are not enforced for graduate students, prior exposure to analysis of algorithms is very strongly recommended.
 
 Furthermore, this course assumes:
 
