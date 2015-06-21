@@ -1,6 +1,8 @@
 CS 4650 and CS 7650 will meet jointly, on Mondays and Wednesdays from 3:05 - 4:25PM, in Howey (Physics) L3.
 
-**This is a provisional schedule. Check back in August for more details.** Readings, notes, slides, and homework will change. Readings and homeworks are final at the time of the class **before** they are due (e.g., wednesday readings are final on the preceding monday); problem sets are final on the day they are "out." Please check for updates until then.
+**This is a provisional schedule. Check back in August for more details. But be aware that there will be graded material due no later than the second week of the course (maybe even the first week).**
+
+Readings and homeworks are final at the time of the class **before** they are due (e.g., wednesday readings are final on the preceding monday); problem sets are final on the day they are "out." Please check for updates until then.
 
 ### August 17: Welcome ###
 
@@ -38,4 +40,14 @@ of probability.
 
 ## The rest: TBD ##
 
+Basic outline:
 
+- Language models and finite state automata
+- Sequence labeling: HMMs, CRFs, and structured perceptron
+- Syntactic analysis: PCFGs, dependency parsing, and more
+- Semantics: compositional logical semantics, shallow semantics, distributional semantics
+- Information extraction: coreference, relation extraction
+- Discourse relations and parsing
+- Machine translation
+
+You can see [last year's schedule](Schedule.2014.md) for a basic idea, but several things will be different this year as we will be doing a final exam rather than final projects.
