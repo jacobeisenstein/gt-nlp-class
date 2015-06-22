@@ -6,7 +6,8 @@ Readings and homeworks are final at the time of the class **before** they are du
 
 ### August 17: Welcome ###
 
-- History of NLP and modern applications. Review of probability. 
+History of NLP and modern applications. Review of probability. 
+
 - **Reading**: Chapter 1 of [Linguistic Fundamentals for NLP](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020).
 You should be able to access this PDF for free from a Georgia Tech computer.
 - **Optional reading**: [Functional programming in Python](https://docs.python.org/2/howto/functional.html).
@@ -17,23 +18,28 @@ The scaffolding code in this class will make heavy use of Python's functional pr
 of probability.
 - **[Problem set 1](psets/pset1.pdf)** out.
 
-### August 19: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
-- Bag-of-words models, naive Bayes, and sentiment analysis.
+### August 19: Supervised learning 1 (Naive Bayes) ###
+
+Bag-of-words models, naive Bayes, and sentiment analysis.
+
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 3.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
 - [Homework 1](homeworks/homework-1.md) due
 
-### August 24: Supervised learning 2 (Perceptron) and word sense disambiguation ###
-- Discriminative classifiers: perceptron and passive-aggressive learning; word-sense disambiguation. 
+### August 24: Supervised learning 2 (Perceptron) ###
+
+Discriminative classifiers: perceptron and passive-aggressive learning; word-sense disambiguation. 
+
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true); [survey on word sense disambiguation](http://promethee.philo.ulg.ac.be/engdep1/download/bacIII/ACM_Survey_2009_Navigli.pdf)
 - Optional advanced reading: 
 [adagrad](jmlr.org/papers/v12/duchi11a.html); [passive-aggressive learning](http://jmlr.csail.mit.edu/papers/volume7/crammer06a/crammer06a.pdf)
 
 ### August 26: Supervised learning 3 (Logistic regression) ###
 
-- Logistic regression and online learning
+Logistic regression and online learning
+
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 5.3-5.6.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 - [Slides](slides/lec4-slides.pdf?raw=true)
@@ -42,12 +48,14 @@ of probability.
 
 ### August 31: Expectation Maximization ###
 
+Learning from partially-labeled data.
+
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
 - [Homework 2](homeworks/homework-2.md) due
 
 ### September 2: Language Models ###
 
-N-grams, speech recognition, a little about smoothing
+N-grams, speech recognition, a little about smoothing.
 
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
 - [Homework 3](homeworks/homework-3.md) due
@@ -87,7 +95,7 @@ Part-of-speech tags, hidden Markov models.
 ### September 21: No class ###
 
 TAs will be available to answer questions on problem set 2.
-Jacob will be at the conference on [Empirical Methods in Natural Language Processing](http://www.emnlp2015.org/). 
+Jacob will be at the conference on [Empirical Methods in Natural Language Processing](http://www.emnlp2015.org/), presenting research from the [Computational Linguistics Lab](https://gtnlp.wordpress.com/).
 
 ### September 23: Dynamic Programming in Hidden Markov Models ###
 
