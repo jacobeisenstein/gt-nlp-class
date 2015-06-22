@@ -4,9 +4,9 @@
 
 The graded material for the course will likely consist of:
 
-- Roughly 14 short homework assignments, of which you must do twelve. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than thirty minutes. Each homework is worth 2 points (24 total). 
+- Twelve short homework assignments, of which you must do ten. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than thirty minutes. Each homework is worth 2 points (20 total). 
 - Roughly six assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth 8 points (48 total). Students enrolled in CS 7650 will have an additional, research-oriented component to several of the problem sets.
-- An in-class midterm exam, worth 13 points, and a final exam, worth 15 points. The purpose of these exams are to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. Barring a personal emergency or an institute-approved absence, you must take the exam on the days indicated in the schedule. See [here](http://www.deanofstudents.gatech.edu/content/25/absences) and [here](http://www.registrar.gatech.edu/students/formlanding/iaabsences.php) for more information on GT policy about absences.
+- An in-class midterm exam, worth 12 points, and a final exam, worth 20 points. The purpose of these exams are to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. Barring a personal emergency or an institute-approved absence, you must take the exam on the days indicated in the schedule. See [here](http://www.deanofstudents.gatech.edu/content/25/absences) and [here](http://www.registrar.gatech.edu/students/formlanding/iaabsences.php) for more information on GT policy about absences.
 
 # Late policy #
 

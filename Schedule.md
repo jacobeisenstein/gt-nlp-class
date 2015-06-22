@@ -15,6 +15,7 @@ The scaffolding code in this class will make heavy use of Python's functional pr
 - **Optional reading** includes [these](http://www.autonlab.org/tutorials/prob18.pdf) 
 [other](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf) [reviews](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 of probability.
+- **[Problem set 1](psets/pset1.pdf)** out.
 
 ### August 19: Supervised learning 1 (Naive Bayes) and sentiment analysis ###
 - Bag-of-words models, naive Bayes, and sentiment analysis.
@@ -22,6 +23,7 @@ of probability.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
+- [Homework 1](homeworks/homework-1.md) due
 
 ### August 24: Supervised learning 2 (Perceptron) and word sense disambiguation ###
 - Discriminative classifiers: perceptron and passive-aggressive learning; word-sense disambiguation. 
@@ -35,17 +37,206 @@ of probability.
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 5.3-5.6.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 - [Slides](slides/lec4-slides.pdf?raw=true)
+- **[Problem set 1](psets/pset1.pdf)** due at 2:55pm.
+- **[Problem set 2](psets/pset2.md)** out
 
-## The rest: TBD ##
+### August 31: Expectation Maximization ###
 
-Basic outline:
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- [Homework 2](homeworks/homework-2.md) due
 
-- Language models and finite state automata
-- Sequence labeling: HMMs, CRFs, and structured perceptron
-- Syntactic analysis: PCFGs, dependency parsing, and more
-- Semantics: compositional logical semantics, shallow semantics, distributional semantics
-- Information extraction: coreference, relation extraction
-- Discourse relations and parsing
-- Machine translation
+### September 2: Language Models ###
 
-You can see [last year's schedule](Schedule.2014.md) for a basic idea, but several things will be different this year as we will be doing a final exam rather than final projects.
+N-grams, speech recognition, a little about smoothing
+
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- [Homework 3](homeworks/homework-3.md) due
+- [Demo](demos/lm.ipynb)
+- Optional advanced reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
+
+### September 7: No class ####
+
+### September 9: Morphology, Stemming, and Lemmatisation  ###
+
+Finding meaning inside words! Also, we'll probably have to catch up a little on smoothing from the previous class.
+
+- **[Homework 4]**(homeworks/homework-4.md) due
+- **[Problem set 2](psets/pset2.md)** due at 2:55 pm.
+- Reading: [Bender](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020) chapter 2.
+- Optional reading:
+[Jurafsky and Martin](http://books.google.com/books/about/Speech_and_language_processing.html?id=km-kngEACAAJ) chapter 2.
+
+### September 14: Finite-state automata ###
+
+Finite-state acceptors, transducers, composition. Edit distance.
+
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Optional reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf);
+[OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf);
+[Weighted Finite-State Transducers in speech recognition](http://www.cs.nyu.edu/~mohri/pub/csl01.pdf).
+
+### September 16: Part-of-speech tagging and Hidden Markov Models ###
+
+Part-of-speech tags, hidden Markov models.
+
+- **[Problem set 3](psets/pset3.md)** out.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true) Optional reading: Bender chapter 6; [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
+
+### September 21: No class ###
+
+TAs will be available to answer questions on problem set 2.
+Jacob will be at the conference on [Empirical Methods in Natural Language Processing](http://www.emnlp2015.org/). 
+
+### September 23: Dynamic Programming in Hidden Markov Models ###
+
+Viterbi, the forward algorithm, B-I-O encoding for named entity recognition.
+
+- [Homework 5](homeworks/homework-5.md) due
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Optional reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf);
+
+### September 28: Discriminative Sequence Labeling ###
+
+Structured perceptron, conditional random fields, and max-margin markov networks. More about forward-backward. Maybe a little about unsupervised POS tagging.
+
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694); [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf);
+[Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
+
+### September 30: Context-Free Grammars and Natural Language Syntax ###
+
+Constituents, grammar design, formal language theory.
+
+- **[Problem set 3](psets/pset3.md)** due at 2:55pm.
+- Reading: Bender chapter 7, or my notes, if they're done in time
+
+### October 5: CFG Parsing ###
+
+The CKY algorithm, the inside algorithm, Markovization, and lexicalization.
+
+- [Homework 6](homeworks/homework-6.md) due
+- **[Problem set 4](psets/pset4.md)** out.
+- Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf) or my notes, if they're done in time.
+- Optional reading: Bender chapter 8
+
+### October 7: Dependency Parsing ###
+
+Dependency grammar, projective and non-projective dependency graphs, related algorithms, and transition-based dependency parsing.
+
+- Reading: my notes, chapter 14.
+- [Homework 7](homeworks/homework-7.md) due
+- Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
+[Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
+[Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
+- The always useful [language log](http://languagelog.ldc.upenn.edu/nll/?p=7851) on non-projectivity in dependency parsing.
+
+### October 12: No class, fall break ###
+
+### October 14: Mildly Context-Sensitive Grammars ###
+
+Feature-structure grammars, unification, combinatory categorial grammar (CCG), tree-adjoining grammar (TAG). Algorithms and applications. Brief mid-term review.
+
+- Reading: [Intro to CCG](readings/ccgintro.pdf?raw=true);
+- Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
+[Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
+[Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
+
+### October 19: Mid-term exam ###
+
+You may bring a one-page sheet of notes (two sides, any font size).
+
+### October 21: Formal Semantics ###
+
+Meaning representations, compositionality, first-order logic, and the syntax-semantics interface.
+
+- **Withdrawal Deadline**
+- **[Problem set 4](psets/pset4.md)** due at 2:55pm.
+- Reading: my notes, if ready
+- Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
+[Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
+
+### October 26: Shallow Semantics ###
+
+PropBank, FrameNet, semantic role labeling, and a little Abstract Meaning Representation (AMR). Integer linear programming will also be discussed.
+
+- [Homework 8](homeworks/homework-8.md) due
+- Reading: my notes, if ready. Else: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
+- Optional reading:  [SRL via ILP](https://www.aclweb.org/anthology/C/C04/C04-1197.pdf); [Syntactic parsing in SRL](http://www.aclweb.org/anthology/J/J08/J08-2005.pdf);
+[AMR parsing](http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf)
+- Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
+
+### October 28: Anaphora and Coreference Resolution ###
+
+Classification-based algorithms; graph-based algorithms; a brief intro to government and binding theory.
+
+- **[Problem set 5](psets/pset5.md)** out.
+- [Homework 9](homeworks/homework-9.md) due
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Optional reading: [Multi-pass sieve](http://www.surdeanu.info/mihai/papers/emnlp10.pdf)  (good coverage of linguistic features that bear on coreference); [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf), [Easy victories and uphill battles](http://www.eecs.berkeley.edu/~gdurrett/papers/durrett-klein-emnlp2013.pdf) (a straightforward machine learning approach to coreference)
+
+### November 2: Discourse and Dialogue ###
+
+Coherence, cohesion, centering theory, topic segmentation, speech act classification.
+
+- Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
+- Optional:
+[Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf)
+
+### November 4: Discourse Parsing ###
+
+Rhetorical Structure Theory (RST) and the Penn Discourse Treebank (PDTB).
+
+- [Homework 10](homeworks/homework-10.md) due
+- Reading: [Analysis of discourse structure...](http://people.ict.usc.edu/~sagae/docs/sagae-discourse-iwpt09.pdf)
+### November 9: Lexical and Distributional Semantics ###
+
+WordNet, latent semantic analysis.
+
+- Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
+- Optional:  chapter 15;
+
+### November 11: Neural Networks for NLP ###
+
+Word embeddings, skipgrams, neural language models, recurrent neural networks, recursive neural networks.
+
+- **[Problem set 5](psets/pset5.md)** due at 2:55pm.
+- **[Problem set 6](psets/pset6.md)** out.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Optional reading: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
+
+### November 16: Machine Translation ###
+
+- [Homework 11](homeworks/homework-11.md) due
+- Reading: Collins, [IBM models 1 and 2](papers/collins-ibm12.pdf)
+- Optional Reading: Chiang, [Intro to Synchronous Grammars](http://www.isi.edu/~chiang/papers/synchtut.pdf);
+Lopez, [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
+
+### November 18: Information Extraction ###
+
+Reading for comprehension.
+
+- Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
+
+### November 23: Alternative Training Scenarios for NLP ###
+
+Semi-supervised learning and domain adaptation.
+
+- **[Problem set 6](psets/pset6.md)** due at 2:55pm.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
+[Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
+
+### November 25: Thanksgiving ###
+
+No class.
+
+### November 30: Recent Topics in NLP or Exam Review ###
+
+If the final is going to be during the exam period, then we'll review some exciting recent research, maybe recent best papers from ACL, NAACL, and EMNLP. Otherwise, we'll do an exam review.
+
+- Reading: TBD
+- [Homework 12](homeworks/homework-12.md) due
+
+### December 2: Exam Review or In-Class Exam ###
+
+You may bring a single sheet of notes, two-sided.

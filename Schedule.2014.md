@@ -198,7 +198,6 @@ chapter by Michael Collins
 - [Slides](slides/discourse-slides.pdf)
 
 ### November 6: Discourse parsing ###
-
 - Rhetorical structure theory, Penn Discourse Treebank
 - Reading: [Analysis of discourse structure...](http://people.ict.usc.edu/~sagae/docs/sagae-discourse-iwpt09.pdf)
 - [Problem set 4](psets/ps4/ps-4.md) due
