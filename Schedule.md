@@ -62,7 +62,7 @@ N-grams, speech recognition, a little about smoothing
 
 Finding meaning inside words! Also, we'll probably have to catch up a little on smoothing from the previous class.
 
-- **[Homework 4]**(homeworks/homework-4.md) due
+- **[Homework 4](homeworks/homework-4.md)** due
 - **[Problem set 2](psets/pset2.md)** due at 2:55 pm.
 - Reading: [Bender](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020) chapter 2.
 - Optional reading:
