@@ -17,12 +17,12 @@ Problem sets will be accepted up to three days late, at a penalty of 20% per day
 One of the goals of the assigned work is to assess your individual progress in meeting the learning objectives of the course. You may discuss the homework and projects with other students, but your work must be your own -- particularly all coding and writing. For example:
 
 - **Acceptable**: Alice and Bob discuss alternatives for storing large, sparse vectors of feature counts, as required by a problem set.
-- **Acceptable**: Bob is confused about how to implement the Viterbi algorithm, and asks Alice for a conceptual description of her strategy.
-- **Acceptable**: Alice asks Bob if he encountered a failure condition at a "sanity check" in a coding assignment, and Bob explains at a conceptual level how he overcame that failure condition.
 - **Unacceptable**: Alice and Bob sit down together and write code for storing feature counts.
+- **Acceptable**: Bob is confused about how to implement the Viterbi algorithm, and asks Alice for a conceptual description of her strategy.
 - **Unacceptable**: Alice and Bob divide the assignment into parts, and each write the code for their part, and then share their solutions with each other to complete the assignment.
+- **Acceptable**: Alice asks Bob if he encountered a failure condition at a "sanity check" in a coding assignment, and Bob explains at a conceptual level how he overcame that failure condition.
 - **Unacceptable**: Alice or Bob obtain a solution to a previous year's assignment or to a related assignment in another class, and use it as the starting point for their own solution.
 
 Some assignments will involve written responses. Using other people’s text or figures without attribution is plagiarism, and is never acceptable.
 
-Suspected cases of academic misconduct will be (and have been) referred to the Honor Advisory Council. For any questions involving these or any other Academic Honor Code issues, please consult me, my teaching assistants, or http://www.honor.gatech.edu.
+Suspected cases of academic misconduct will be (and have been!) referred to the Honor Advisory Council. For any questions involving these or any other Academic Honor Code issues, please consult me, my teaching assistants, or http://www.honor.gatech.edu.

@@ -54,7 +54,9 @@ N-grams, speech recognition, a little about smoothing
 - [Demo](demos/lm.ipynb)
 - Optional advanced reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
 
-### September 7: No class ####
+### September 7: Official school holiday ####
+
+[Labor Day](https://en.wikipedia.org/wiki/Labor_Day) is a celebration of the American Labor Movement.
 
 ### September 9: Morphology, Stemming, and Lemmatisation  ###
 
@@ -149,11 +151,12 @@ You may bring a one-page sheet of notes (two sides, any font size).
 
 Meaning representations, compositionality, first-order logic, and the syntax-semantics interface.
 
-- **Withdrawal Deadline**
 - **[Problem set 4](psets/pset4.md)** due at 2:55pm.
 - Reading: my notes, if ready
 - Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
 [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
+
+### October 25: Withdrawal Deadline ###
 
 ### October 26: Shallow Semantics ###
 
@@ -188,6 +191,7 @@ Rhetorical Structure Theory (RST) and the Penn Discourse Treebank (PDTB).
 
 - [Homework 10](homeworks/homework-10.md) due
 - Reading: [Analysis of discourse structure...](http://people.ict.usc.edu/~sagae/docs/sagae-discourse-iwpt09.pdf)
+
 ### November 9: Lexical and Distributional Semantics ###
 
 WordNet, latent semantic analysis.
@@ -216,6 +220,7 @@ Lopez, [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/su
 Reading for comprehension.
 
 - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
+- Optional reading: there's lots, TBD
 
 ### November 23: Alternative Training Scenarios for NLP ###
 
