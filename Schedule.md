@@ -22,7 +22,7 @@ of probability.
 
 Bag-of-words models, naive Bayes, and sentiment analysis.
 
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 1.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 1, 3.1.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
@@ -51,14 +51,14 @@ Logistic regression and online learning
 
 Learning from partially-labeled data.
 
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 4.
 - [Homework 2](homeworks/homework-2.md) due
 
 ### September 2: Language Models ###
 
-N-grams, speech recognition, a little about smoothing.
+N-grams, speech recognition, smoothing, recurrent neural networks.
 
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 5.
 - [Homework 3](homeworks/homework-3.md) due
 - [Demo](demos/lm.ipynb)
 - Optional advanced reading: [An empirical study of smoothing techniques for language models](http://u.cs.biu.ac.il/~yogo/courses/mt2013/papers/chen-goodman-99.pdf), especially sections 2.7 and 3 on Kneser-Ney smoothing; [A hierarchical Bayesian language model based on Pitman-Yor processes](http://acl.ldc.upenn.edu/P/P06/P06-1124.pdf) (requires some machine learning background)
