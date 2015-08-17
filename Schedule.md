@@ -16,7 +16,7 @@ The scaffolding code in this class will make heavy use of Python's functional pr
 - **Optional reading** includes [these](http://www.autonlab.org/tutorials/prob18.pdf) 
 [other](http://www.cs.cmu.edu/~tom/10701_sp11/slides/Overfitting_ProbReview-1-13-2011-ann.pdf) [reviews](http://www.cs.cmu.edu/~tom/10701_sp11/slides/MLE_MAP_1-18-11-ann.pdf)
 of probability.
-- **[Problem set 1](psets/pset1.pdf)** out.
+- **[Problem set 1](psets/ps1.pdf)** out.
 
 ### August 19: Supervised learning 1 (Naive Bayes) ###
 
