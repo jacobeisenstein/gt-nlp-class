@@ -26,7 +26,7 @@ Bag-of-words models, naive Bayes, and sentiment analysis.
 - Optional readings:
 [Sentiment analysis and opinion mining](http://www.cs.cornell.edu/home/llee/opinion-mining-sentiment-analysis-survey.html), especially parts 1, 2, 4.1-4.3, and 7;
 [Chapters 0-0.3, 1-1.2 of LXMLS lab guide](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/lxmls-guide.pdf?raw=true)
-- [Homework 1](homeworks/homework-1.md) due
+- [Homework 1](homeworks/homework-1.md) cancelled, since waitlist students can't yet access the course t-square. We'll try this again, and the total number of homeworks will remain 12.
 
 ### August 24: Supervised learning 2 (Perceptron) ###
 
