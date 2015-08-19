@@ -14,4 +14,6 @@ Respect your classmates and your instructor by avoiding distractions. This means
 
 Multiple studies have shown that using a laptop in class -- even for taking notes -- reduces students' educational attainment. See [here](http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html) for a popular press article summarizing this research. You are adults and must make your own decision, but my advice is to try pen and paper instead.
 
- 
+## Auditing ##
+
+To audit the class, you must complete ten of the twelve short homeworks, so that you can participate actively in class when we discuss them.
