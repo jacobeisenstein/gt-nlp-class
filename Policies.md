@@ -1,10 +1,14 @@
 ## Getting help ##
 
-TA's office hours will be (TBD). 
+Office hours:
 
-Professor Eisenstein’s office hours will be (TBD)
+- Monday 1:30-2:30pm, CCB 1st floor, Patrick Violette
+- Tuesday 2-3pm, CCB 1st floor, Parminder Bhatia
+- Wednesday 10-11am, CCB 1st floor, Sandeep Soni
+- Thursday 10-11am, CCB 316, Jacob Eisenstein
+- Thursday 12-1pm, CCB 1st floor, Naman Goyal
 
-If you cannot make it to office hours, please email me to make an appointment. It is unlikely that I will be able to chat if you just stop by my office. The same is true for the TAs.
+If you cannot make it to office hours, please email cs-4650-7650-fall-2015-staff@googlegroups.com to make an appointment. It is unlikely that I will be able to chat if you just stop by my office. The same is true for the TAs.
 
 ## In Class ##
 
