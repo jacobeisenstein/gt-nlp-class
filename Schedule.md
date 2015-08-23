@@ -46,7 +46,7 @@ Logistic regression and online learning
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 2.4-2.6.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 - [Slides](slides/lec4-slides.pdf?raw=true)
-- **[Problem set 1](psets/pset1.pdf)** due at 2:55pm.
+- **[Problem set 1](psets/ps1.pdf)** due at 2:55pm.
 - **[Problem set 2](psets/pset2.md)** out
 
 ### August 31: Expectation Maximization ###
