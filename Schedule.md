@@ -83,7 +83,7 @@ Finding meaning inside words! Also, we'll probably have to catch up a little on 
 
 Finite-state acceptors, transducers, composition. Edit distance.
 
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 7
 - Optional reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf);
 [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf);
 [Weighted Finite-State Transducers in speech recognition](http://www.cs.nyu.edu/~mohri/pub/csl01.pdf).
@@ -93,7 +93,8 @@ Finite-state acceptors, transducers, composition. Edit distance.
 Part-of-speech tags, hidden Markov models.
 
 - **[Problem set 3](psets/pset3.md)** out.
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true) Optional reading: Bender chapter 6; [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 8
+- Optional reading: Bender chapter 6; [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
 ### September 21: No class ###
 
@@ -105,23 +106,24 @@ Jacob will be at the conference on [Empirical Methods in Natural Language Proces
 Viterbi, the forward algorithm, B-I-O encoding for named entity recognition.
 
 - [Homework 5](homeworks/homework-5.md) due
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9-9.5
 - Optional reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf);
 
 ### September 28: Discriminative Sequence Labeling ###
 
 Structured perceptron, conditional random fields, and max-margin markov networks. More about forward-backward. Maybe a little about unsupervised POS tagging.
 
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9.6-9.9 
 - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694); [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf);
-[Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf)
+[Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf); my notes 9.10
 
 ### September 30: Context-Free Grammars and Natural Language Syntax ###
 
 Constituents, grammar design, formal language theory.
 
 - **[Problem set 3](psets/pset3.md)** due at 2:55pm.
-- Reading: Bender chapter 7, or my notes, if they're done in time
+- Reading: my notes, chapter 10-10.6
+- Optional reading: Bender chapter 7
 
 ### October 5: CFG Parsing ###
 
@@ -129,14 +131,14 @@ The CKY algorithm, the inside algorithm, Markovization, and lexicalization.
 
 - [Homework 6](homeworks/homework-6.md) due
 - **[Problem set 4](psets/pset4.md)** out.
-- Reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf) or my notes, if they're done in time.
-- Optional reading: Bender chapter 8
+- Reading: my notes 10.7-10.12
+- Optional reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf); Bender chapter 8; my notes 10.13-10.14. 
 
 ### October 7: Dependency Parsing ###
 
 Dependency grammar, projective and non-projective dependency graphs, related algorithms, and transition-based dependency parsing.
 
-- Reading: my notes, chapter 14.
+- Reading: my notes, chapter 11
 - [Homework 7](homeworks/homework-7.md) due
 - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
@@ -208,7 +210,7 @@ Rhetorical Structure Theory (RST) and the Penn Discourse Treebank (PDTB).
 WordNet, latent semantic analysis.
 
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
-- Optional:  chapter 15;
+- Optional:  my notes, chapter 14
 
 ### November 11: Neural Networks for NLP ###
 
@@ -216,7 +218,7 @@ Word embeddings, skipgrams, neural language models, recurrent neural networks, r
 
 - **[Problem set 5](psets/pset5.md)** due at 2:55pm.
 - **[Problem set 6](psets/pset6.md)** out.
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true): chapers 14.5 and 20
 - Optional reading: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
 
 ### November 16: Machine Translation ###
@@ -238,7 +240,7 @@ Reading for comprehension.
 Semi-supervised learning and domain adaptation.
 
 - **[Problem set 6](psets/pset6.md)** due at 2:55pm.
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 19
 - Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
 
