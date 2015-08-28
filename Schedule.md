@@ -47,7 +47,7 @@ Logistic regression and online learning
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
 - [Slides](slides/lec4-slides.pdf?raw=true)
 - **[Problem set 1](psets/ps1.pdf)** due at 2:55pm.
-- **[Problem set 2](psets/pset2.md)** out
+- **[Problem set 2](psets/pset2.md)** out on August 28
 
 ### August 31: Expectation Maximization ###
 
@@ -74,7 +74,6 @@ N-grams, speech recognition, smoothing, recurrent neural networks.
 Finding meaning inside words! Also, we'll probably have to catch up a little on smoothing from the previous class.
 
 - **[Homework 4](homeworks/homework-4.md)** due
-- **[Problem set 2](psets/pset2.md)** due at 2:55 pm.
 - Reading: [Bender](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020) chapter 2.
 - Optional reading:
 [Jurafsky and Martin](http://books.google.com/books/about/Speech_and_language_processing.html?id=km-kngEACAAJ) chapter 2.
@@ -83,6 +82,7 @@ Finding meaning inside words! Also, we'll probably have to catch up a little on 
 
 Finite-state acceptors, transducers, composition. Edit distance.
 
+- **[Problem set 2](psets/pset2.md)** due at 2:55 pm.
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 7
 - Optional reading: [Knight and May](http://ai.eecs.umich.edu/people/rounds/csli/main.pdf);
 [OpenFST slides](http://www.stringology.org/event/CIAA2007/pres/Tue2/Riley.pdf);
