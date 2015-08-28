@@ -53,7 +53,7 @@ Logistic regression and online learning
 
 Learning from partially-labeled data.
 
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 4.
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapters 3.2 and 4.
 - [Homework 2](homeworks/homework-2.md) due
 
 ### September 2: Language Models ###
