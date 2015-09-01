@@ -94,15 +94,14 @@ Finite-state acceptors, transducers, composition. Edit distance.
 
 ### September 21: No class ###
 
-TAs will be available to answer questions on problem set 2.
-Jacob will be at the conference on [Empirical Methods in Natural Language Processing](http://www.emnlp2015.org/), presenting research from the [Computational Linguistics Lab](https://gtnlp.wordpress.com/).
+- **[Problem set 3](psets/pset3.md)** out.
+- Jacob will be at the conference on [Empirical Methods in Natural Language Processing](http://www.emnlp2015.org/), presenting research from the [Computational Linguistics Lab](https://gtnlp.wordpress.com/).
 
 ### September 23: Part-of-speech tagging and Hidden Markov Models ###
 
 Part-of-speech tags, hidden Markov models.
 
 - [Homework 5](homeworks/homework-5.md) due
-- **[Problem set 3](psets/pset3.md)** out.
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 8
 - Optional reading: Bender chapter 6; [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
@@ -113,9 +112,9 @@ Viterbi, the forward algorithm, B-I-O encoding for named entity recognition.
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9-9.5
 - Optional reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf);
 
-### September 30: No class, exam review ###
+### September 30: No class ###
 
-- You can take an optional practice midterm in class. TAs will be available to answer questions.
+- TAs will be available to answer questions on problem set 3.
 - Jacob will be presenting research at [DiSpoL 2015](http://www.coli.uni-saarland.de/conf/dispol2015/), a workshop on discourse structure.
 
 ### October 5: Discriminative Sequence Labeling ###
@@ -149,7 +148,6 @@ The CKY algorithm, the inside algorithm, Markovization, and lexicalization.
 
 You may bring a one-page sheet of notes (two sides, any font size).
 
-
 ### October 21: Dependency Parsing ###
 
 Dependency grammar, projective and non-projective dependency graphs, related algorithms, and transition-based dependency parsing.
@@ -182,7 +180,6 @@ Meaning representations, compositionality, first-order logic, and the syntax-sem
 - Reading: my notes, if ready
 - Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
 [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
-
 
 ### November 2: Shallow Semantics ###
 
