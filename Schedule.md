@@ -116,6 +116,7 @@ Viterbi, the forward algorithm, B-I-O encoding for named entity recognition.
 
 - TAs will be available to answer questions on problem set 3.
 - Jacob will be presenting research at [DiSpoL 2015](http://www.coli.uni-saarland.de/conf/dispol2015/), a workshop on discourse structure.
+- **[Problem set 3](psets/pset3.md)** due on **Friday, October 2** at 2:55pm.
 
 ### October 5: Discriminative Sequence Labeling ###
 
@@ -124,12 +125,12 @@ Structured perceptron, conditional random fields, and max-margin markov networks
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9.6-9.9 
 - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694); [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf);
 [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf); my notes 9.10
+- **[Problem set 4](psets/pset4.md)** out.
 
 ### October 7: Context-Free Grammars and Natural Language Syntax ###
 
 Constituents, grammar design, formal language theory.
 
-- **[Problem set 3](psets/pset3.md)** due at 2:55pm.
 - Reading: my notes, chapter 10-10.6
 - Optional reading: Bender chapter 7
 
@@ -140,7 +141,6 @@ Constituents, grammar design, formal language theory.
 The CKY algorithm, the inside algorithm, Markovization, and lexicalization.
 
 - [Homework 6](homeworks/homework-6.md) due
-- **[Problem set 4](psets/pset4.md)** out.
 - Reading: my notes 10.7-10.12
 - Optional reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf); Bender chapter 8; my notes 10.13-10.14. 
 
@@ -158,6 +158,7 @@ Dependency grammar, projective and non-projective dependency graphs, related alg
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
 - The always useful [language log](http://languagelog.ldc.upenn.edu/nll/?p=7851) on non-projectivity in dependency parsing.
+- **[Problem set 4](psets/pset4.md)** due on **October 23** at 2:55pm.
 
 ### October 25: Withdrawal Deadline ###
 
@@ -170,13 +171,12 @@ Feature-structure grammars, unification, combinatory categorial grammar (CCG), t
 - Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
-
+- **[Problem set 5](psets/pset5.md)** out.
 
 ### October 28: Formal Semantics ###
 
 Meaning representations, compositionality, first-order logic, and the syntax-semantics interface.
 
-- **[Problem set 4](psets/pset4.md)** due at 2:55pm.
 - Reading: my notes, if ready
 - Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
 [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
@@ -195,7 +195,6 @@ PropBank, FrameNet, semantic role labeling, and a little Abstract Meaning Repres
 
 Classification-based algorithms; graph-based algorithms; a brief intro to government and binding theory.
 
-- **[Problem set 5](psets/pset5.md)** out.
 - [Homework 10](homeworks/homework-9.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
 - Optional reading: [Multi-pass sieve](http://www.surdeanu.info/mihai/papers/emnlp10.pdf)  (good coverage of linguistic features that bear on coreference); [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf), [Easy victories and uphill battles](http://www.eecs.berkeley.edu/~gdurrett/papers/durrett-klein-emnlp2013.pdf) (a straightforward machine learning approach to coreference)
@@ -208,6 +207,7 @@ Coherence, cohesion, centering theory, topic segmentation, speech act classifica
 - [Homework 11](homeworks/homework-10.md) due
 - Optional:
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf); [Analysis of discourse structure...](http://people.ict.usc.edu/~sagae/docs/sagae-discourse-iwpt09.pdf)
+- **[Problem set 5](psets/pset5.md)** due at 2:55pm.
 
 ### November 11: Lexical and Distributional Semantics ###
 
@@ -215,7 +215,6 @@ Latent semantic analysis, word embeddings
 
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
 - Optional:  my notes, chapter 14 and 20
-- **[Problem set 5](psets/pset5.md)** due at 2:55pm.
 - **[Problem set 6](psets/pset6.md)** out.
 - Optional reading: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
 
@@ -249,7 +248,7 @@ No class.
 ### November 30: Exam Review ###
 
 - Reading: TBD
-- [Homework 12](homeworks/homework-12.md) due
+- [Homework 13](homeworks/homework-12.md) due
 
 ### December 2: In-Class Exam ###
 
