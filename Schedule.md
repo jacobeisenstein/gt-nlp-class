@@ -59,6 +59,7 @@ Logistic regression and online learning
 Learning from partially-labeled data.
 
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 4-4.3.
+- Online [demo](demos/EM-demo.ipynb)
 
 ### September 7: Official school holiday ####
 
