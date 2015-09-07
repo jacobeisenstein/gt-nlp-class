@@ -34,6 +34,7 @@ Then you can compute the PMI as
 
 $PMI("Captain Ahab") = \log \frac{P("Captain","Ahab")}{P("Captain")P("Ahab")}.$
 
+Please list the intermediate values that you compute, e.g. the relevant unigram and bigram counts, etc.
 
 # Deliverable 2 #
 
