@@ -8,16 +8,16 @@ and can be downloaded from
 
 The guide uses the book of Genesis as a source of examples; for this homework, use the Project Gutenberg text
 of [Moby Dick](http://www.gutenberg.org/cache/epub/2701/pg2701.txt), a
-book about an angry whale.
+book about an angry whale. (Click through to ```Plain Text UTF-8``` to download.)
 
 Follow the instructions at least as far as Section 4, where you compute bigram counts.
-Some of the instructions are a little out of date; for example, ```tail +2``` doesn't work
+Some of the instructions are a little out of date: for example, ```tail +2``` doesn't work
 for me, but ```tail -n +2``` accomplishes the same thing.
 
 # Deliverable 1 #
 
 When we were discussing bag-of-words models, several students raised
-multiword phenomena as a potential problem. A potential solution is to
+multiword phenomena as a problem. A potential solution is to
 identify [collocations](https://en.wikipedia.org/wiki/Collocation),
 which are pairs of words that tend to go together; we can then treat
 collocations as special terms. One way to identify collocations is by
