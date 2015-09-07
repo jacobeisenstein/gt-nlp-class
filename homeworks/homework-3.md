@@ -42,5 +42,7 @@ Compute the PMI for the same bigram, this time case insensitive.
 
 # Deliverable 3 #
 
-Identify two more collocations of interest, for which the bigram count is at least 10.
+Identify two more collocations of interest, for which the bigram count is at least 10. Compute their PMIs as well.
+Can you find something with a higher PMI than "Captain Ahab"?
+
 
