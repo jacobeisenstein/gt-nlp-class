@@ -27,11 +27,13 @@ Compute the pointwise mutual information of the bigram "Captain Ahab"
 (case sensitive). Specifically, let $N$ equal the total word count of
 the document (obtained from ```wc```), and compute,
 
-\begin{align}
-P("Captain","Ahab") = & \frac{\text{count}(x_i = \text{"Captain"},
-x_{i+1} = \text{"Ahab"})}{N} \\
-PMI("Captain Ahab") = & \log \frac{P("Captain","Ahab")}{P("Captain")P("Ahab")}
-\end{align}
+$P("Captain","Ahab") = \frac{\text{count}(x_i = \text{"Captain"},
+x_{i+1} = \text{"Ahab"})}{N}$
+
+Then you can compute the PMI as 
+
+$PMI("Captain Ahab") = \log \frac{P("Captain","Ahab")}{P("Captain")P("Ahab")}.$
+
 
 # Deliverable 2 #
 
