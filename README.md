@@ -7,7 +7,7 @@ CS 4650 and 7650
 - **TAs**: TBD
 - [Schedule](Schedule.md)
 - [Grading](Grading.md)
-- [Policies](Policies.md)
+- [Policies](Policies.md) (including office hours)
 
 This course gives an overview of modern statistical techniques for
 analyzing natural language. The rough organization is to move from
