@@ -1,4 +1,4 @@
-CS 4650 and CS 7650 will meet jointly, on Mondays and Wednesdays from 3:05 - 4:25PM, in Howey (Physics) L3.
+CS 4650 and CS 7650 will meet jointly, on Mondays and Wednesdays from 3:05 - 4:25PM, in Howey (Physics) L3. Office hours are listed [here](./Policies.md)
 
 This is a provisional schedule. Check back in August for more details. But be aware that **there will be graded material due no later than the second week of the course (maybe even the first week).**
 
