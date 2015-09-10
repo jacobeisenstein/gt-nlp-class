@@ -64,8 +64,10 @@ def test_wlc_dev_exact_accuracy ():
     global WLC_FILE
     mat = evalClassifier (weights_wlc, WLC_FILE, DEVKEY)
     actual = scorer.accuracy(mat)
-    expected = 0.4467
-    assert_almost_equals (expected, actual, places=4, msg="UNEQUAL Expected:%f, Actual:%f" %(expected,actual))
+    expected_lower = 0.4440
+    expected_higher = 0.4470
+    ok = (actual >=expected_lower) and (actual <= expected_higher)
+    ok_(ok, msg="NOT IN RANGE Expected:%f,%f, Actual:%f" %(expected_lower,expected_higher,actual))
 
 @with_setup (setup_wlc_testing, teardown_wlc_testing)
 def test_wlc_dev_almost_there_accuracy ():
