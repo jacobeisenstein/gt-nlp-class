@@ -33,3 +33,5 @@ C. If the chickasaw root for "to be old" is *sipokni*, how would you say:
 3. "They are old"
 
 This problem is from Fromkin, Rodman, and Hyams, [An Introduction to Language](http://www.amazon.com/An-Introduction-Language-Victoria-Fromkin/dp/1133310680)
+
+D. The word "derivational" has three morphemes. Identify three English words with at least four morphemes, and state whether these morphemes are inflectional or derivational. At least one of your examples should include an inflectional morpheme.
