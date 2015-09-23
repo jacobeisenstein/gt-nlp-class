@@ -95,7 +95,6 @@ Finite-state acceptors, transducers, composition. Edit distance.
 
 ### September 21: No class ###
 
-- **[Problem set 3](psets/pset3.md)** out.
 - Jacob will be at the conference on [Empirical Methods in Natural Language Processing](http://www.emnlp2015.org/), presenting research from the [Computational Linguistics Lab](https://gtnlp.wordpress.com/).
 
 ### September 23: Part-of-speech tagging and Hidden Markov Models ###
@@ -103,6 +102,7 @@ Finite-state acceptors, transducers, composition. Edit distance.
 Part-of-speech tags, hidden Markov models.
 
 - [Homework 5](homeworks/homework-5.md) due
+- **[Problem set 3](psets/pset3.md)** out.
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 8
 - Optional reading: Bender chapter 6; [Tagging problems and hidden Markov models](http://www.cs.columbia.edu/~mcollins/hmms-spring2013.pdf)
 
@@ -117,7 +117,6 @@ Viterbi, the forward algorithm, B-I-O encoding for named entity recognition.
 
 - TAs will be available to answer questions on problem set 3.
 - Jacob will be presenting research at [DiSpoL 2015](http://www.coli.uni-saarland.de/conf/dispol2015/), a workshop on discourse structure.
-- **[Problem set 3](psets/pset3.md)** due on **Friday, October 2** at 2:55pm.
 
 ### October 5: Discriminative Sequence Labeling ###
 
@@ -126,7 +125,7 @@ Structured perceptron, conditional random fields, and max-margin markov networks
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9.6-9.9 
 - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694); [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf);
 [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf); my notes 9.10
-- **[Problem set 4](psets/pset4.md)** out.
+- **[Problem set 3](psets/pset3.md)** due on **Friday, October 2** at 2:55pm.
 
 ### October 7: Context-Free Grammars and Natural Language Syntax ###
 
@@ -134,6 +133,7 @@ Constituents, grammar design, formal language theory.
 
 - Reading: my notes, chapter 10-10.6
 - Optional reading: Bender chapter 7
+- **[Problem set 4](psets/pset4.md)** out.
 
 ### October 12: No class, fall break ###
 
@@ -246,11 +246,16 @@ Semi-supervised learning and domain adaptation.
 
 No class.
 
-### November 30: Exam Review ###
+### November 30: Slush day ###
+
+We'll use this class to make up on time, in case we are behind.
+If by some miracle we are not behind, we can talk about the **best papers** from [NAACL](http://naacl.org/naacl-hlt-2015/best-paper-awards.html), [ACL](http://acl2015.org/abstracts_long/91.html), and [EMNLP](http://www.emnlp2015.org/best-papers.html) 2015. 
+
+### December 2: Exam Review ###
 
 - Reading: TBD
 - [Homework 13](homeworks/homework-12.md) due
 
-### December 2: In-Class Exam ###
+### December 9: Final Exam ###
 
 You may bring a single sheet of notes, two-sided.
