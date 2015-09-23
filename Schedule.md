@@ -258,4 +258,4 @@ If by some miracle we are not behind, we can talk about the **best papers** from
 
 ### December 9: Final Exam ###
 
-You may bring a single sheet of notes, two-sided.
+*2:50 - 5:40pm.* You may bring a single sheet of notes, two-sided.
