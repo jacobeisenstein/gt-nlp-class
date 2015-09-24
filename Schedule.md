@@ -125,7 +125,7 @@ Structured perceptron, conditional random fields, and max-margin markov networks
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9.6-9.9 
 - Optional reading: [Discriminative training of HMMs](http://dl.acm.org/citation.cfm?id=1118694); [CRF tutorial](http://people.cs.umass.edu/~mccallum/papers/crf-tutorial.pdf);
 [Two decades of unsupervised POS tagging: how far have we come?](homepages.inf.ed.ac.uk/sgwater/papers/emnlp10-20yrsPOS.pdf); my notes 9.10
-- **[Problem set 3](psets/pset3.md)** due on **Friday, October 2** at 2:55pm.
+- **[Problem set 3](psets/pset3.md)** due at 2:55pm.
 
 ### October 7: Context-Free Grammars and Natural Language Syntax ###
 
