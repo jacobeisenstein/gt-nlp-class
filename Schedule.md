@@ -45,7 +45,6 @@ Logistic regression and online learning
 
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 2.4-2.6.
 - Optional supplementary reading: Parts 4-7 of [log-linear models](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/readings/collins-loglin.pdf?raw=true)
-- [Slides](slides/lec4-slides.pdf?raw=true)
 - **[Problem set 1](psets/ps1.pdf)** due at 2:55pm.
 - **[Problem set 2](psets/pset2.md)** out on August 28
 
@@ -112,6 +111,7 @@ Viterbi, the forward algorithm, B-I-O encoding for named entity recognition.
 
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 9-9.5
 - Optional reading: [Conditional random fields](http://www.cs.columbia.edu/~mcollins/crf.pdf);
+- [Slides](classes/sequence-slides.pdf)
 
 ### September 30: No class ###
 
