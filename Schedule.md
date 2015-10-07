@@ -159,7 +159,6 @@ Dependency grammar, projective and non-projective dependency graphs, related alg
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer.
 - The always useful [language log](http://languagelog.ldc.upenn.edu/nll/?p=7851) on non-projectivity in dependency parsing.
-- **[Problem set 4](psets/pset4.md)** due on **October 23** at 2:55pm.
 
 ### October 25: Withdrawal Deadline ###
 
@@ -172,7 +171,7 @@ Feature-structure grammars, unification, combinatory categorial grammar (CCG), t
 - Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
-- **[Problem set 5](psets/pset5.md)** out.
+- **[Problem set 4](psets/pset4.md)** due at 2:55pm.
 
 ### October 28: Formal Semantics ###
 
@@ -181,6 +180,7 @@ Meaning representations, compositionality, first-order logic, and the syntax-sem
 - Reading: my notes, if ready
 - Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
 [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
+- **[Problem set 5](psets/pset5.md)** out.
 
 ### November 2: Shallow Semantics ###
 
