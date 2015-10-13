@@ -131,7 +131,7 @@ Structured perceptron, conditional random fields, and max-margin markov networks
 
 Constituents, grammar design, formal language theory.
 
-- Reading: my notes, chapter 10-10.6
+- Reading: my notes, chapter 10
 - Optional reading: Bender chapter 7
 - **[Problem set 4](psets/pset4.md)** out.
 
@@ -142,18 +142,18 @@ Constituents, grammar design, formal language theory.
 The CKY algorithm, the inside algorithm, Markovization, and lexicalization.
 
 - [Homework 6](homeworks/homework-6.md) due
-- Reading: my notes 10.7-10.12
+- Reading: my notes, chapter 10.4-11.2
 - Optional reading: [Probabilistic context-free grammars](http://www.cs.columbia.edu/~mcollins/courses/nlp2011/notes/pcfgs.pdf); Bender chapter 8; my notes 10.13-10.14. 
 
 ### October 19: Mid-term exam ###
 
 You may bring a one-page sheet of notes (two sides, any font size).
 
-### October 21: Dependency Parsing ###
+### October 21: Statistical Parsing ###
 
 Dependency grammar, projective and non-projective dependency graphs, related algorithms, and transition-based dependency parsing.
 
-- Reading: my notes, chapter 11
+- Reading: my notes, chapter 11.3-12
 - [Homework 7](homeworks/homework-7.md) due
 - Optional reading: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
@@ -167,7 +167,7 @@ Dependency grammar, projective and non-projective dependency graphs, related alg
 Feature-structure grammars, unification, combinatory categorial grammar (CCG), tree-adjoining grammar (TAG). Algorithms and applications. Brief mid-term review.
 
 - [Homework 8](homeworks/homework-8.md) due
-- Reading: [Intro to CCG](readings/ccgintro.pdf?raw=true);
+- Reading: Finish chapter 12 of my notes; [intro to CCG](readings/ccgintro.pdf?raw=true);
 - Optional reading: [The inside-outside algorithm](http://www.cs.columbia.edu/~mcollins/io.pdf); 
 [Corpus-based induction of linguistic structure](http://acl.ldc.upenn.edu/acl2004/main/pdf/341_pdf_2-col.pdf);
 [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
@@ -177,7 +177,7 @@ Feature-structure grammars, unification, combinatory categorial grammar (CCG), t
 
 Meaning representations, compositionality, first-order logic, and the syntax-semantics interface.
 
-- Reading: my notes, if ready
+- Reading: my notes, chapter 13 (if ready)
 - Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
 [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
 - **[Problem set 5](psets/pset5.md)** out.
@@ -187,7 +187,7 @@ Meaning representations, compositionality, first-order logic, and the syntax-sem
 PropBank, FrameNet, semantic role labeling, and a little Abstract Meaning Representation (AMR). Integer linear programming will also be discussed.
 
 - [Homework 9](homeworks/homework-9.md) due
-- Reading: my notes, if ready. Else: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
+- Reading: my notes chapter 14 (if ready). Else: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
 - Optional reading:  [SRL via ILP](https://www.aclweb.org/anthology/C/C04/C04-1197.pdf); [Syntactic parsing in SRL](http://www.aclweb.org/anthology/J/J08/J08-2005.pdf);
 [AMR parsing](http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf)
 - Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
@@ -197,7 +197,7 @@ PropBank, FrameNet, semantic role labeling, and a little Abstract Meaning Repres
 Classification-based algorithms; graph-based algorithms; a brief intro to government and binding theory.
 
 - [Homework 10](homeworks/homework-9.md) due
-- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true)
+- Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 17
 - Optional reading: [Multi-pass sieve](http://www.surdeanu.info/mihai/papers/emnlp10.pdf)  (good coverage of linguistic features that bear on coreference); [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf), [Easy victories and uphill battles](http://www.eecs.berkeley.edu/~gdurrett/papers/durrett-klein-emnlp2013.pdf) (a straightforward machine learning approach to coreference)
 
 ### November 9: Discourse and Dialogue ###
@@ -215,7 +215,7 @@ Coherence, cohesion, centering theory, topic segmentation, speech act classifica
 Latent semantic analysis, word embeddings
 
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
-- Optional:  my notes, chapter 14 and 20
+- Optional:  my notes, chapter 15
 - **[Problem set 6](psets/pset6.md)** out.
 - Optional reading: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
 
