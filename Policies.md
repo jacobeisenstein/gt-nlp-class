@@ -4,7 +4,7 @@ Office hours:
 
 - Monday 1:30-2:30pm, CCB 1st floor, Patrick Violette
 - Tuesday 2-3pm, CSE Lounge, KACB 1st floor, Parminder Bhatia
-- Wednesday 11-12am, CCB 1st floor, Sandeep Soni
+- Wednesday 11:30-12:30, CCB 1st floor, Sandeep Soni
 - Thursday 10-11am, CCB 316, Jacob Eisenstein
 - Thursday 12-1pm, CSE Lounge, KACB 1st floor, Naman Goyal
 
