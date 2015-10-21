@@ -24,35 +24,34 @@ def evalTagger(tagger,outfilename,testfile=DEV_FILE):
     return scorer.getConfusion(testfile,outfilename) #run the scorer on the prediction file
 
 
-def generateKaggleSubmission(weights,outfilename):
+def generateKaggleSubmission(tagger,outfilename):
     with open(outfilename, 'w') as f:
         writer = csv.DictWriter(f, fieldnames=['Id', 'Prediction'])
         writer.writeheader()
 
-        # Test data is used for private leaderboard
-        testData = dataIterator(TEST_FILE,test_mode=True)
-        for i,(counts,_) in enumerate(testData):
-            predictedLabel,_ = predict(counts,weights,ALL_LABELS)
-            predictedIndex = ALL_LABELS.index(predictedLabel)
-            writer.writerow({
-                'Id': 'test-{}'.format(i),
-                'Prediction': predictedIndex})
+        alltags = set()
+        for i,(words, tags) in enumerate(preproc.conllSeqGenerator(TEST_FILE)):
+            for tag in tags:
+                alltags.add(tag)
 
-        # Dev data is used for public leaderboard
-        devData = dataIterator(DEVKEY,test_mode=False)
-        devCorrect = 0
-        devTotal = 0
-        for i,(counts,label) in enumerate(devData):
-            devTotal += 1
-            predictedLabel,_ = predict(counts,weights,ALL_LABELS)
-            devCorrect += (predictedLabel == label)
-            predictedIndex = ALL_LABELS.index(predictedLabel)
-            writer.writerow({
-                'Id': 'dev-{}'.format(i),
-                'Prediction': predictedIndex})
-    
-    devAccuracy = float(devCorrect) / devTotal
-    print 'Dev accuracy is ', devAccuracy, '({} correct of {})'.format(devCorrect, devTotal)
-    print 'Kaggle submission saved to', outfilename, ('. Sanity check: '
-        'public leaderboard accuracy should be '), devAccuracy, 'on submission.'
-
+        i=0
+        for words,_ in preproc.conllSeqGenerator(TEST_FILE):
+            pred_tags = tagger(words,alltags)
+            if isinstance(pred_tags, tuple):
+                pred_tags = pred_tags[0] 
+            for tag in pred_tags:
+                writer.writerow({
+                    'Id': 'test-{}'.format(i),
+                    'Prediction':tag})
+                i+=1
+        i=0 
+        for words,_ in preproc.conllSeqGenerator(DEV_FILE):
+            pred_tags = tagger(words,alltags)
+            if isinstance(pred_tags, tuple):
+                pred_tags = pred_tags[0]
+            for tag in pred_tags:
+                # print >>outfile, tag
+                writer.writerow({
+                    'Id': 'dev-{}'.format(i),
+                    'Prediction':tag})
+                i+=1
