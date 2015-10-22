@@ -11,5 +11,5 @@ http://nlp.stanford.edu/software/dependencies_manual.pdf
 
 "The moment one learns English, complications set in." (Felipe Alfau)
 
-Do you agree with the resulting parse? If not, how would you change it?
+Do you agree with the resulting parse ("universal dependencies")? If not, how would you change it?
 
