@@ -184,6 +184,7 @@ Dependency grammar, projective and non-projective dependency graphs, related alg
 Meaning representations, compositionality, first-order logic, and the syntax-semantics interface.
 
 - Reading: [Levy and Manning: Intro to Formal Computational Semantics](http://idiom.ucsd.edu/~rlevy/teaching/winter2009/ligncse256/lectures/lecture_14_compositional_semantics.pdf)
+- [Bonus Homework](homeworks/homework-bonus.md) due. (This is an additional homework, beyond the 12 that were planned. You will still be graded on your best ten homeworks for the semester, so you can feel free to skip this one; or, you can do this one and skip another one.)
 - Optional readings: [Briscoe: Introduction to Formal Semantics for Natural Language](https://www.cl.cam.ac.uk/teaching/1011/L107/semantics.pdf); 
 [Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf)
 
