@@ -183,9 +183,9 @@ Dependency grammar, projective and non-projective dependency graphs, related alg
 
 Meaning representations, compositionality, first-order logic, and the syntax-semantics interface.
 
-- Reading: my notes, chapter 13 (if ready)
-- Optional readings: [Levy and Manning: Intro to Formal Computational Semantics](findit);
-[Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf); 
+- Reading: [Levy and Manning: Intro to Formal Computational Semantics](http://idiom.ucsd.edu/~rlevy/teaching/winter2009/ligncse256/lectures/lecture_14_compositional_semantics.pdf)
+- Optional readings: [Briscoe: Introduction to Formal Semantics for Natural Language](https://www.cl.cam.ac.uk/teaching/1011/L107/semantics.pdf); 
+[Learning to map sentences to logical form](http://arxiv.org/pdf/1207.1420v1.pdf)
 
 
 ### November 4: Shallow Semantics ###
