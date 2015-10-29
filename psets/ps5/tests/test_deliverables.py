@@ -100,11 +100,6 @@ def test_features_for_deliverable1a ():
     actual = cmp (expected_feature_dict, f.feat_dict)
     eq_ (expected, actual, msg="Features Mismatch for 1a: Expected %s, Actual %s" %(str(expected_feature_dict), str(f.feat_dict))) 
 
-def test_accuracy_for_deliverable1a ():
-    expected = 0.689 
-    actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1a)
-    assert_almost_equals (expected, actual, places=3, msg="Accuracy Incorrect for 1a: Expected %f, Actual %f" %(expected, actual))
-
 def test_features_for_deliverable1b ():
     global instances
     f = custom_features.LexDistFeats2()
@@ -116,11 +111,6 @@ def test_features_for_deliverable1b ():
     expected = 0
     actual = cmp (expected_feature_dict, f.feat_dict)
     eq_ (expected, actual, msg="Features Mismatch for 1a: Expected %s, Actual %s" %(str(expected_feature_dict), str(f.feat_dict))) 
-
-def test_accuracy_for_deliverable1b ():
-    expected = 0.713 
-    actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1b)
-    assert_almost_equals (expected, actual, places=3, msg="Accuracy Incorrect for 1b: Expected %f, Actual %f" %(expected, actual))
 
 def test_features_for_deliverable1c ():
     global instances
@@ -135,11 +125,6 @@ def test_features_for_deliverable1c ():
     actual = set (f.feat_dict)
     
     ok_ (expected <= actual, msg="Features Mismatch for 1c: Expected %s, Actual %s" %(str(expected_feat_dict), str(f.feat_dict)))
-
-def test_accuracy_for_deliverable1c ():
-    expected = 0.824 
-    actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1c)
-    ok_(expected < (actual + 0.002), msg="Accuracy is lesser than expected for 1c: Expected %f, Actual %f" %(expected, actual))
 
 def test1_CPT_for_deliverable2a ():
     dp = dependency_parser.DependencyParser(feature_function=dependency_features.DependencyFeatures())
