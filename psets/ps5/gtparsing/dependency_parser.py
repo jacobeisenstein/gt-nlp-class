@@ -46,7 +46,7 @@ class DependencyParser():
             scores = self.features.compute_scores(feats, self.weights)
             heads_pred = self.decoder.parse_nonproj(scores)
             for m in range(np.size(heads_pred)): #find each modifier's head, add the score
-                #if m == 0: continue
+                if m == 0: continue
                 if heads_pred[m] != instance.heads[m]:
                     n_mistakes += 1
                     if weight_update:
@@ -68,6 +68,13 @@ class DependencyParser():
         '''Trains the parser by running the averaged perceptron algorithm for n_epochs.''' 
         self.weights = np.zeros(self.features.n_feats)
         total = np.zeros(self.features.n_feats)
+        
+        if self.trained:
+            print "Sorry, you can train the parser only once"
+            return
+        else:
+            self.trained = True
+        
         for epoch in range(n_epochs):
             print "Epoch {0}".format(epoch+1),
             print "Train:",
@@ -82,6 +89,8 @@ class DependencyParser():
             
             #return the weights
             self.weights = old_weights
+            
+        self.weights = total.copy() / (epoch + 1.0)
 
     def evaluate(self):
         '''Evaluates with the weights that have been learnt'''  
