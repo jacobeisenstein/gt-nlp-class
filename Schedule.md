@@ -194,7 +194,7 @@ Meaning representations, compositionality, first-order logic, and the syntax-sem
 PropBank, FrameNet, semantic role labeling, and a little Abstract Meaning Representation (AMR). Integer linear programming will also be discussed.
 
 - [Homework 8](homeworks/homework-8.md) due
-- Reading: my notes chapter 14 (if ready). Else: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
+- Reading: [Gildea and Jurafsky](http://web.stanford.edu/~jurafsky/cl01.pdf)  sections 1-3; [Banarescu et al](http://amr.isi.edu/a.pdf) sections 1-4
 - Optional reading:  [SRL via ILP](https://www.aclweb.org/anthology/C/C04/C04-1197.pdf); [Syntactic parsing in SRL](http://www.aclweb.org/anthology/J/J08/J08-2005.pdf);
 [AMR parsing](http://www.cs.cmu.edu/~jmflanig/flanigan+etal.acl2014.pdf)
 - Optional [video](http://videolectures.net/metaforum2012_pereira_semantic/)
