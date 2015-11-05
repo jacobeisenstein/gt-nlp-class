@@ -133,11 +133,11 @@ def test_accuracy_for_deliverable1b ():
 def test_features_for_deliverable1c ():
     global instances
     f = custom_features.ContextFeats()
-    expected_feat_dict = {(1, 5, 4): 8, (1, 0, 5): 11, (1, 5, 3): 4, (1, 3, 2): 1, 
-                             (3, 4, 3, 5): 9, (0, 5, 3): 3, (2, 1): 2, (1, 5, 6): 15, 
-                             (0, 0, 5): 10, (0, 5, 6): 14, (3, 6, 5, 5): 17, (2, -1): 16, 
-                             (2, 2): 5, (0, 3, 2): 0, (3, 5, 4, 0): 13, (0, 5, 4): 7, 
-                             (3, 3, 2, 5): 6, (2, -4): 12}
+    expected_feat_dict =  {(1, 5, 4): 9, (1, 0, 5): 12, (1, 5, 3): 5, (1, 3, 2): 1, (3, 5, 4, 4): 10, 
+                           (0, 5, 6): 14, (0, 5, 3): 4, (2, 1): 2, (1, 5, 6): 15, (3, 5, 4, 3): 7, 
+                           (3, 5, 4, 6): 17, (2, -1): 16, (2, 2): 6, (3, 3, 2, 2): 3, (0, 3, 2): 0, 
+                           (0, 0, 5): 11, (0, 5, 4): 8, (2, -4): 13}
+
     f.create_dictionary(instances)
     expected = set (expected_feat_dict)
     actual = set (f.feat_dict)
