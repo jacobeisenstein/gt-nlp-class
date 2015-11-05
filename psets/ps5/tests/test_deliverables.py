@@ -1,6 +1,5 @@
 from nose.tools import with_setup, ok_, eq_, assert_almost_equals, nottest
 from gtparsing import dependency_parser, dependency_features, custom_features
-from gtparsing import dependency_features
 from gtparsing import dependency_reader
 from gtparsing import utilities
 
@@ -24,7 +23,7 @@ SPANISH_KEYFILE = os.path.join (DIR, "spanish_dev.conll")
 ITALIAN_KEYFILE = os.path.join (DIR, "italian_dev.conll")
 FRENCH_KEYFILE  = os.path.join (DIR, "french_dev.conll")
 PORTO_KEYFILE   = os.path.join (DIR, "portuguese_dev.conll")
-UNIVERAL_ENGLISH_KEYFILE   = os.path.join (DIR, "englishu_dev.conll")
+UNIVERAL_ENGLISH_KEYFILE   = os.path.join (DIR, "english_univtags_dev.conll")
 
 KEYFILES = {
              ENGLISH:ENGLISH_KEYFILE,
@@ -53,6 +52,15 @@ def silentremove (filename):
     except OSError as e:
         if e.errno != errno.ENOENT: # errno.ENOENT = no such file or directory.
             raise # raise error if different error occurred.
+
+@nottest
+def getForeignLanguage (directory, suffix):
+    for filename in os.listdir (directory):
+        if filename.endswith (suffix):
+            lang = filename.split (".")[0]
+            print lang
+            break
+    return lang, filename
 
 def setup_module ():
     global instances
@@ -100,6 +108,11 @@ def test_features_for_deliverable1a ():
     actual = cmp (expected_feature_dict, f.feat_dict)
     eq_ (expected, actual, msg="Features Mismatch for 1a: Expected %s, Actual %s" %(str(expected_feature_dict), str(f.feat_dict))) 
 
+def test_accuracy_for_deliverable1a ():
+    expected = 0.694
+    actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1a)
+    assert_almost_equals (expected, actual, places=3, msg="Accuracy Incorrect for 1a: Expected %f, Actual %f" %(expected, actual))
+
 def test_features_for_deliverable1b ():
     global instances
     f = custom_features.LexDistFeats2()
@@ -112,19 +125,29 @@ def test_features_for_deliverable1b ():
     actual = cmp (expected_feature_dict, f.feat_dict)
     eq_ (expected, actual, msg="Features Mismatch for 1a: Expected %s, Actual %s" %(str(expected_feature_dict), str(f.feat_dict))) 
 
+def test_accuracy_for_deliverable1b ():
+    expected = 0.729
+    actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1b)
+    assert_almost_equals (expected, actual, places=3, msg="Accuracy Incorrect for 1b: Expected %f, Actual %f" %(expected, actual))
+
 def test_features_for_deliverable1c ():
     global instances
     f = custom_features.ContextFeats()
-    expected_feat_dict = {(1, 5, 4): 8, (1, 0, 5): 11, (1, 5, 3): 4, (1, 3, 2): 1, 
-                             (3, 4, 3, 5): 9, (0, 5, 3): 3, (2, 1): 2, (1, 5, 6): 15, 
-                             (0, 0, 5): 10, (0, 5, 6): 14, (3, 6, 5, 5): 17, (2, -1): 16, 
-                             (2, 2): 5, (0, 3, 2): 0, (3, 5, 4, 0): 13, (0, 5, 4): 7, 
-                             (3, 3, 2, 5): 6, (2, -4): 12}
+    expected_feat_dict =  {(1, 5, 4): 9, (1, 0, 5): 12, (1, 5, 3): 5, (1, 3, 2): 1, (3, 5, 4, 4): 10, 
+                           (0, 5, 6): 14, (0, 5, 3): 4, (2, 1): 2, (1, 5, 6): 15, (3, 5, 4, 3): 7, 
+                           (3, 5, 4, 6): 17, (2, -1): 16, (2, 2): 6, (3, 3, 2, 2): 3, (0, 3, 2): 0, 
+                           (0, 0, 5): 11, (0, 5, 4): 8, (2, -4): 13}
+
     f.create_dictionary(instances)
     expected = set (expected_feat_dict)
     actual = set (f.feat_dict)
     
     ok_ (expected <= actual, msg="Features Mismatch for 1c: Expected %s, Actual %s" %(str(expected_feat_dict), str(f.feat_dict)))
+
+def test_accuracy_for_deliverable1c ():
+    expected = 0.82
+    actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1c)
+    ok_(expected < (actual + 0.002), msg="Accuracy is lesser than expected for 1c: Expected %f, Actual %f" %(expected, actual))
 
 def test1_CPT_for_deliverable2a ():
     dp = dependency_parser.DependencyParser(feature_function=dependency_features.DependencyFeatures())
@@ -143,7 +166,7 @@ def test2_CPT_for_deliverable2a ():
 def test1_entropy_for_deliverable2b ():
     dp = dependency_parser.DependencyParser(feature_function=dependency_features.DependencyFeatures())
     dp.read_data(ENGLISH)
-    verb_distribution = utilities.CPT (dp, 'VB') 
+    verb_distribution = utilities.CPT (dp.reader.train_instances, dp.reader.pos_dict['VB'])
     expected = 2.653
     actual = utilities.entropy (verb_distribution)
     assert_almost_equals (expected , actual, places=3, msg="Entropy incorrect for 2b: Expected %f, Actual %f" %(expected, actual))
@@ -151,7 +174,43 @@ def test1_entropy_for_deliverable2b ():
 def test2_entropy_for_deliverable2b ():
     dp = dependency_parser.DependencyParser(feature_function=dependency_features.DependencyFeatures())
     dp.read_data(ENGLISH_UNIVTAGS)
-    verb_distribution = utilities.CPT (dp, 'VERB') 
+    verb_distribution = utilities.CPT (dp.reader.train_instances, dp.reader.pos_dict['VERB'])
     expected = 1.9
     actual = utilities.entropy (verb_distribution)
     assert_almost_equals (expected , actual, places=3, msg="Entropy incorrect for 2b: Expected %f, Actual %f" %(expected, actual))
+
+def test_accuracy_for_deliverable2c ():
+    expected = {GERMAN: 0.287, SPANISH:0.093 , ITALIAN: 0.201, FRENCH: 0.244, PORTO: 0.290}
+    SUFFIX = "deliverable2c.conll"
+    lang, filename = getForeignLanguage (DIR, SUFFIX)
+    actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
+    ok_ (expected[lang] <= (actual + 0.002), msg="Accuracy Incorrect for 2c: Expected %f, Actual %f" %(expected[lang], actual)) # adding some tolerance.
+
+def test_accuracy_for_deliverable2d ():
+    expected = {GERMAN: 0.440, SPANISH: 0.497, ITALIAN: 0.317, FRENCH: 0.277, PORTO: 0.44}
+    SUFFIX = "deliverable2d.conll"
+    lang, filename = getForeignLanguage (DIR, SUFFIX)
+    actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
+    ok_ (expected[lang] <= (actual + 0.002), msg="Accuracy Incorrect for 2d: Expected %f, Actual %f" %(expected[lang], actual))
+
+def test_accuracy_for_deliverable2e ():
+    expected = {GERMAN: 0.532, SPANISH: 0.614, ITALIAN: 0.439, FRENCH: 0.327, PORTO: 0.572}
+    SUFFIX = "deliverable2e.conll"
+    lang, filename = getForeignLanguage (DIR, SUFFIX)
+    actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
+    ok_ (expected[lang]<= (actual + 0.002), msg="Accuracy Incorrect for 2e: Expected %f, Actual %f" %(expected[lang], actual))
+
+
+def test_accuracy_for_deliverable2f_almost_there ():
+    expected = {GERMAN: 0.562, SPANISH: 0.644, ITALIAN: 0.469, FRENCH: 0.357, PORTO: 0.602}
+    SUFFIX = "deliverable2f.conll"
+    lang, filename = getForeignLanguage (DIR, SUFFIX)
+    actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
+    ok_ (expected[lang]<= (actual + 0.002), msg="Accuracy Incorrect for 2f: Expected %f, Actual %f" %(expected[lang], actual))
+
+def test_accuracy_for_deliverable2f ():
+    expected = {GERMAN: 0.612, SPANISH: 0.662, ITALIAN: 0.657, FRENCH: 0.582, PORTO: 0.624}
+    SUFFIX = "deliverable2f.conll"
+    lang, filename = getForeignLanguage (DIR, SUFFIX)
+    actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
+    ok_ (expected[lang]<= (actual + 0.002), msg="Accuracy Incorrect for 2f: Expected %f, Actual %f" %(expected[lang], actual))
