@@ -166,7 +166,7 @@ def test2_CPT_for_deliverable2a ():
 def test1_entropy_for_deliverable2b ():
     dp = dependency_parser.DependencyParser(feature_function=dependency_features.DependencyFeatures())
     dp.read_data(ENGLISH)
-    verb_distribution = utilities.CPT (dp, 'VB') 
+    verb_distribution = utilities.CPT (dp.reader.train_instances, dp.reader.pos_dict['VB'])
     expected = 2.653
     actual = utilities.entropy (verb_distribution)
     assert_almost_equals (expected , actual, places=3, msg="Entropy incorrect for 2b: Expected %f, Actual %f" %(expected, actual))
@@ -174,7 +174,7 @@ def test1_entropy_for_deliverable2b ():
 def test2_entropy_for_deliverable2b ():
     dp = dependency_parser.DependencyParser(feature_function=dependency_features.DependencyFeatures())
     dp.read_data(ENGLISH_UNIVTAGS)
-    verb_distribution = utilities.CPT (dp, 'VERB') 
+    verb_distribution = utilities.CPT (dp.reader.train_instances, dp.reader.pos_dict['VERB'])
     expected = 1.9
     actual = utilities.entropy (verb_distribution)
     assert_almost_equals (expected , actual, places=3, msg="Entropy incorrect for 2b: Expected %f, Actual %f" %(expected, actual))
