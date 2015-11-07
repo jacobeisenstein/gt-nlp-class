@@ -204,7 +204,6 @@ PropBank, FrameNet, semantic role labeling, and a little Abstract Meaning Repres
 
 Latent semantic analysis, word embeddings
 
-- **[Problem set 5](psets/pset5.md)** due on **November 10** at 2:55pm.
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
 - Optional:  my notes, chapter 15
 - Optional reading: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
@@ -214,6 +213,7 @@ Latent semantic analysis, word embeddings
 
 Classification-based algorithms; graph-based algorithms; a brief intro to government and binding theory.
 
+- **[Problem set 5](psets/pset5.md)** due on **November 12** at 2:55pm.
 - [Homework 9](homeworks/homework-9.md) due
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 17
 - Optional reading: [Multi-pass sieve](http://www.surdeanu.info/mihai/papers/emnlp10.pdf)  (good coverage of linguistic features that bear on coreference); [Large-scale multi-document coreference](http://people.cs.umass.edu/~sameer/files/largescale-acl11.pdf), [Easy victories and uphill battles](http://www.eecs.berkeley.edu/~gdurrett/papers/durrett-klein-emnlp2013.pdf) (a straightforward machine learning approach to coreference)
