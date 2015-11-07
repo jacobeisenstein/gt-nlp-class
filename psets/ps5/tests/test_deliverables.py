@@ -181,7 +181,7 @@ def test2_entropy_for_deliverable2b ():
     assert_almost_equals (expected , actual, places=3, msg="Entropy incorrect for 2b: Expected %f, Actual %f" %(expected, actual))
 
 def test_accuracy_for_deliverable2c ():
-    expected = {GERMAN: 0.287, SPANISH:0.093 , ITALIAN: 0.201, FRENCH: 0.244, PORTO: 0.290}
+    expected = {GERMAN: 0.432, SPANISH:0.365 , ITALIAN: 0.311, FRENCH: 0.372, PORTO: 0.305}
     SUFFIX = "deliverable2c.conll"
     lang, filename = getForeignLanguage (DIR, SUFFIX)
     actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
