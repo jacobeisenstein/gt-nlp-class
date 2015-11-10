@@ -23,7 +23,7 @@ SPANISH_KEYFILE = os.path.join (DIR, "spanish_dev.conll")
 ITALIAN_KEYFILE = os.path.join (DIR, "italian_dev.conll")
 FRENCH_KEYFILE  = os.path.join (DIR, "french_dev.conll")
 PORTO_KEYFILE   = os.path.join (DIR, "portuguese_dev.conll")
-UNIVERAL_ENGLISH_KEYFILE   = os.path.join (DIR, "english_univtags_dev.conll")
+UNIVERSAL_ENGLISH_KEYFILE   = os.path.join (DIR, "english_univtags_dev.conll")
 
 KEYFILES = {
              ENGLISH:ENGLISH_KEYFILE,
@@ -32,7 +32,7 @@ KEYFILES = {
              ITALIAN:ITALIAN_KEYFILE,
              FRENCH :FRENCH_KEYFILE,
              PORTO  :PORTO_KEYFILE,
-             ENGLISH_UNIVTAGS : UNIVERAL_ENGLISH_KEYFILE
+             ENGLISH_UNIVTAGS : UNIVERSAL_ENGLISH_KEYFILE
            }
 
 ENGLISH_TEST_FILE = "tests/english_test.conll"
@@ -113,6 +113,7 @@ def test_accuracy_for_deliverable1a ():
     actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1a)
     assert_almost_equals (expected, actual, places=3, msg="Accuracy Incorrect for 1a: Expected %f, Actual %f" %(expected, actual))
 
+
 def test_features_for_deliverable1b ():
     global instances
     f = custom_features.LexDistFeats2()
@@ -126,22 +127,22 @@ def test_features_for_deliverable1b ():
     eq_ (expected, actual, msg="Features Mismatch for 1a: Expected %s, Actual %s" %(str(expected_feature_dict), str(f.feat_dict))) 
 
 def test_accuracy_for_deliverable1b ():
-    expected = 0.729
+    expected = 0.729 
     actual   = accuracy (KEYFILES[ENGLISH], DELIVERABLE1b)
     assert_almost_equals (expected, actual, places=3, msg="Accuracy Incorrect for 1b: Expected %f, Actual %f" %(expected, actual))
 
 def test_features_for_deliverable1c ():
     global instances
     f = custom_features.ContextFeats()
-    expected_feat_dict =  {(4, 3, 2, 2): 4, (0, 5, 3): 5, (1, 5, 3): 6, (1, 3, 2): 1, (0, 5, 6): 18,
-                           (2, 1): 2, (4, 5, 4, 6): 22, (2, -4): 16, (1, 0, 5): 15, (3, 3, 5): 8,
-                           (0, 0, 5): 14, (2, 2): 7, (3, 2, 3): 3, (0, 3, 2): 0, (3, 6, 5): 21, (2, -1): 20,
-                           (1, 5, 4): 11, (3, 5, 0): 17, (4, 5, 4, 3): 9, (4, 5, 4, 4): 13, (1, 5, 6): 19,
+    expected_feat_dict =  {(4, 3, 2, 2): 4, (0, 5, 3): 5, (1, 5, 3): 6, (1, 3, 2): 1, (0, 5, 6): 18, 
+                           (2, 1): 2, (4, 5, 4, 6): 22, (2, -4): 16, (1, 0, 5): 15, (3, 3, 5): 8, 
+                           (0, 0, 5): 14, (2, 2): 7, (3, 2, 3): 3, (0, 3, 2): 0, (3, 6, 5): 21, (2, -1): 20, 
+                           (1, 5, 4): 11, (3, 5, 0): 17, (4, 5, 4, 3): 9, (4, 5, 4, 4): 13, (1, 5, 6): 19, 
                            (3, 4, 5): 12, (0, 5, 4): 10}
 
     f.create_dictionary(instances)
-    expected = set (expected_feat_dict)
-    actual = set (f.feat_dict)
+    expected = set ([key[1:] for key in expected_feat_dict])
+    actual = set ([key[1:] for key in f.feat_dict])
     
     ok_ (expected <= actual, msg="Features Mismatch for 1c: Expected %s, Actual %s" %(str(expected_feat_dict), str(f.feat_dict)))
 
@@ -215,3 +216,5 @@ def test_accuracy_for_deliverable2f ():
     lang, filename = getForeignLanguage (DIR, SUFFIX)
     actual   = accuracy (KEYFILES[lang], os.path.join (DIR, filename))
     ok_ (expected[lang]<= (actual + 0.002), msg="Accuracy Incorrect for 2f: Expected %f, Actual %f" %(expected[lang], actual))
+
+
