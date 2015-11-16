@@ -223,7 +223,7 @@ Classification-based algorithms; graph-based algorithms; a brief intro to govern
 Coherence, cohesion, centering theory, topic segmentation, speech act classification.
 
 - Reading: [Discourse structure and language technology](http://journals.cambridge.org/repo_A84ql5gR)
-- [Homework 10](homeworks/homework-10.md) due
+- [Homework 10](homeworks/homework-10.md) due (extended to November 18, 3pm)
 - Optional:
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf); [Analysis of discourse structure...](http://people.ict.usc.edu/~sagae/docs/sagae-discourse-iwpt09.pdf)
 - **[Problem set 6](psets/pset6.md)** out.
