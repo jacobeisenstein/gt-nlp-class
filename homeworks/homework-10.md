@@ -6,7 +6,7 @@ In this homework, you will RST annotation of a short passage of text.
 Provide an RST parse tree for the following text, which I have already segmented into discourse units. You can indicate the discourse parse either through a graph or through a list of relations. A description of the relations in RST can be found at
 [http://www.sfu.ca/rst/01intro/intro.html](http://www.sfu.ca/rst/01intro/intro.html)
 
-Here is the passage (note that my segmentation:
+Here is the passage:
 
 - 1. In today's society, college is ambiguous.
 - 2. We need it to live, 
