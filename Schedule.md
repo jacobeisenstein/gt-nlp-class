@@ -207,7 +207,7 @@ Latent semantic analysis, word embeddings
 - Reading: [Vector-space models](https://www.jair.org/media/2934/live-2934-4846-jair.pdf), sections 1, 2, 4-4.4, 6
 - Optional:  my notes, chapter 15
 - Optional reading: [python coding tutorial](http://radimrehurek.com/2014/02/word2vec-tutorial/) for word2vec word embeddings
-
+- [Slides](notes/distributional-slides.pdf)
 
 ### November 11: Anaphora and Coreference Resolution ###
 
@@ -227,6 +227,7 @@ Coherence, cohesion, centering theory, topic segmentation, speech act classifica
 - Optional:
 [Modeling local coherence](http://www.aclweb.org/anthology-new/J/J08/J08-1001.pdf); [Sentence-level discourse parsing](http://acl.ldc.upenn.edu/N/N03/N03-1030.pdf); [Analysis of discourse structure...](http://people.ict.usc.edu/~sagae/docs/sagae-discourse-iwpt09.pdf)
 - **[Problem set 6](psets/pset6.md)** out.
+- [Slides](notes/discourse-slides.pdf)
 
 ### November 18: Machine Translation ###
 
@@ -234,6 +235,7 @@ Coherence, cohesion, centering theory, topic segmentation, speech act classifica
 - Reading: Collins, [IBM models 1 and 2](papers/collins-ibm12.pdf)
 - Optional Reading: Chiang, [Intro to Synchronous Grammars](http://www.isi.edu/~chiang/papers/synchtut.pdf);
 Lopez, [Statistical machine translation](http://www.cs.jhu.edu/~alopez/papers/survey.pdf)
+- [Slides](notes/mt-slides.pdf)
 
 ### November 23: Information Extraction ###
 
@@ -241,7 +243,7 @@ Reading for comprehension.
 
 - [Homework 12](homeworks/homework-12.md) due
 - Reading: [Grishman](http://cs.nyu.edu/grishman/tarragona.pdf), sections 1 and 4-6
-- Optional reading: there's lots, TBD
+- [Slides](notes/ie-slides.pdf)
 
 ### November 25: Thanksgiving break ###
 
@@ -257,6 +259,7 @@ Semi-supervised learning and domain adaptation.
 - Reading: my [notes](notes/eisenstein-nlp-notes.pdf?raw=true), chapter 20
 - Optional reading: [Jerry Zhu's survey](http://pages.cs.wisc.edu/~jerryzhu/pub/SSL_EoML.pdf);
 [Jerry Zhu's book](http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006)
+- [Slides](notes/ssl-slides.pdf)
 
 ### December 2: Exam Review ###
 
