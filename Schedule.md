@@ -172,7 +172,7 @@ Dependency grammar, projective and non-projective dependency graphs, related alg
 
 - Reading: my notes, chapter 12; [intro to CCG](readings/ccgintro.pdf?raw=true)
 - [Homework 7](homeworks/homework-7.md) due
-- Optional readings on dependency parsing: [Eisner algorithm worksheet](http://www.cc.gatech.edu/~jeisenst/classes/cs7650_sp12/eisner_worksheet.pdf);
+- Optional readings on dependency parsing: [my slides](notes/dep-parsing-slides.pdf);
 [Characterizing the errors of data-driven dependency parsing models](http://acl.ldc.upenn.edu/D/D07/D07-1013.pdf);
 [Short textbook on dependency parsing](http://www.morganclaypool.com/doi/abs/10.2200/S00169ED1V01Y200901HLT002), PDF should be free from a GT computer
 - Optional readings on alternative models of syntax: [Much more about CCG](http://homepages.inf.ed.ac.uk/steedman/papers/ccg/SteedmanBaldridgeNTSyntax.pdf); [LTAG](http://onlinelibrary.wiley.com/doi/10.1207/s15516709cog2805_2/pdf); [Probabilistic disambiguation models for wide-coverage HPSG](http://acl.ldc.upenn.edu/P/P05/P05-1011.pdf)
