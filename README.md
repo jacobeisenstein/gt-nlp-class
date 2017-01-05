@@ -126,9 +126,9 @@ One of the goals of the assigned work is to assess your individual progress in m
 
 - Alice and Bob work together to write code for storing feature counts.
 - Alice and Bob divide the assignment into parts, and each write the code for their part, and then share their solutions with each other to complete the assignment.
-- Alice or Bob obtain a solution to a previous year's assignment or to a related assignment in another class, and use it as the starting point for their own solution.
-- Bob is having trouble getting adequate performance from his part-of-speech tagger. He finds source code online, and copies it into her own submission.
-- Alice wants to win the Kaggle competition for a problem set. He finds the test set online, and customizes his submission to do well on it.
+- Alice or Bob obtain a solution to a previous year's assignment or to a related assignment in another class, and use it as the starting point for their own solutions.
+- Bob is having trouble getting adequate performance from his part-of-speech tagger. He finds source code online, and copies it into his own submission.
+- Alice wants to win the Kaggle competition for a problem set. She finds the test set online, and customizes her submission to do well on it.
 
 Some assignments will involve written responses. Using other people’s text or figures without attribution is plagiarism, and is never acceptable.
 
