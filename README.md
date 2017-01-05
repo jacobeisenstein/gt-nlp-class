@@ -14,10 +14,10 @@ the salient linguistic phemonena and most successful computational
 models. Along the way we will cover machine learning techniques which
 are especially relevant to natural language processing.
 
-[Readings](#readings)
-[Grading](#grading)
-[Help](#help)
-[Policies](#policies)
+- [Readings](#readings)
+- [Grading](#grading)
+- [Help](#help)
+- [Policies](#policies)
 
 # Learning goals
 <a name="learning"/>
