@@ -1,40 +1,36 @@
 CS 4650 and 7650
 ==========
+
 - **Course**: Natural Language Understanding
 - **Instructor**: Jacob Eisenstein
-- **Semester**: Fall 2015
+- **Semester**: Spring 2017
 - **Time**: Mondays and Wednesdays, 3:05-4:25pm
-- **TAs**: TBD
+- **TAs**: Umashanthi Pavalanathan, Robert Guthrie
 - [Schedule](Schedule.md)
-- [Grading](Grading.md)
-- [Policies](Policies.md) (including office hours)
 
-This course gives an overview of modern statistical techniques for
-analyzing natural language. The rough organization is to move from
-shallow bag-of-words models to richer structural representations of
-how words interact to create meaning. At each level, we will discuss
+This course gives an overview of modern data-driven techniques for
+computationally analyzing natural language. The course moves from shallow bag-of-words models to richer structural representations of how words interact to create meaning. At each level, we will discuss
 the salient linguistic phemonena and most successful computational
 models. Along the way we will cover machine learning techniques which
 are especially relevant to natural language processing.
 
-## Learning goals ##
-- Acquire the fundamental linguistic concepts that are relevant to language technology. This goal will be assessed in the short homework assignments, midterm, and class participation.
+# Learning goals #
+
+- Acquire the fundamental linguistic concepts that are relevant to language technology. This goal will be assessed in the short homework assignments and the exams.
 - Analyze and understand state-of-the-art algorithms and statistical
   techniques for reasoning about linguistic data. This goal will be
-  assessed in the midterm, the assigned projects, and class
-  participation.
+  assessed in the exams and the assigned projects.
 - Implement state-of-the-art algorithms and statistical techniques for
   reasoning about linguistic data. This goal will be assessed in the
-  assigned and independent projects.
+  assigned projects.
 - Adapt and apply state-of-the-art language technology to new problems
-  and settings. This goal will be assessed in the independent project.
+  and settings. This goal will be assessed in assigned projects.
 - (7650 only) Read and understand current research on natural language
-  processing. This goal will be assessed in assigned projects and
-  classroom participation.
+  processing. This goal will be assessed in assigned projects.
 
 The assignments, readings, and schedule are subject to change, but I will try to give as much advance notice as possible.
 
-## Readings ##
+# Readings #
 
 Readings will be drawn from my notes, from published papers and tutorials, and from the following two texts:
 
@@ -42,7 +38,7 @@ Readings will be drawn from my notes, from published papers and tutorials, and f
 You should be able to access this PDF for free from a Georgia Tech computer.
 - [Foundations of Statistical NLP](http://nlp.stanford.edu/fsnlp/). A PDF version is accessible through the GT library.
 
-### Supplemental textbooks ###
+## Supplemental textbooks ##
 
 These are completely optional, but might deepen your understanding of the material.
 
@@ -51,7 +47,7 @@ These are completely optional, but might deepen your understanding of the materi
 shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and also brings a strong linguistic perspective.
 - [Schaum's Outline of Probability and Statistics](http://www.amazon.com/Schaums-Outline-Probability-Statistics-Edition/dp/007179557X/ref=pd_sim_b_1?ie=UTF8&refRID=1R57HWNCW6EEWD1ZRH4C) can help you review the probability and statistics that we use in this course.
 
-## Prerequisites ##
+# Prerequisites #
 
 The official prerequisite for CS 4650 is CS 3510/3511, "Design and Analysis of Algorithms." This prerequisite is essential because understanding natural language processing algorithms requires familiarity with dynamic programming, as well as automata and formal language theory: finite-state and context-free languages, NP-completeness, etc. While course prerequisites are not enforced for graduate students, prior exposure to analysis of algorithms is very strongly recommended.
 
@@ -75,3 +71,50 @@ prerequisites. Frequent cases are:
 Students in the first group suffer in the exam and don't understand
 the lectures, and students in the second group suffer in the problem sets. My advice is to get the background material first, and
 then take this course.
+
+# Graded material #
+
+The graded material for the course will consist of:
+
+- Seven short homework assignments, of which you must do five. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than an hour. Each homework is worth 2 points (10 total). 
+- Five assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth ten points (50 total). Students enrolled in CS 7650 will have an additional, research-oriented component to several of the problem sets.
+- An in-class midterm exam, worth 20 points, and a final exam, worth 20 points. The purpose of these exams are to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. Barring a personal emergency or an institute-approved absence, you must take the exam on the days indicated in the schedule. See [here](http://www.deanofstudents.gatech.edu/content/25/absences) and [here](http://www.registrar.gatech.edu/students/formlanding/iaabsences.php) for more information on GT policy about absences.
+
+## Late policy
+
+Problem sets will be accepted up to three days late, at a penalty of 20% per day. This means that a project turned in at the end of class on the due date can receive a maximum score of 8/10 points towards your final grade. It's usually best just to turn in what you have at the due date. Late homeworks will not be accepted. This late policy is intended to ensure fair and timely evaluation.
+
+## Collaboration policy
+
+One of the goals of the assigned work is to assess your individual progress in meeting the learning objectives of the course. You may discuss the homework and projects with other students, but your work must be your own -- particularly all coding and writing. For example:
+
+- **Acceptable**: Alice and Bob discuss alternatives for storing large, sparse vectors of feature counts, as required by a problem set.
+- **Unacceptable**: Alice and Bob work together to write code for storing feature counts.
+- **Acceptable**: Bob is confused about how to implement the Viterbi algorithm, and asks Alice for a conceptual description of her strategy.
+- **Unacceptable**: Alice and Bob divide the assignment into parts, and each write the code for their part, and then share their solutions with each other to complete the assignment.
+- **Acceptable**: Alice asks Bob if he encountered a failure condition at a "sanity check" in a coding assignment, and Bob explains at a conceptual level how he overcame that failure condition.
+- **Unacceptable**: Alice or Bob obtain a solution to a previous year's assignment or to a related assignment in another class, and use it as the starting point for their own solution.
+- **Acceptable**: Alice is having trouble getting adequate performance from her part-of-speech tagger. She finds a blog page or research paper that gives her some new ideas, which she implements.
+- **Unacceptable**: Bob is having trouble getting adequate performance from his part-of-speech tagger. He finds source code online, and copies it into her own submission.
+- **Unacceptable**: Alice wants to win the Kaggle competition for a problem set. He finds the test set online, and customizes his submission to do well on it.
+
+Some assignments will involve written responses. Using other people’s text or figures without attribution is plagiarism, and is never acceptable.
+
+Suspected cases of academic misconduct will be (and have been!) referred to the Honor Advisory Council. For any questions involving these or any other Academic Honor Code issues, please consult me, my teaching assistants, or http://www.honor.gatech.edu.
+
+# Getting help
+
+Office hours: TBA
+
+If you cannot make it to office hours, please email cs-4650-7650-spring-2017-staff@googlegroups.com to make an appointment. It is unlikely that I will be able to chat if you just stop by my office. The same is true for the TAs.
+
+Please use Piazza rather than personal email to ask questions. This helps other students, who may have the same question. Personal emails may not be answered.
+
+## In Class ##
+
+Attendance will not be taken, but **you are responsible for knowing what happens in every class**. I will try to post slides and notes online, and to share announcements on T-Square, but there are no guarantees. So if you cannot attend class, make sure you check up with someone who was there.
+
+Respect your classmates and your instructor by avoiding distractions. This means be there on time, turn off your cellphone, and save side conversations for after class. Also, if you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
+
+Multiple studies have shown that using a laptop in class -- even for taking notes -- reduces students' educational attainment. See [here](http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html) for a popular press article summarizing this research. I suggest you try pen and paper for a few weeks, and see if it helps you concentrate.
+
