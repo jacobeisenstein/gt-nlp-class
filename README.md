@@ -6,7 +6,7 @@ CS 4650 and 7650
 - **Semester**: Spring 2017
 - **Time**: Mondays and Wednesdays, 3:05-4:25pm
 - **TAs**: Umashanthi Pavalanathan, Robert Guthrie
-- [Schedule](Schedule.md)
+- [Schedule](Schedule.xls)
 
 This course gives an overview of modern data-driven techniques for
 computationally analyzing natural language. The course moves from shallow bag-of-words models to richer structural representations of how words interact to create meaning. At each level, we will discuss
