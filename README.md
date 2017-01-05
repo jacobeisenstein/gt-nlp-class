@@ -6,7 +6,7 @@ CS 4650 and 7650
 - **Semester**: Spring 2017
 - **Time**: Mondays and Wednesdays, 3:05-4:25pm
 - **TAs**: Umashanthi Pavalanathan, Robert Guthrie
-- [Schedule](Schedule.xls)
+- [Schedule](https://docs.google.com/spreadsheets/d/178zOzls_H7LBwRRtKDhCUFd4b_pEaZVlTKI7PSj1vqw/edit?usp=sharing)
 
 This course gives an overview of modern data-driven techniques for
 computationally analyzing natural language. The course moves from shallow bag-of-words models to richer structural representations of how words interact to create meaning. At each level, we will discuss
@@ -116,5 +116,5 @@ Attendance will not be taken, but **you are responsible for knowing what happens
 
 Respect your classmates and your instructor by avoiding distractions. This means be there on time, turn off your cellphone, and save side conversations for after class. Also, if you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
 
-Multiple studies have shown that using a laptop in class -- even for taking notes -- reduces students' educational attainment. See [here](http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html) for a popular press article summarizing this research. I suggest you try pen and paper for a few weeks, and see if it helps you concentrate.
+[Multiple studies](http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html) have shown that using a laptop in class -- even for taking notes -- reduces students' educational attainment. I suggest you try pen and paper for a few weeks, and see if it helps you concentrate. Whatever technology you decide to use, it is your responsibility to ensure that it does not distract your classmates or me.
 
