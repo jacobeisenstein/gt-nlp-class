@@ -60,8 +60,12 @@ shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and
 The graded material for the course will consist of:
 
 - Seven short homework assignments, of which you must do five. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than an hour. Each homework is worth 2 points (10 total). 
-- Five assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth ten points (50 total). Students enrolled in CS 7650 will have an additional, research-oriented component to several of the problem sets.
+- Five assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth ten points (50 total). Students enrolled in CS 7650 will have an additional, research-oriented component to the problem sets.
 - An in-class midterm exam, worth 20 points, and a final exam, worth 20 points. The purpose of these exams are to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. Barring a personal emergency or an institute-approved absence, you must take the exam on the days indicated in the schedule. See [here](http://www.deanofstudents.gatech.edu/content/25/absences) and [here](http://www.registrar.gatech.edu/students/formlanding/iaabsences.php) for more information on GT policy about absences.
+
+## Late policy
+
+Problem sets will be accepted up to 72 hours late, at a penalty of 20% per 24 hours. (Maximum score after missing the deadline: 8/10; maximum score 24 hours after the deadline: 6/10, etc.)  It is usually best just to turn in what you have at the due date. Late homeworks will not be accepted. This late policy is intended to ensure fair and timely evaluation.
 
 # Getting help
 <a name="help"/>
@@ -80,10 +84,6 @@ Attendance will not be taken, but **you are responsible for knowing what happens
 Respect your classmates and your instructor by avoiding distractions. This means be there on time, turn off your cellphone, and save side conversations for after class. Also, if you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
 
 [Multiple studies](http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html) have shown that using a laptop in class -- even for taking notes -- reduces students' educational attainment. I suggest you try pen and paper for a few weeks, and see if it helps you concentrate. Whatever technology you decide to use, it is your responsibility to ensure that it does not distract your classmates or me.
-
-## Late policy
-
-Problem sets will be accepted up to three days late, at a penalty of 20% per day. This means that a project turned in at the end of class on the due date can receive a maximum score of 8/10 points towards your final grade. It's usually best just to turn in what you have at the due date. Late homeworks will not be accepted. This late policy is intended to ensure fair and timely evaluation.
 
 ## Prerequisites
 <a name="prerequisites"/>
