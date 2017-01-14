@@ -5,7 +5,7 @@ CS 4650 and 7650
 - **Instructor**: Jacob Eisenstein
 - **Semester**: Spring 2017
 - **Time**: Mondays and Wednesdays, 3:05-4:25pm
-- **TAs**: Umashanthi Pavalanathan, Robert Guthrie
+- **TAs**: Umashanthi Pavalanathan, Robert Guthrie, James Mullenbach
 - [Schedule](https://docs.google.com/spreadsheets/d/178zOzls_H7LBwRRtKDhCUFd4b_pEaZVlTKI7PSj1vqw/edit?usp=sharing)
 
 This course gives an overview of modern data-driven techniques for
@@ -70,11 +70,18 @@ Problem sets will be accepted up to 72 hours late, at a penalty of 20% per 24 ho
 # Getting help
 <a name="help"/>
 
-Office hours: TBA
+## Office hours
 
-If you cannot make it to office hours, please email cs-4650-7650-spring-2017-staff@googlegroups.com to make an appointment. It is unlikely that I will be able to chat if you just stop by my office. The same is true for the TAs.
+- James: Mon 10:30-11:30 (starting 1/23)
+- Jacob: Tues 3-4pm (CCB 316)
+- Umashanthi: Wed 1:00 - 2:00
+- Robert: Thurs 9:30-10:30
 
-Please use Piazza rather than personal email to ask questions. This helps other students, who may have the same question. Personal emails may not be answered.
+Robert will meet in the COC common area. We're hoping to get CCB 360B for Umashanthi and James' office hours, but it's not finalized yet.
+
+## Online help
+
+Please use Piazza rather than personal email to ask questions. This helps other students, who may have the same question. Personal emails may not be answered. If you cannot make it to office hours, please use Piazza to make an appointment. It is unlikely that I will be able to chat if you make an unscheduled visit to my office. The same is true for the TAs.
 
 # Class policies
 <a name="policies"/>
