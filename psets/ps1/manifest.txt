@@ -1,0 +1,17 @@
+pset1.ipynb
+text-answers.md
+hand-test.preds
+nb-test.preds
+nb-best-test.preds
+perc-dev.preds
+perc-test.preds
+avp-dev.preds
+avp-test.preds
+lr-dev.preds
+lr-test.preds
+lr-best-dev.preds
+lr-best-test.preds
+bakeoff-dev.preds
+bakeoff-test.preds
+gtnlplib/*.py
+gtnlplib/text-answers.md
