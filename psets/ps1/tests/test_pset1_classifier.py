@@ -131,7 +131,7 @@ def test_perc_d4_1():
 
     # public 
     labels = set(y_tr)
-    theta_perc = hand_weights.theta_hand.copy()
+    theta_perc = hand_weights.theta_hand_original.copy()
 
     update = perceptron.perceptron_update(x_tr[110],y_tr[110],theta_perc,labels)
     eq_(len(update),0)
