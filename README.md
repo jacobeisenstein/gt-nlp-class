@@ -74,11 +74,10 @@ Problem sets will be accepted up to 72 hours late, at a penalty of 20% per 24 ho
 ## Office hours
 
 - James: Mon 10:30-11:30 (CCB commons)
-- Jacob: Tues 3-4pm (CCB 316)
+- Jacob: Tues 3:00-4:00 (CCB 316)
 - Umashanthi: Wed 1:00 - 2:00 (CCB commons)
 - Robert: Thurs 9:30-10:30 (CCB commons)
-
-Robert will meet in the COC common area. We're hoping to get CCB 360B for Umashanthi and James' office hours, but it's not finalized yet.
+- Murali: Friday 2:00-3:00 (CCB commons)
 
 ## Online help
 
