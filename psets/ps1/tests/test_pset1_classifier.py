@@ -172,11 +172,17 @@ def test_perc_d4_2_test():
 def test_avp_d4_3():
     global y_dv, x_tr, y_tr
 
-    # run on a subset of data
     theta_avp,theta_avp_history = perceptron.estimate_avg_perceptron(x_tr[:10],y_tr[:10],3)
-    assert_almost_equals(theta_avp[('science','what')],3.2258,places=2)
+    # with t=0 initialization
+    #assert_almost_equals(theta_avp[('science','what')],3.2,places=1)
+    # with t=1 initialization
+    assert_almost_equals(theta_avp[('science','what')],3.2258,places=1)
     assert_almost_equals(theta_avp[('science','its')],0,places=2)
-    assert_almost_equals(theta_avp[('worldnews','its')],0.871,places=2)
+
+    # with t=0 initialization
+    #assert_almost_equals(theta_avp[('worldnews','its')],0.866,places=1)
+    # with t=1 initialization
+    assert_almost_equals(theta_avp[('worldnews','its')],0.871,places=1)
     
     y_hat_dv = evaluation.read_predictions('avp-dev.preds')
     # i get 66.4% accuracy
