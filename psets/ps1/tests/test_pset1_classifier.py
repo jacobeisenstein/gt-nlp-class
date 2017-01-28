@@ -103,7 +103,7 @@ def test_nb_d3_3():
 def test_nb_d3_3_test():
     # NOTE! This test is for the TAs to run
     # You cannot pass this test without the true test labels.
-    # This is a sanity check to make sure your solution for 2.3 is not too crazy
+    # This is a sanity check to make sure your solution for 3.3 is not too crazy
 
     global y_te
     y_hat_te = evaluation.read_predictions('nb-test.preds')
@@ -119,7 +119,7 @@ def test_nb_d3_4():
 def test_nb_d3_4_test():
     # NOTE! This test is for the TAs to run
     # You cannot pass this test without the true test labels.
-    # This is a sanity check to make sure your solution for 2.3 is not too crazy
+    # This is a sanity check to make sure your solution for 3.4 is not too crazy
 
     global y_te
     y_hat_te = evaluation.read_predictions('nb-best-test.preds')
@@ -161,7 +161,7 @@ def test_perc_d4_2():
 def test_perc_d4_2_test():
     # NOTE! This test is for the TAs to run
     # You cannot pass this test without the true test labels.
-    # This is a sanity check to make sure your solution for 2.3 is not too crazy
+    # This is a sanity check to make sure your solution for 4.2 is not too crazy
 
     global y_te
     y_hat_te = evaluation.read_predictions('perc-test.preds')
@@ -172,11 +172,17 @@ def test_perc_d4_2_test():
 def test_avp_d4_3():
     global y_dv, x_tr, y_tr
 
-    # run on a subset of data
     theta_avp,theta_avp_history = perceptron.estimate_avg_perceptron(x_tr[:10],y_tr[:10],3)
-    assert_almost_equals(theta_avp[('science','what')],3.2258,places=2)
+    # with t=0 initialization
+    #assert_almost_equals(theta_avp[('science','what')],3.2,places=1)
+    # with t=1 initialization
+    assert_almost_equals(theta_avp[('science','what')],3.2258,places=1)
     assert_almost_equals(theta_avp[('science','its')],0,places=2)
-    assert_almost_equals(theta_avp[('worldnews','its')],0.871,places=2)
+
+    # with t=0 initialization
+    #assert_almost_equals(theta_avp[('worldnews','its')],0.866,places=1)
+    # with t=1 initialization
+    assert_almost_equals(theta_avp[('worldnews','its')],0.871,places=1)
     
     y_hat_dv = evaluation.read_predictions('avp-dev.preds')
     # i get 66.4% accuracy
@@ -185,7 +191,7 @@ def test_avp_d4_3():
 def test_perc_d4_3_test():
     # NOTE! This test is for the TAs to run
     # You cannot pass this test without the true test labels.
-    # This is a sanity check to make sure your solution for 2.3 is not too crazy
+    # This is a sanity check to make sure your solution for 4.3 is not too crazy
 
     global y_te
     y_hat_te = evaluation.read_predictions('avp-test.preds')
@@ -224,7 +230,7 @@ def test_lr_d5_2():
 def test_lr_d5_2_test():
     # NOTE! This test is for the TAs to run
     # You cannot pass this test without the true test labels.
-    # This is a sanity check to make sure your solution for 2.3 is not too crazy
+    # This is a sanity check to make sure your solution for 5.2 is not too crazy
 
     global y_te
     y_hat_te = evaluation.read_predictions('lr-test.preds')
@@ -239,7 +245,7 @@ def test_lr_d5_3():
 def test_lr_d5_3_test():
     # NOTE! This test is for the TAs to run
     # You cannot pass this test without the true test labels.
-    # This is a sanity check to make sure your solution for 2.3 is not too crazy
+    # This is a sanity check to make sure your solution for 5.3 is not too crazy
 
     global y_te
     y_hat_te = evaluation.read_predictions('lr-best-test.preds')
