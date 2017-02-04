@@ -12,7 +12,19 @@ def perceptron_update(x,y,weights,labels):
     :rtype: defaultdict
 
     """
-    raise NotImplementedError
+    update = defaultdict(float)
+    # getting y head
+    y_head, scores = predict(x, weights, labels)
+ 
+
+    if y != y_head:
+        fv_y = make_feature_vector(x, y)
+        fv_y_head = make_feature_vector(x, y_head)
+        for key, val in fv_y.items():
+            update[key] += val
+        for key, val in fv_y_head.items():
+            update[key] -= val
+
     return update
 
 
@@ -33,7 +45,9 @@ def estimate_perceptron(x,y,N_its):
     for it in xrange(N_its):
         for x_i,y_i in zip(x,y):
             # YOUR CODE GOES HERE
-            raise NotImplementedError
+            updates = perceptron_update(x_i, y_i, weights, labels)
+            for k,v in updates.items():
+                weights[k] += v
         weight_history.append(weights.copy())
     return weights, weight_history
 
@@ -52,11 +66,19 @@ def estimate_avg_perceptron(x,y,N_its):
     w_sum = defaultdict(float) #hint
     weights = defaultdict(float)
     weight_history = []
-    
+
     t=1.0 #hint
     for it in xrange(N_its):
         for x_i,y_i in zip(x,y):
             # YOUR CODE GOES HERE
-            raise NotImplementedError
+            updates = perceptron_update(x_i, y_i, weights, labels)
+            for k,v in updates.items():
+                weights[k] += v
+                w_sum[k] += t*v
+            t += 1.0
+        avg_weights = defaultdict(float)
+        for k,v in w_sum.items():
+            avg_weights[k] = weights[k] - w_sum[k]/t
         weight_history.append(avg_weights.copy())
+
     return avg_weights, weight_history

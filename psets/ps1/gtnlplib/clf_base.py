@@ -13,8 +13,12 @@ def make_feature_vector(base_features,label):
     :rtype: dict
 
     """
-    raise NotImplementedError
-    
+    fv = dict()
+    fv[(label,OFFSET)] = 1
+    for k,v in base_features.items():
+    	fv[(label,k)] = v
+    return fv
+
 def predict(base_features,weights,labels):
     """prediction function
 
@@ -25,7 +29,18 @@ def predict(base_features,weights,labels):
     :rtype: string, dict
 
     """
-    raise NotImplementedError
+    scores = dict()
+    #initialize the dictionary
+    for label in labels:
+    	scores[label] = 0
+
+    # update scores in the dictionary
+    for label in labels:
+    	fv = make_feature_vector(base_features, label)
+    	for feature, value in fv.items():
+    		weight = weights[feature]
+    		scores [label] += weight*(value)
+
     return argmax(scores),scores
 
 def predict_all(x,weights,labels):
@@ -48,4 +63,7 @@ def get_top_features_for_label(weights,label,k=5):
     :returns: list of tuples of features and weights
     :rtype: list
     """
-    raise NotImplementedError
+    filtered_dict = { k:v for k,v in weights.iteritems() if label in k and v != 0.0}
+    top_5_weights = sorted(filtered_dict.iteritems(),key=lambda y : y[1], reverse=True)[:k]
+
+    return top_5_weights

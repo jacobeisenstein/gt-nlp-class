@@ -2,7 +2,7 @@ from scipy.misc import logsumexp #hint
 import numpy as np
 from collections import defaultdict
 
-from gtnlplib.clf_base import predict, make_feature_vector
+from gtnlplib.clf_base import predict, make_feature_vector, argmax
 from gtnlplib.constants import OFFSET
 
 def compute_py(x,weights,labels):
@@ -16,7 +16,16 @@ def compute_py(x,weights,labels):
 
     """
     # hint: you should use clf_base.predict and logsumexp
-    raise NotImplementedError
+    py = defaultdict(float)
+
+    y_hat, scores = predict(x, weights, labels)
+
+    denominator = sum(np.exp(scores.values()))
+
+    for y in labels:
+        py[y] = np.exp(scores[y])/denominator
+
+    return py
     
 def estimate_logreg(x,y,N_its,learning_rate=1e-4,regularizer=1e-2,lazy_reg=True):
     """estimate a logistic regression classifier
@@ -56,13 +65,18 @@ def estimate_logreg(x,y,N_its,learning_rate=1e-4,regularizer=1e-2,lazy_reg=True)
             if not lazy_reg: # for testing/explanatory purposes only
                 for feat,weight in weights.iteritems():
                     if feat[1] is not OFFSET: # usually don't regularize offset
-                        weights[feat] -= ratereg * weight
+                        weights[feat] += ratereg * weight
 
             p_y = compute_py(x_i,weights,all_labels) #hint
 
-            # YOUR CODE GOES HERE
-            
-            raise NotImplementedError
+            fv_y = make_feature_vector(x_i, y_i)
+            for key, val in fv_y.items():
+                weights[key] += learning_rate*val
+
+            for yii in all_labels:
+                for xii, xcount in x_i.items():
+                    weights[(yii,xii)] -= learning_rate*p_y[yii]*xcount
+                weights[(yii,OFFSET)] -= learning_rate*p_y[yii]
 
         print it,
         weight_hist.append(weights.copy()) 

@@ -1,6 +1,11 @@
 import nltk
+import string
 import pandas as pd
 from collections import Counter
+from nltk import word_tokenize
+from nltk.corpus import stopwords
+
+nltk.download('punkt')
 
 def tokenize_and_downcase(string,vocab=None):
     """for a given string, corresponding to a document:
@@ -13,8 +18,14 @@ def tokenize_and_downcase(string,vocab=None):
     :rtype: Counter
 
     """
+    # use nltk built-in function to break it into sentences
+
     bow = Counter()
-    raise NotImplementedError
+    sents = nltk.sent_tokenize(string)
+    for sent in sents:
+        tempToken = nltk.word_tokenize(sent)
+        bow += Counter([w.lower() for w in tempToken])
+
     return bow
 
 
@@ -33,7 +44,7 @@ def get_corpus_counts(list_of_bags_of_words):
     return counts
 
 ### Secret bakeoff code
-def custom_preproc(string):
+def custom_preproc(string1):
     """for a given string, corresponding to a document, tokenize first by sentences and then by word; downcase each token; return a Counter of tokens and frequencies.
 
     :param string: input document
@@ -41,6 +52,12 @@ def custom_preproc(string):
     :rtype: Counter
 
     """
+    #sw = stopwords.words('english')
     bow = Counter()
-    raise NotImplementedError
+    sents = nltk.sent_tokenize(string1)
+    translate_table = dict((ord(char), None) for char in string.punctuation)   
+    for sent in sents:
+        tempToken = nltk.word_tokenize(sent.translate(translate_table))
+        bow += Counter([w.lower() for w in tempToken])
+
     return bow
