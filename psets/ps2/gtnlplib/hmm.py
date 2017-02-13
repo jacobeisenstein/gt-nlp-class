@@ -13,10 +13,13 @@ def hmm_features(tokens,curr_tag,prev_tag,m):
     :param i: index of token to be tagged
     :returns: dict of features and counts
     :rtype: dict
-
     """
-    raise NotImplementedError
-    
+
+    d = {}
+    d[(curr_tag,prev_tag,TRANS)] = 1
+    if m < len(tokens):
+        d[(curr_tag,tokens[m],EMIT)] = 1
+    return d
 
 def compute_HMM_weights(trainfile,smoothing):
     """Compute all weights for the HMM
@@ -37,7 +40,23 @@ def compute_HMM_weights(trainfile,smoothing):
     # hint: Counter.update() combines two Counters
 
     # hint: return weights, all_tags
-    raise NotImplementedError
+    tag_word_counts = most_common.get_tag_word_counts(trainfile)
+    weight_emit = naive_bayes.estimate_nb_tagger(tag_word_counts, smoothing)
+    weight_tran = compute_transition_weights(tag_trans_counts, smoothing)
+
+    all_tags.append(END_TAG)
+
+    for tag in all_tags:
+        weight_tran[tag,END_TAG,TRANS] = -np.inf
+
+    weight_update_emit = defaultdict(float)
+    for k,v in weight_emit.iteritems():
+        if k[1] != OFFSET:
+            weight_update_emit[k[0],k[1],EMIT] = v
+
+    weight_update_emit.update(weight_tran)
+
+    return weight_update_emit, all_tags
 
 
 def compute_transition_weights(trans_counts, smoothing):
@@ -54,6 +73,20 @@ def compute_transition_weights(trans_counts, smoothing):
     """
 
     weights = defaultdict(float)
-    raise NotImplementedError
-    
+    all_tags = trans_counts.keys()
+    all_tags.remove(START_TAG)
+    all_tags.append(END_TAG)
 
+    for prev_tag, cc in trans_counts.iteritems():
+        tot_v = sum(cc.values()) + len(all_tags)*smoothing
+        for curr_tag in all_tags:
+            cur_v = 0
+            if trans_counts[prev_tag][curr_tag] != None:
+                cur_v = trans_counts[prev_tag][curr_tag]
+            weights[(curr_tag,prev_tag,TRANS)] = np.log((cur_v + 0.0 + smoothing)/tot_v)
+        weights[(START_TAG,prev_tag,TRANS)] = -np.inf
+    weights[START_TAG, START_TAG, TRANS] = -np.inf
+
+
+    return weights
+    

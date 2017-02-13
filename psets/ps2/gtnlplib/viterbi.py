@@ -1,6 +1,6 @@
 import operator
 from collections import defaultdict, Counter
-from gtnlplib.constants import START_TAG,END_TAG
+from gtnlplib.constants import START_TAG,END_TAG, TRANS, EMIT
 import numpy as np
 
 def argmax(scores):
@@ -25,16 +25,20 @@ def viterbi_step(tag, m, words, feat_func, weights, prev_scores):
     :rtype: tuple
 
     """
+    scores = {}
+    for prev_tag, prev_score in prev_scores.iteritems():
+        feats = feat_func(words, tag, prev_tag, m)
+        if type(prev_score) == tuple:
+            prev_score = prev_score[0]
+        scores[prev_tag] = prev_score
+        for f,v in feats.iteritems():
+            weight = weights[f]
+            scores[prev_tag] += weight
 
-    raise NotImplementedError
-    
-    feats = None #replace with something smart
-    
-    scores = None #replace with something smart
 
     best_score = max(scores.values())
     best_tag = argmax(scores)
-    
+
     return best_score, best_tag
 
 def build_trellis(tokens,feat_func,weights,all_tags):
@@ -51,17 +55,22 @@ def build_trellis(tokens,feat_func,weights,all_tags):
     :rtype: list of dicts
 
     """
-    raise NotImplementedError
-    
-    trellis = [None]*(len(tokens))
 
+    trellis = [None]*(len(tokens))
+    prev = {}
     # build the first column separately
-    trellis[0] = None # your code here
-    
+    for tag in all_tags:
+        prev[tag] = viterbi_step(tag, 0, tokens, feat_func, weights,{START_TAG:0})
+    trellis[0] = prev
+
     # iterate over the remaining columns
     for m in range(1,len(tokens)):
-        trellis[m] = None # your code here (call viterbi_step)
-        
+        prev = trellis[m-1]
+        temp = {}
+        for tag in all_tags:
+            temp[tag] = viterbi_step(tag, m, tokens, feat_func, weights, prev)
+        trellis[m] = temp
+
     return trellis
 
 
@@ -80,20 +89,21 @@ def viterbi_tagger(tokens,feat_func,weights,all_tags):
         is the tag of words[i])
         best_score -- The highest score of any sequence of tags
     """
-    raise NotImplementedError
-    
-    trellis = build_trellis(tokens,feat_func,weights,all_tags)
 
+    trellis = build_trellis(tokens,feat_func,weights,all_tags)
     # Step 1: find last tag and best score
-    final_scores = None #your code here
+    final_scores = trellis[len(trellis)-1]
+    for tag,v in final_scores.iteritems():
+        final_scores[tag] = (v[0] + weights[END_TAG, tag, TRANS],v[1])
 
     last_tag = argmax(final_scores)
-    best_score = max(final_scores.values())
+    best_score = max([v[0] for v in final_scores.values()])
 
     # Step 2: walk backwards through trellis to find best tag sequence
     output = [last_tag] # keep
     for m,v_m in enumerate(reversed(trellis[1:])): #keep
-        pass # your code here
+        last_tag = (v_m[last_tag])[1]
+        output = [last_tag] + output
 
     return output,best_score
 

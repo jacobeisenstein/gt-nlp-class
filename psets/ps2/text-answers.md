@@ -18,7 +18,10 @@ Do you think the predicted tags "PRON AUX AUX NOUN" for the sentence "They can c
 The HMM weights include a weight of zero for the emission of unseen words. Please explain:
 
 - why this is a violation of the HMM probability model explained in the notes;
+And out emission model can't include offset, which represent the words not appeared in the traning set, because we cannot or haven't tag it.
+
 - How, if at all, this will affect the overall tagging.
+The output will be overfit to the training set and cannot tag the word that not appeared in the training set with the correct tag.
 
 # 5.1 (1 point 4650; 0.5 points 7650)
 
