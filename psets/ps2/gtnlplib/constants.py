@@ -1,6 +1,6 @@
 # You may store the dataset anywhere you want.
 # Make the appropriate changes to the following constants.
-
+GRADING = '4650'
 TRAIN_FILE = 'data/en-ud-train.conllu'
 DEV_FILE = 'data/en-ud-dev.conllu'
 TEST_FILE_UNLABELED = 'data/en-ud-test-hidden.conllu'
