@@ -1,5 +1,7 @@
 import operator
 from collections import defaultdict, Counter
+
+from gtnlplib import preproc
 from gtnlplib.preproc import conll_seq_generator
 from gtnlplib.constants import OFFSET, START_TAG, END_TAG
 
@@ -18,8 +20,9 @@ def get_tag_word_counts(filename):
     # your code here
     # hint: for words, tags in enumerate(preproc.conll_seq_generator(TRAIN_FILE)):
 
-    raise NotImplementedError
-
+    for words, tags in enumerate(preproc.conll_seq_generator(filename)):
+        for word, tag in zip(tags[0], tags[1]):
+            all_counters[tag][word] += 1
     return all_counters
 
 def get_noun_weights():
@@ -41,8 +44,17 @@ def get_most_common_word_weights(trainfile):
     :rtype: defaultdict
 
     """
+    all_counters = defaultdict(lambda: Counter())
+    for words, tags in enumerate(preproc.conll_seq_generator(trainfile)):
+        for word, tag in zip(tags[0], tags[1]):
+            all_counters[word][tag] += 1
     weights = defaultdict(float)
-    raise NotImplementedError
+    for word in all_counters.keys():
+        sum = 0
+        for tag in all_counters[word].keys():
+            sum += all_counters[word][tag]
+        for tag in all_counters[word].keys():
+            weights[(tag, word)] = float(all_counters[word][tag])/sum
     return weights
 
 def get_tag_trans_counts(trainfile):

@@ -1,8 +1,9 @@
 from gtnlplib import scorer
 from gtnlplib import preproc
-from gtnlplib import clf_base # call clf_base.predict
+from gtnlplib import clf_base  # call clf_base.predict
 from gtnlplib.constants import DEV_FILE, OFFSET, TRAIN_FILE
 import operator
+
 
 def make_classifier_tagger(weights):
     """
@@ -12,7 +13,8 @@ def make_classifier_tagger(weights):
     :rtype: function
 
     """
-    # inner function, which is what you return    
+
+    # inner function, which is what you return
     def classify(words, all_tags):
         """This nested function should return a list of tags, computed using a classifier with the weights passed as arguments to make_classifier_tagger
 
@@ -22,26 +24,36 @@ def make_classifier_tagger(weights):
         :rtype: list
 
         """
-        return None
+        ret = []
+        for word in words:
+            max_val = (0.0, 'NOUN')
+            for tag in all_tags:
+                if max_val[0] < weights[(tag, word)]:
+                    max_val = (weights[(tag, word)], tag)
+            ret.append(max_val[1])
+        return ret
+
     return classify
 
-def apply_tagger(tagger,outfilename,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE):
+
+def apply_tagger(tagger, outfilename, all_tags=None, trainfile=TRAIN_FILE, testfile=DEV_FILE):
     if all_tags is None:
-       all_tags = set()
+        all_tags = set()
 
-       # this is slow
-       for i,(words, tags) in enumerate(preproc.conll_seq_generator(trainfile)):
-           for tag in tags:
-               all_tags.add(tag)
-            
-    with open(outfilename,'w') as outfile:
-        for words,_ in preproc.conll_seq_generator(testfile):
-            pred_tags = tagger(words,all_tags)
-            for i,tag in enumerate(pred_tags):
-                print >>outfile, tag
-            print >>outfile, ""
+        # this is slow
+        for i, (words, tags) in enumerate(preproc.conll_seq_generator(trainfile)):
+            for tag in tags:
+                all_tags.add(tag)
 
-def eval_tagger(tagger,outfilename,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE):
+    with open(outfilename, 'w') as outfile:
+        for words, _ in preproc.conll_seq_generator(testfile):
+            pred_tags = tagger(words, all_tags)
+            for i, tag in enumerate(pred_tags):
+                print >> outfile, tag
+            print >> outfile, ""
+
+
+def eval_tagger(tagger, outfilename, all_tags=None, trainfile=TRAIN_FILE, testfile=DEV_FILE):
     """Calculate confusion_matrix for a given tagger
 
     Parameters:
@@ -53,5 +65,5 @@ def eval_tagger(tagger,outfilename,all_tags=None,trainfile=TRAIN_FILE,testfile=D
     Returns:
     confusion_matrix -- dict of occurences of (true_label, pred_label)
     """
-    apply_tagger(tagger,outfilename,all_tags,trainfile,testfile)
-    return scorer.get_confusion(testfile,outfilename) #run the scorer on the prediction file
+    apply_tagger(tagger, outfilename, all_tags, trainfile, testfile)
+    return scorer.get_confusion(testfile, outfilename)  # run the scorer on the prediction file
