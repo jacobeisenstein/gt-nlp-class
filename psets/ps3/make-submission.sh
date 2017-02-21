@@ -1,0 +1,10 @@
+tar cvzf pset3-submission.tgz `cat manifest.txt`
+echo ""
+echo "--------------------------------"
+echo ""
+echo "This submission script is provided as a convenience."
+echo "It is up to you to make sure that necessary files are submitted."
+echo ""
+echo "This includes all source files specified in the manifest.txt"
+echo "Also submit all .preds files necessary to run the unit tests."
+echo "You can check this by running \"tar tvzf pset3-submission.tgz\""

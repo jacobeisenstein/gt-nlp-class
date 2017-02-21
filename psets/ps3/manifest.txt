@@ -1,0 +1,11 @@
+pset3.ipynb
+*.preds
+gtnlplib/constants.py
+gtnlplib/features.py
+gtnlplib/__init__.py
+gtnlplib/preproc.py
+gtnlplib/scorer.py
+gtnlplib/structure_perceptron.py
+gtnlplib/tagger_base.py
+gtnlplib/viterbi.py
+text-answers.md
