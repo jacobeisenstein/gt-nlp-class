@@ -74,7 +74,7 @@ def plot_learning_curve(testfile, tagger_func, features, weight_hist, all_tags, 
     lines = plt.plot(accs,lineformat)
     return lines
     
-def apply_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE):
+def apply_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE,kaggle=False):
     if all_tags is None:
        all_tags = set()
 
@@ -84,12 +84,20 @@ def apply_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,test
                all_tags.add(tag)
         
     with open(outfilename,'w') as outfile:
+        idx = 1
+        if kaggle:
+            outfile.write("Id,Prediction")
         for words,_ in preproc.conll_seq_generator(testfile):
             pred_tags = tagger(words,all_tags)
-            for i,tag in enumerate(pred_tags):
-                print >>outfile, tag
-            print >>outfile, ""
-
+            if kaggle:
+                for tag in pred_tags:
+                    outfile.write("\n")
+                    outfile.write(str(idx) + "," + tag)
+                    idx += 1
+            else:
+                for i,tag in enumerate(pred_tags):
+                    print >>outfile, tag
+                print >>outfile, ""
 
 def eval_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE):
     """Calculate confusion_matrix for a given tagger
