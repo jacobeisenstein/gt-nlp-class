@@ -12,14 +12,12 @@ argmax = lambda x : max(x.iteritems(),key=lambda y : y[1])[0]
 # deliverable 1.2
 def classifier_tagger(tokens,feat_func,weights,all_tags):
     """function that tags a sequence of tokens using a classifier, with the given feature function and list of weights
-
     :param tokens: list of tokens to tag
     :param feat_func: feature function
     :param weights: defaultdict of weights
     :param all_tags: list of all possible tags
     :returns: list of predicted tags, score of best tag sequence
     :rtype: list, float
-
     """
 
     # the design of this function will be very similar to your clf_base.predict
@@ -27,23 +25,45 @@ def classifier_tagger(tokens,feat_func,weights,all_tags):
     # you can do this by looping, or by nested list and dict comprehensions
     # argmax will be part of your solution
     # you can just pass "IGNORE" for the prev_tag in the feature function
+    predict = []
+    scores = 0.0
 
-    raise NotImplementedError
+    for m in range(len(tokens)):
+        temp_score = defaultdict()
+        for tag in all_tags:
+            full_fv = feat_func(tokens, tag, "IGNORE", m)
+            temp_score[tag] = 0
+            for k,v in full_fv.iteritems():
+                weight = weights[k]
+                temp_score[tag] += weight*v
+        cur_best_tag = argmax(temp_score)
+        cur_best_score = temp_score[cur_best_tag]
+        predict.append(cur_best_tag)
+        scores += cur_best_score
+
+    return predict, scores
+
 
 # deliverable 1.3
 def compute_features(tokens,tags,feat_func):
     """compute dict of features and counts for a token and tag sequence
-
     :param tokens: list of tokens
     :param tags: list of tags
     :param feat_func: local feature function from (tokens,y_m,y_{m-1},m) --> dict of features and counts
     :returns: dict of features and counts over entire sequence
     :rtype: defaultdict
-
     """
     feats = dict()
     M = len(tokens)
-    raise NotImplementedError
+    tags = [START_TAG] + tags + [END_TAG]
+    for m in range(M+1):
+        fv = feat_func(tokens, tags[m+1], tags[m],m)
+        for k,v in fv.iteritems():
+            if k in feats.keys():
+                feats[k] += v+0.0
+            else:
+                feats[k] = v+0.0
+    return feats
 
 def eval_tagging_model(testfile,tagger_func,features,weights,all_tags,output_file=None):
     tagger = lambda words, all_tags : tagger_func(words,
@@ -74,7 +94,7 @@ def plot_learning_curve(testfile, tagger_func, features, weight_hist, all_tags, 
     lines = plt.plot(accs,lineformat)
     return lines
     
-def apply_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE):
+def apply_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE,kaggle=False):
     if all_tags is None:
        all_tags = set()
 
@@ -84,22 +104,28 @@ def apply_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,test
                all_tags.add(tag)
         
     with open(outfilename,'w') as outfile:
+        idx = 1
+        if kaggle:
+            outfile.write("Id,Prediction")
         for words,_ in preproc.conll_seq_generator(testfile):
             pred_tags = tagger(words,all_tags)
-            for i,tag in enumerate(pred_tags):
-                print >>outfile, tag
-            print >>outfile, ""
-
+            if kaggle:
+                for tag in pred_tags:
+                    outfile.write("\n")
+                    outfile.write(str(idx) + "," + tag)
+                    idx += 1
+            else:
+                for i,tag in enumerate(pred_tags):
+                    print >>outfile, tag
+                print >>outfile, ""
 
 def eval_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testfile=DEV_FILE):
     """Calculate confusion_matrix for a given tagger
-
     Parameters:
     tagger -- Function mapping (words, possible_tags) to an optimal
               sequence of tags for the words
     outfilename -- Filename to write tagger predictions to
     testfile -- (optional) Filename containing true labels
-
     Returns:
     confusion_matrix -- dict of occurences of (true_label, pred_label)
     """
@@ -114,5 +140,3 @@ def eval_tagger(tagger,outfilename=None,all_tags=None,trainfile=TRAIN_FILE,testf
         confusion = scorer.get_confusion(testfile,outfile.name) #run the scorer on the prediction file
 
     return confusion
-
-

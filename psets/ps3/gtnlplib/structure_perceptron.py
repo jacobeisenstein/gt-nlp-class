@@ -14,7 +14,17 @@ def sp_update(tokens,tags,weights,feat_func,tagger,all_tags):
     :rtype: defaultdict
 
     """
-    raise NotImplementedError
+    d_weights = defaultdict(float)
+    y_hats, score = tagger(tokens, feat_func, weights, all_tags)
+    fv_y_hat = tagger_base.compute_features(tokens,y_hats,feat_func)
+    fv_y = tagger_base.compute_features(tokens,tags,feat_func)
+
+    for k,v in fv_y_hat.iteritems():
+        d_weights[k] -= v
+    for k,v in fv_y.iteritems():
+        d_weights[k] += v
+
+    return d_weights
     
 def estimate_perceptron(labeled_instances,feat_func,tagger,N_its,all_tags=None):
     """Estimate a structured perceptron
@@ -48,9 +58,18 @@ def estimate_perceptron(labeled_instances,feat_func,tagger,N_its,all_tags=None):
                           {('NOUN',constants.OFFSET):1e-3})
 
     weight_history = []
+    w_sum = defaultdict(float)
+    t = 0.0
+    for it in xrange(N_its):
+        for tokens, tags in labeled_instances:
+            updates = sp_update(tokens, tags, weights, feat_func, tagger, all_tags)
+            for k,v in updates.items():
+                weights[k] += v
+                w_sum[k] += t*v
+            t += 1.0
+        avg_weights = defaultdict(float)
+        for k,v in weights.items():
+            avg_weights[k] = weights[k] - w_sum[k]/t
+        weight_history.append(avg_weights.copy())
 
-    # the rest is up to you!
-    raise NotImplementedError
-
-
-
+    return avg_weights, weight_history

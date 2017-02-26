@@ -14,7 +14,11 @@ def word_feats(words,y,y_prev,m):
     :rtype: dict
 
     """
-    fv = dict()    
+    fv = dict()
+    if (m < len(words)):
+        fv[y, constants.CURR_WORD_FEAT,words[m]] = 1
+    fv[y,constants.OFFSET] = 1
+
     return fv
 
 # Deliverable 2.1
@@ -32,7 +36,16 @@ def word_suff_feats(words,y,y_prev,m):
     :rtype: dict
 
     """
-    raise NotImplementedError
+    new_feat = word_feats(words, y, y_prev, m)
+    feat = dict()
+    for k,v in new_feat.iteritems():
+        if k[1] == constants.CURR_WORD_FEAT:
+            word = k[2][-2:]
+            feat[k[0],constants.SUFFIX_FEAT,word] = 1
+
+    new_feat.update(feat)
+    return new_feat
+
     
 def word_neighbor_feats(words,y,y_prev,m):
     """compute features for the current word being tagged, its predecessor, and its successor.
