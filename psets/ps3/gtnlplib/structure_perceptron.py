@@ -61,6 +61,7 @@ def estimate_perceptron(labeled_instances,feat_func,tagger,N_its,all_tags=None):
     w_sum = defaultdict(float)
     t = 0.0
     for it in xrange(N_its):
+    	print it,
         for tokens, tags in labeled_instances:
             updates = sp_update(tokens, tags, weights, feat_func, tagger, all_tags)
             for k,v in updates.items():
