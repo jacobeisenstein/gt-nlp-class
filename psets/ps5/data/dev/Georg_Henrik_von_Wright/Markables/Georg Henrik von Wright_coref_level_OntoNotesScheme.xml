@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_317" span="word_1..word_14" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_338" span="word_22..word_23" coref_class="set_3" topic="http://rdf.freebase.com/ns/m.04hcw" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_320" span="word_32..word_32" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_321" span="word_53..word_54" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_323" span="word_63..word_65" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_348" span="word_63..word_66" coref_class="set_6" topic="nan" coreftype="ident" mentiontype="np"  mmax_level="coref" />
+<markable id="markable_380" span="word_73..word_74" coref_class="set_21" topic="nan" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_383" span="word_76..word_77" coref_class="set_23" topic="http://rdf.freebase.com/ns/m.01500j" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_324" span="word_86..word_86" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_382" span="word_86..word_97" coref_class="set_22" topic="nan" coreftype="ident" mentiontype="np"  mmax_level="coref" />
+<markable id="markable_362" span="word_106..word_108" coref_class="set_2002" topic="http://rdf.freebase.com/ns/m.01x5k5" coreftype="ident" mentiontype="np" mmax_level="coref" />
+<markable id="markable_3620" span="word_110..word_110" coref_class="set_2002" topic="http://rdf.freebase.com/ns/m.01x5k5" coreftype="ident" mentiontype="pro" mmax_level="coref" />
+<markable id="markable_325" span="word_114..word_114" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_340" span="word_119..word_119" coref_class="set_3" topic="http://rdf.freebase.com/ns/m.04hcw" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_326" span="word_122..word_122" coref_class="set_3" topic="http://rdf.freebase.com/ns/m.04hcw" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_327" span="word_126..word_126" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_328" span="word_136..word_136" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_352" span="word_141..word_142" coref_class="set_7" topic="http://rdf.freebase.com/ns/m.01scyt" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_384" span="word_168..word_175" coref_class="set_24" topic="nan" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_329" span="word_172..word_174" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="ne"  mmax_level="coref" />
+<markable id="markable_349" span="word_172..word_175" coref_class="set_6" topic="nan" coreftype="ident" mentiontype="np"  mmax_level="coref" />
+<markable id="markable_331" span="word_187..word_187" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_363" span="word_187..word_188" coref_class="set_11" topic="nan" coreftype="ident" mentiontype="np"  mmax_level="coref" />
+<markable id="markable_332" span="word_209..word_209" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_333" span="word_213..word_213" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_365" span="word_213..word_219" coref_class="set_18" topic="nan" coreftype="ident" mentiontype="np"  mmax_level="coref" />
+<markable id="markable_366" span="word_228..word_228" coref_class="set_18" topic="nan" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_334" span="word_250..word_250" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_364" span="word_250..word_251" coref_class="set_11" topic="nan" coreftype="ident" mentiontype="np"  mmax_level="coref" />
+<markable id="markable_335" span="word_254..word_254" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+<markable id="markable_336" span="word_259..word_259" coref_class="set_2" topic="http://rdf.freebase.com/ns/m.036xf" coreftype="ident" mentiontype="pro"  mmax_level="coref" />
+</markables>

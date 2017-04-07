@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotationscheme> <attribute id="level_corefclass" name="Coref_class" color="green" width="2" type="markable_set" add_to_markableset_text="Mark as coreferent"  style="lcurve" remove_from_markableset_text="Unmark as coreferent" adopt_into_markableset_text="Move this into current coreference set" merge_into_markableset_text="Merge both coreference sets into one">
+  <value id="value_corefclass" name="Coref_class"/>
+ </attribute><attribute id="mention_type" type="nominal_button" name="mentionType">
+<value id="mention_type_NE" name="NE"/>
+<value id="mention_type_NP" name="NP"/>
+<value id="mention_type_PRO" name="PRO"/>
+</attribute>
+
+<attribute id="coref_type" type="nominal_button" name="CorefType">
+<value id="coref_type_identical" name="IDENT"/>
+<value id="coref_type_attributive" name="ATR"/>
+</attribute>
+
+<attribute id="freebase_topic" type="freetext" name="topic">
+<value id="freebase_topic_value" name="topic"/>
+</attribute>
+</annotationscheme>

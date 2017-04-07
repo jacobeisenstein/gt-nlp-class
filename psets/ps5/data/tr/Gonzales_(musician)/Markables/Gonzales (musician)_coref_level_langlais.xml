@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_512" span="word_1215" topic="nan"  coref_class="set_76"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_510" span="word_1182..word_1183" topic="andrew w.k."  coref_class="set_76"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_511" span="word_1212" topic="andrew w.k."  coref_class="set_76"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_506" span="word_1104..word_1106" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_505" span="word_1078..word_1087" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_503" span="word_1063..word_1068" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_509" span="word_1178" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_508" span="word_1140" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_501" span="word_1060" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_502" span="word_1090" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_414" span="word_887..word_889" topic="juno award"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_413" span="word_1309..word_1311" topic="random access memories"  coref_class="set_57"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_412" span="word_120..word_124" topic="random access memories"  coref_class="set_57"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_411" span="word_447..word_448" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_410" span="word_415..word_416" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_549" span="word_1180..word_1181" coref_class="set_76"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_547" span="word_1078..word_1083" coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_548" span="word_1233" coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_409" span="word_301" topic="nan"  coref_class="set_23"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_406" span="word_117..word_118" topic="daft punk"  coref_class="set_12"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_407" span="word_281..word_283" topic="nan"  coref_class="set_23"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_404" span="word_811" topic="peaches"  coref_class="set_11"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_405" span="word_1302..word_1304" topic="daft punk"  coref_class="set_12"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_401" span="word_1078..word_1079" topic="feist"  coref_class="set_10"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_400" span="word_871..word_872" topic="feist"  coref_class="set_10"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_402" span="word_62" topic="peaches"  coref_class="set_11"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_540" span="word_767" coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_542" span="word_805..word_822" coref_class="set_70"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_541" span="word_828..word_829" coref_class="set_70"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_544" span="word_987..word_988" coref_class="set_71"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_546" span="word_1081..word_1083" coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_545" span="word_1002..word_1003" coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_536" span="word_664..word_674" coref_class="set_65"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_537" span="word_677..word_684" coref_class="set_65"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_538" span="word_693" coref_class="set_66"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_539" span="word_726..word_727" coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_432" span="word_218" topic="nan"  coref_class="set_20"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_431" span="word_212..word_216" topic="son"  coref_class="set_20"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_430" span="word_325..word_326" topic="nan"  coref_class="set_20"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_436" span="word_235..word_237" topic="warner bros. records"  coref_class="set_22"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_435" span="word_232..word_237" topic="nan"  coref_class="set_21"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_434" span="word_226..word_228" topic="warner music canada"  coref_class="set_21"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_433" span="word_349" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_535" span="word_664" coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_534" span="word_461..word_462" coref_class="set_22"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_533" span="word_450..word_452" coref_class="set_62"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_532" span="word_454..word_459" coref_class="set_62"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_531" span="word_388..word_389" coref_class="set_23"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_530" span="word_325..word_330" coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_529" span="word_310..word_315" coref_class="set_60"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_527" span="word_239..word_247" coref_class="set_23"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_528" span="word_317..word_318" coref_class="set_60"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_525" span="word_254..word_260" coref_class="set_59"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_526" span="word_262..word_267" coref_class="set_59"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_429" span="word_955" topic="pop music"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_421" span="word_153..word_156" topic="christophe beck"  coref_class="set_58"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_420" span="word_153" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_422" span="word_738..word_739" topic="piano"  coref_class="set_75"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_424" span="word_770..word_771" topic="piano"  coref_class="set_75"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_522" span="word_1302..word_1311" coref_class="set_57"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_521" span="word_1302..word_1307" coref_class="set_57"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_524" span="word_209..word_216" coref_class="set_74"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_523" span="word_185..word_186" coref_class="set_58"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_520" span="word_13..word_31" coref_class="set_74"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_518" span="word_1278..word_1281" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_519" span="word_1283" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_514" span="word_1239" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_515" span="word_1246" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_516" span="word_1259..word_1261" topic="apple inc."  coref_class="set_55"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_517" span="word_1265" topic="apple inc."  coref_class="set_55"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_418" span="word_682" topic="nan"  coref_class="set_65"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_419" span="word_344..word_345" topic="christophe beck"  coref_class="set_58"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_390" span="word_93" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_393" span="word_39" topic="master of ceremonies"  coref_class="set_9"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_449" span="word_359..word_377" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_394" span="word_100..word_104" topic="nan"  coref_class="set_9"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_397" span="word_66" topic="feist"  coref_class="set_10"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_396" span="word_818..word_822" topic="feist"  coref_class="set_10"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_399" span="word_856" topic="nan"  coref_class="set_10"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_398" span="word_831..word_832" topic="feist"  coref_class="set_10"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_450" span="word_379" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_455" span="word_376" topic="nan"  coref_class="set_28"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_457" span="word_908..word_910" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_451" span="word_388" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_452" span="word_364..word_377" topic="nan"  coref_class="set_28"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_453" span="word_401" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_383" span="word_687" topic="nan"  coref_class="set_65"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_439" span="word_497..word_498" topic="warner bros. records"  coref_class="set_22"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_438" span="word_408..word_409" topic="warner bros. records"  coref_class="set_22"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_437" span="word_289..word_290" topic="warner bros. records"  coref_class="set_22"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_388" span="word_55" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_387" span="word_47..word_53" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_386" span="word_44" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_385" span="word_37" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_389" span="word_75" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_446" span="word_468..word_469" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_444" span="word_325..word_328" topic="nan"  coref_class="set_61"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_445" span="word_330" topic="wolfstein"  coref_class="set_61"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_442" span="word_293..word_295" topic="nan"  coref_class="set_20"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_443" span="word_475..word_476" topic="nan"  coref_class="set_20"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_440" span="word_243..word_247" topic="nan"  coref_class="set_23"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_441" span="word_239..word_241" topic="nan"  coref_class="set_23"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_370" span="word_1297" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_373" span="word_580" topic="canada"  coref_class="set_3"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_372" span="word_566" topic="canada"  coref_class="set_3"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_379" span="word_14" topic="grammy awards"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_375" span="word_1138" topic="paris"  coref_class="set_4"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_374" span="word_20" topic="paris"  coref_class="set_4"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_377" span="word_29" topic="cologne"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_376" span="word_29..word_31" topic="cologne"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_472" span="word_746" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_473" span="word_669..word_674" topic="let's groove again"  coref_class="empty"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_474" span="word_697" topic="nan"  coref_class="set_66"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_476" span="word_749" topic="nan"  coref_class="set_75"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_477" span="word_729..word_730" topic="nan"  coref_class="set_75"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_479" span="word_757..word_758" topic="erik satie"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_362" span="word_1033" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_361" span="word_1025" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_360" span="word_1018" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_369" span="word_1117..word_1124" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_368" span="word_1114" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_367" span="word_1110" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_366" span="word_1054" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_365" span="word_1045" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_364" span="word_1041" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_363" span="word_1035" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_460" span="word_505..word_511" topic="nan"  coref_class="set_32"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_461" span="word_501..word_503" topic="nan"  coref_class="set_32"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_465" span="word_1121" topic="berlin"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_462" span="word_509..word_511" topic="nan"  coref_class="set_33"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_463" span="word_513..word_514" topic="the entertainist"  coref_class="set_33"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_468" span="word_666" topic="kitty-yo"  coref_class="set_35"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_469" span="word_735..word_736" topic="instrumental"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_466" span="word_621..word_622" topic="kitty-yo"  coref_class="set_35"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_352" span="word_895" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_353" span="word_897" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_354" span="word_908" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_355" span="word_950" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_356" span="word_952" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_357" span="word_982" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_358" span="word_990" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_359" span="word_997" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_350" span="word_792" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_351" span="word_864" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_499" span="word_993..word_994" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_496" span="word_975" topic="bee gees"  coref_class="set_48"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_495" span="word_1073..word_1075" topic="bee gees"  coref_class="set_48"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_498" span="word_1064..word_1065" topic="bee gees"  coref_class="set_48"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_497" span="word_976" topic="nan"  coref_class="set_48"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_492" span="word_946..word_979" topic="nan"  coref_class="set_71"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_349" span="word_781..word_782" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_491" span="word_916..word_918" topic="nan"  coref_class="set_46"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_494" span="word_940..word_941" topic="soft power"  coref_class="set_71"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_493" span="word_926..word_927" topic="soft power"  coref_class="set_71"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_490" span="word_920..word_921" topic="mercury records"  coref_class="set_46"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_343" span="word_631" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_341" span="word_611..word_612" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_342" span="word_616" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_347" span="word_664..word_667" topic="nan"  coref_class="set_65"  mmax_level="coref"  coreftype="atr"  mentiontype="np" />
+<markable id="markable_348" span="word_708" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_345" span="word_660..word_661" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_340" span="word_586" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_488" span="word_876..word_877" topic="the reminder"  coref_class="set_45"  mmax_level="coref"  coreftype="atr"  mentiontype="ne" />
+<markable id="markable_487" span="word_871..word_874" topic="nan"  coref_class="set_45"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_486" span="word_1081..word_1083" topic="let it die"  coref_class="set_69"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_485" span="word_836..word_838" topic="let it die"  coref_class="set_69"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_483" span="word_824..word_834" topic="nan"  coref_class="set_69"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_482" span="word_767..word_768" topic="nan"  coref_class="empty"  mmax_level="coref"  coreftype="ident"  mentiontype="np" />
+<markable id="markable_339" span="word_577" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_338" span="word_569" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_334" span="word_543" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_335" span="word_545" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_336" span="word_550" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_337" span="word_557" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_330" span="word_491" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_331" span="word_496" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_332" span="word_509" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_333" span="word_535" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_328" span="word_310" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_327" span="word_303..word_304" topic="beck hansen"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_329" span="word_393..word_394" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_325" span="word_189" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_326" span="word_202" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_323" span="word_177" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_324" span="word_185" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_321" span="word_161" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_322" span="word_174" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_320" span="word_146" topic="nan"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_319" span="word_135" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+<markable id="markable_318" span="word_1" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="pro" />
+<markable id="markable_317" span="word_5..word_7" topic="chilly gonzales"  coref_class="set_74"  mmax_level="coref"  coreftype="ident"  mentiontype="ne" />
+</markables>

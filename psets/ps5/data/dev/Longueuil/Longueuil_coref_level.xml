@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE markables SYSTEM "markables.dtd">
+<markables xmlns="www.eml.org/NameSpaces/coref">
+<markable id="markable_904" span="word_650..word_657" mentiontype="np"  coref_class="set_132"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_903" span="word_2264..word_2276" mentiontype="np"  coref_class="set_131"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_905" span="word_659..word_664" mentiontype="np"  coref_class="set_132"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_900" span="word_1358..word_1359" mentiontype="np"  coref_class="set_128"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_901" span="word_631..word_632" mentiontype="np"  coref_class="set_195"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_908" span="word_756..word_759" mentiontype="np"  coref_class="set_135"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_907" span="word_752..word_754" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_909" span="word_762..word_772" mentiontype="np"  coref_class="set_135"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_1092" span="word_2396..word_2403" mentiontype="ne"  coref_class="set_106"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1093" span="word_2425..word_2426" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1094" span="word_2433..word_2435" mentiontype="ne"  coref_class="set_239"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1095" span="word_2437..word_2448" mentiontype="np"  coref_class="set_239"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1096" span="word_2450" mentiontype="pro"  coref_class="set_239"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1097" span="word_2465" mentiontype="ne"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1098" span="word_2467" mentiontype="ne"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1099" span="word_2469..word_2471" mentiontype="ne"  coref_class="empty"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_920" span="word_1208..word_1214" mentiontype="np"  coref_class="set_205"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_915" span="word_983..word_993" mentiontype="np"  coref_class="set_138"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_914" span="word_981" mentiontype="np"  coref_class="set_138"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_917" span="word_997..word_1002" mentiontype="np"  coref_class="set_139"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_916" span="word_995" mentiontype="ne"  coref_class="set_139"  mmax_level="coref"  topic="english language"  coreftype="ident" />
+<markable id="markable_911" span="word_770..word_772" mentiontype="np"  coref_class="set_136"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_910" span="word_774..word_775" mentiontype="np"  coref_class="set_136"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_913" span="word_798..word_812" mentiontype="np"  coref_class="set_137"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_912" span="word_795..word_796" mentiontype="np"  coref_class="set_137"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_919" span="word_1190..word_1201" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_810" span="word_217" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_931" span="word_1549..word_1553" mentiontype="np"  coref_class="set_212"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_926" span="word_1451..word_1459" mentiontype="np"  coref_class="set_143"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_804" span="word_2273..word_2276" mentiontype="np"  coref_class="set_100"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_925" span="word_1424..word_1426" mentiontype="np"  coref_class="set_143"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_801" span="word_2206..word_2207" mentiontype="ne"  coref_class="set_233"  mmax_level="coref"  topic="réseau de transport de longueuil"  coreftype="ident" />
+<markable id="markable_922" span="word_1279..word_1287" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_800" span="word_2108" mentiontype="pro"  coref_class="set_98"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_921" span="word_1235..word_1239" mentiontype="np"  coref_class="set_140"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_803" span="word_2210..word_2213" mentiontype="ne"  coref_class="set_100"  mmax_level="coref"  topic="terminus longueuil"  coreftype="ident" />
+<markable id="markable_924" span="word_1340..word_1354" mentiontype="np"  coref_class="set_141"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_802" span="word_2171" mentiontype="np"  coref_class="set_233"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_923" span="word_1334..word_1338" mentiontype="np"  coref_class="set_141"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_809" span="word_2323..word_2324" mentiontype="ne"  coref_class="set_130"  mmax_level="coref"  topic="longueuil–saint-hubert"  coreftype="atr" />
+<markable id="markable_929" span="word_1499..word_1509" mentiontype="np"  coref_class="set_209"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_940" span="word_1833..word_1835" mentiontype="np"  coref_class="set_155"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_700" span="word_821..word_824" mentiontype="np"  coref_class="set_201"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_821" span="word_1693..word_1696" mentiontype="np"  coref_class="set_228"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_942" span="word_1984" mentiontype="np"  coref_class="set_156"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_941" span="word_1978..word_1980" mentiontype="np"  coref_class="set_156"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_816" span="word_1523" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_937" span="word_1746..word_1750" mentiontype="np"  coref_class="empty"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_815" span="word_1393" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_818" span="word_1560" mentiontype="pro"  coref_class="set_228"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_939" span="word_1774..word_1778" mentiontype="np"  coref_class="empty"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_817" span="word_1555" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_938" span="word_1767..word_1769" mentiontype="ne"  coref_class="set_218"  mmax_level="coref"  topic="parti québécois"  coreftype="atr" />
+<markable id="markable_812" span="word_659" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_933" span="word_1622" mentiontype="ne"  coref_class="set_152"  mmax_level="coref"  topic="new democratic party"  coreftype="atr" />
+<markable id="markable_811" span="word_590" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_932" span="word_1564..word_1568" mentiontype="np"  coref_class="set_81"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_814" span="word_1354" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_813" span="word_1255" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_934" span="word_1617..word_1620" mentiontype="ne"  coref_class="set_152"  mmax_level="coref"  topic="new democratic party"  coreftype="atr" />
+<markable id="markable_830" span="word_2632" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_951" span="word_2298" mentiontype="np"  coref_class="set_163"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_950" span="word_2292..word_2296" mentiontype="np"  coref_class="set_163"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_832" span="word_2776" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_953" span="word_2357..word_2365" mentiontype="np"  coref_class="set_165"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_831" span="word_2682" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_952" span="word_2348..word_2350" mentiontype="np"  coref_class="set_165"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_827" span="word_2278..word_2279" mentiontype="np"  coref_class="set_131"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_826" span="word_2105" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_947" span="word_2164..word_2169" mentiontype="np"  coref_class="set_233"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_829" span="word_2561..word_2564" mentiontype="np"  coref_class="set_228"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_707" span="word_961..word_963" mentiontype="np"  coref_class="set_202"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_828" span="word_2312..word_2321" mentiontype="np"  coref_class="set_130"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_949" span="word_2238" mentiontype="np"  coref_class="set_163"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_702" span="word_976..word_979" mentiontype="ne"  coref_class="set_61"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_701" span="word_869..word_872" mentiontype="ne"  coref_class="set_61"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_822" span="word_1732" mentiontype="ne"  coref_class="set_228"  mmax_level="coref"  topic="saint-hubert, quebec"  coreftype="ident" />
+<markable id="markable_943" span="word_1989..word_2010" mentiontype="np"  coref_class="set_224"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_946" span="word_2071..word_2073" mentiontype="np"  coref_class="set_229"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_824" span="word_2049..word_2051" mentiontype="np"  coref_class="set_228"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1051" span="word_1827" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1052" span="word_1900" mentiontype="ne"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1053" span="word_1932" mentiontype="ne"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1054" span="word_1942" mentiontype="ne"  coref_class="set_243"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1055" span="word_1950" mentiontype="ne"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1056" span="word_1982..word_1984" mentiontype="np"  coref_class="set_224"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1057" span="word_2012..word_2013" mentiontype="ne"  coref_class="set_225"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1058" span="word_2019" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1059" span="word_2015..word_2019" mentiontype="ne"  coref_class="set_225"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1060" span="word_2044" mentiontype="ne"  coref_class="set_243"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1061" span="word_2057..word_2058" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1062" span="word_2068..word_2069" mentiontype="ne"  coref_class="set_229"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1063" span="word_2064" mentiontype="ne"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1064" span="word_2066" mentiontype="ne"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1065" span="word_2086..word_2089" mentiontype="np"  coref_class="set_228"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1066" span="word_2091" mentiontype="ne"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1067" span="word_2097..word_2098" mentiontype="ne"  coref_class="set_229"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1068" span="word_2081" mentiontype="ne"  coref_class="set_255"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1069" span="word_2100" mentiontype="ne"  coref_class="set_255"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1070" span="word_2117..word_2119" mentiontype="np"  coref_class="set_231"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1071" span="word_2114..word_2115" mentiontype="ne"  coref_class="set_231"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1072" span="word_2151..word_2154" mentiontype="np"  coref_class="set_232"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1073" span="word_2159..word_2162" mentiontype="np"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1074" span="word_2125" mentiontype="pro"  coref_class="set_231"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1075" span="word_2177" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1076" span="word_2164..word_2172" mentiontype="np"  coref_class="set_233"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1077" span="word_2125..word_2128" mentiontype="np"  coref_class="set_234"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1078" span="word_2130..word_2162" mentiontype="np"  coref_class="set_234"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1081" span="word_2258..word_2259" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1082" span="word_2241..word_2242" mentiontype="np"  coref_class="set_236"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1083" span="word_2330" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1084" span="word_2282..word_2283" mentiontype="np"  coref_class="set_236"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1085" span="word_2345" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1086" span="word_2355" mentiontype="pro"  coref_class="set_237"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1087" span="word_2348..word_2353" mentiontype="np"  coref_class="set_237"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1088" span="word_2379..word_2381" mentiontype="ne"  coref_class="set_238"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1089" span="word_2375..word_2377" mentiontype="np"  coref_class="set_238"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1080" span="word_2292..word_2299" mentiontype="np"  coref_class="set_163"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1130" span="word_2807..word_2812" mentiontype="ne"  coref_class="set_257"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1010" span="word_687" mentiontype="ne"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1131" span="word_2853" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1011" span="word_689" mentiontype="ne"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1132" span="word_2874" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1012" span="word_694" mentiontype="ne"  coref_class="set_243"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1133" span="word_2889" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1013" span="word_699" mentiontype="ne"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1134" span="word_2897..word_2913" mentiontype="np"  coref_class="set_258"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1014" span="word_714..word_717" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1135" span="word_2922" mentiontype="pro"  coref_class="set_258"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1015" span="word_789..word_792" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1016" span="word_826..word_829" mentiontype="np"  coref_class="set_201"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1017" span="word_941..word_953" mentiontype="np"  coref_class="set_203"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1018" span="word_965..word_972" mentiontype="np"  coref_class="set_202"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1019" span="word_937..word_939" mentiontype="np"  coref_class="set_203"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1009" span="word_668..word_677" mentiontype="np"  coref_class="set_197"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1020" span="word_1089..word_1093" mentiontype="np"  coref_class="set_204"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1021" span="word_1095..word_1133" mentiontype="np"  coref_class="set_204"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1022" span="word_1203..word_1206" mentiontype="ne"  coref_class="set_205"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1023" span="word_1227..word_1247" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1024" span="word_1257" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1025" span="word_1381..word_1382" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1026" span="word_1361..word_1393" mentiontype="np"  coref_class="set_128"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1027" span="word_1428..word_1439" mentiontype="np"  coref_class="set_143"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1028" span="word_1441" mentiontype="pro"  coref_class="set_207"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1029" span="word_1449" mentiontype="pro"  coref_class="set_207"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1030" span="word_1479..word_1483" mentiontype="np"  coref_class="set_209"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1031" span="word_1485..word_1486" mentiontype="ne"  coref_class="set_209"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1032" span="word_1494" mentiontype="pro"  coref_class="set_209"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1033" span="word_1511..word_1515" mentiontype="np"  coref_class="set_232"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1034" span="word_1517..word_1518" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1035" span="word_1517..word_1523" mentiontype="np"  coref_class="set_232"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1036" span="word_1560..word_1562" mentiontype="np"  coref_class="set_81"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1037" span="word_1545..word_1547" mentiontype="np"  coref_class="set_212"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1038" span="word_1576..word_1578" mentiontype="np"  coref_class="set_213"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1039" span="word_1580..word_1587" mentiontype="np"  coref_class="set_213"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1040" span="word_1596..word_1599" mentiontype="np"  coref_class="set_228"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1041" span="word_1628" mentiontype="ne"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1042" span="word_1700..word_1703" mentiontype="np"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1043" span="word_1720..word_1724" mentiontype="ne"  coref_class="set_216"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1044" span="word_1726..word_1732" mentiontype="np"  coref_class="set_216"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1045" span="word_1771" mentiontype="ne"  coref_class="set_218"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_1046" span="word_1794..word_1795" mentiontype="ne"  coref_class="set_218"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1047" span="word_1816..word_1817" mentiontype="ne"  coref_class="set_218"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1048" span="word_1767..word_1772" mentiontype="np"  coref_class="set_218"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1049" span="word_1805..word_1808" mentiontype="np"  coref_class="set_228"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_560" span="word_1635..word_1636" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_681" span="word_2501..word_2504" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_680" span="word_2318..word_2321" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_324" span="word_85" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_445" span="word_2868..word_2869" mentiontype="ne"  coref_class="set_7"  mmax_level="coref"  topic="chmp-fm"  coreftype="atr" />
+<markable id="markable_687" span="word_668..word_670" mentiontype="np"  coref_class="set_197"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_323" span="word_33" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_444" span="word_2864..word_2866" mentiontype="np"  coref_class="set_7"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_565" span="word_2027..word_2030" mentiontype="np"  coref_class="set_242"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_686" span="word_2566..word_2567" mentiontype="ne"  coref_class="set_165"  mmax_level="coref"  topic="montréal/saint-hubert airport"  coreftype="ident" />
+<markable id="markable_326" span="word_153" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_325" span="word_120..word_121" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_446" span="word_40..word_43" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_567" span="word_2390..word_2394" mentiontype="np"  coref_class="set_242"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_688" span="word_896..word_900" mentiontype="np"  coref_class="set_197"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_320" span="word_13" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_441" span="word_27..word_31" mentiontype="np"  coref_class="set_6"  mmax_level="coref"  topic="urban agglomeration of longueuil"  coreftype="ident" />
+<markable id="markable_561" span="word_1666..word_1670" mentiontype="np"  coref_class="set_242"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_443" span="word_2734..word_2735" mentiontype="np"  coref_class="set_6"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_564" span="word_1786..word_1787" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_685" span="word_2352..word_2353" mentiontype="ne"  coref_class="set_165"  mmax_level="coref"  topic="montréal/saint-hubert airport"  coreftype="atr" />
+<markable id="markable_321" span="word_15..word_31" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_442" span="word_1908..word_1910" mentiontype="np"  coref_class="set_6"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_563" span="word_1758..word_1759" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_684" span="word_1244..word_1247" mentiontype="ne"  coref_class="set_165"  mmax_level="coref"  topic="montréal/saint-hubert airport"  coreftype="ident" />
+<markable id="markable_317" span="word_575..word_577" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_438" span="word_1287" mentiontype="ne"  coref_class="set_4"  mmax_level="coref"  topic="canada"  coreftype="ident" />
+<markable id="markable_559" span="word_1576" mentiontype="pro"  coref_class="set_242"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_437" span="word_430" mentiontype="ne"  coref_class="set_4"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_558" span="word_1570..word_1571" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_679" span="word_874..word_877" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_319" span="word_3..word_11" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_318" span="word_1" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_450" span="word_735..word_738" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_571" span="word_2484..word_2485" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_691" span="word_672..word_674" mentiontype="ne"  coref_class="set_197"  mmax_level="coref"  topic="square mile"  coreftype="atr" />
+<markable id="markable_335" span="word_239" mentiontype="ne"  coref_class="set_180"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_577" span="word_2714..word_2715" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_1100" span="word_2477..word_2481" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_334" span="word_235..word_236" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_455" span="word_802..word_805" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_576" span="word_2697..word_2698" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_1101" span="word_2487" mentiontype="ne"  coref_class="set_243"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_337" span="word_301" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_458" span="word_2022..word_2025" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_579" span="word_583..word_584" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1102" span="word_2491" mentiontype="ne"  coref_class="set_244"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_336" span="word_259" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_457" span="word_1961..word_1964" mentiontype="np"  coref_class="set_8"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_578" span="word_219..word_220" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1103" span="word_1946" mentiontype="ne"  coref_class="set_244"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_331" span="word_222" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_452" span="word_745..word_747" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_694" span="word_724..word_725" mentiontype="np"  coref_class="set_58"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_1104" span="word_2537..word_2538" mentiontype="ne"  coref_class="set_246"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_330" span="word_207..word_208" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_572" span="word_2524..word_2528" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_693" span="word_721..word_722" mentiontype="np"  coref_class="set_58"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_333" span="word_231" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_454" span="word_786..word_787" mentiontype="np"  coref_class="set_8"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_575" span="word_2580..word_2581" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_332" span="word_224..word_231" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_453" span="word_758..word_759" mentiontype="np"  coref_class="set_8"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_574" span="word_2542..word_2543" mentiontype="ne"  coref_class="set_242"  mmax_level="coref"  topic="le vieux-longueuil"  coreftype="ident" />
+<markable id="markable_1107" span="word_2545..word_2546" mentiontype="ne"  coref_class="set_246"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_328" span="word_175" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_327" span="word_163" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_448" span="word_704..word_707" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_329" span="word_188" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_580" span="word_661..word_662" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_340" span="word_367" mentiontype="pro"  coref_class="set_41"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_582" span="word_1520..word_1521" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_460" span="word_2138..word_2140" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_581" span="word_1365..word_1366" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1110" span="word_2571..word_2575" mentiontype="ne"  coref_class="set_248"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_346" span="word_522" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_467" span="word_194" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_1111" span="word_2614..word_2617" mentiontype="ne"  coref_class="set_249"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_345" span="word_510..word_511" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_466" span="word_62..word_63" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_587" span="word_2444..word_2448" mentiontype="np"  coref_class="set_33"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1112" span="word_2600..word_2603" mentiontype="ne"  coref_class="set_249"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_348" span="word_542" mentiontype="ne"  coref_class="set_129"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_469" span="word_709" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_1113" span="word_2611" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_347" span="word_532" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_468" span="word_276" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_589" span="word_2624..word_2625" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1114" span="word_2607..word_2617" mentiontype="np"  coref_class="set_250"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_342" span="word_453" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_584" span="word_1545" mentiontype="pro"  coref_class="set_33"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1115" span="word_2619..word_2632" mentiontype="np"  coref_class="set_250"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_462" span="word_2385..word_2388" mentiontype="ne"  coref_class="set_8"  mmax_level="coref"  topic="saint lawrence river"  coreftype="ident" />
+<markable id="markable_583" span="word_1539..word_1540" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1116" span="word_2640..word_2643" mentiontype="np"  coref_class="set_251"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_344" span="word_503..word_505" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_465" span="word_47" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_586" span="word_1729..word_1730" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1117" span="word_2654..word_2657" mentiontype="np"  coref_class="set_251"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_343" span="word_476..word_479" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="old longueuil"  coreftype="ident" />
+<markable id="markable_585" span="word_1638..word_1639" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_1118" span="word_2651" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1108" span="word_2583" mentiontype="pro"  coref_class="set_248"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1109" span="word_2585..word_2592" mentiontype="np"  coref_class="set_248"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_338" span="word_346..word_348" mentiontype="ne"  coref_class="set_129"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_459" span="word_2033" mentiontype="pro"  coref_class="set_225"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_470" span="word_729" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_591" span="word_2783..word_2784" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_590" span="word_2670..word_2671" mentiontype="ne"  coref_class="set_33"  mmax_level="coref"  topic="greenfield park"  coreftype="ident" />
+<markable id="markable_351" span="word_599..word_601" mentiontype="ne"  coref_class="set_129"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_472" span="word_1146" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_593" span="word_325" mentiontype="ne"  coref_class="empty"  mmax_level="coref"  topic="new france"  coreftype="ident" />
+<markable id="markable_471" span="word_815" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_1120" span="word_2719..word_2726" mentiontype="np"  coref_class="set_252"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1000" span="word_623" mentiontype="ne"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1121" span="word_2717" mentiontype="pro"  coref_class="set_252"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_357" span="word_679..word_680" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_478" span="word_2283" mentiontype="np"  coref_class="set_9"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1001" span="word_625" mentiontype="ne"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1122" span="word_2728" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_356" span="word_666" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_477" span="word_2242" mentiontype="np"  coref_class="set_9"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_598" span="word_319" mentiontype="pro"  coref_class="set_181"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1002" span="word_592" mentiontype="ne"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1123" span="word_2747..word_2755" mentiontype="np"  coref_class="set_257"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_359" span="word_740" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_1003" span="word_579" mentiontype="ne"  coref_class="set_243"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1124" span="word_2758..word_2759" mentiontype="np"  coref_class="empty"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_479" span="word_2339" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1004" span="word_581" mentiontype="ne"  coref_class="set_240"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1125" span="word_2788..word_2791" mentiontype="np"  coref_class="set_253"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_353" span="word_605..word_607" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_474" span="word_1841" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_1005" span="word_621..word_627" mentiontype="np"  coref_class="empty"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1126" span="word_2794..word_2795" mentiontype="ne"  coref_class="set_256"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_352" span="word_601" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_473" span="word_1177" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_594" span="word_345" mentiontype="pro"  coref_class="set_129"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_1006" span="word_642..word_646" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1127" span="word_2797..word_2804" mentiontype="np"  coref_class="set_256"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_355" span="word_654" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_476" span="word_1969" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_597" span="word_292..word_298" mentiontype="np"  coref_class="set_181"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_1007" span="word_586" mentiontype="ne"  coref_class="set_196"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1128" span="word_2786" mentiontype="ne"  coref_class="set_255"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_475" span="word_1919" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_1008" span="word_664" mentiontype="ne"  coref_class="set_196"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1129" span="word_2814..word_2817" mentiontype="ne"  coref_class="set_256"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_1119" span="word_2703..word_2715" mentiontype="np"  coref_class="set_252"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_349" span="word_549..word_551" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_360" span="word_782..word_783" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_481" span="word_36..word_43" mentiontype="np"  coref_class="set_10"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_480" span="word_2885" mentiontype="ne"  coref_class="set_9"  mmax_level="coref"  topic="montreal"  coreftype="ident" />
+<markable id="markable_362" span="word_817" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_483" span="word_1971..word_1973" mentiontype="np"  coref_class="set_10"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_482" span="word_731..word_738" mentiontype="np"  coref_class="set_10"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_368" span="word_991..word_992" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_489" span="word_49..word_50" mentiontype="np"  coref_class="set_155"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_367" span="word_935" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_369" span="word_1140..word_1141" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_485" span="word_58" mentiontype="ne"  coref_class="set_11"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_363" span="word_832" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_484" span="word_2308..word_2310" mentiontype="np"  coref_class="set_10"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_366" span="word_903..word_904" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_365" span="word_894" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_486" span="word_879..word_880" mentiontype="np"  coref_class="set_11"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_371" span="word_1164" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_492" span="word_1084..word_1085" mentiontype="np"  coref_class="set_155"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_370" span="word_1148..word_1149" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_491" span="word_1012..word_1013" mentiontype="np"  coref_class="set_155"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_373" span="word_1188" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_494" span="word_53..word_56" mentiontype="np"  coref_class="set_61"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_372" span="word_1179" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_490" span="word_61" mentiontype="pro"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_379" span="word_1338" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_378" span="word_1296" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_499" span="word_81..word_83" mentiontype="ne"  coref_class="set_181"  mmax_level="coref"  topic="charles le moyne de longueuil et de châteauguay"  coreftype="ident" />
+<markable id="markable_375" span="word_1225" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_374" span="word_1208..word_1209" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_377" span="word_1277" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_498" span="word_353..word_357" mentiontype="np"  coref_class="set_185"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_376" span="word_1263" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_382" span="word_1501..word_1505" mentiontype="np"  coref_class="set_242"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_381" span="word_1483" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_384" span="word_1511..word_1513" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_380" span="word_1455" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_389" span="word_1603" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_386" span="word_1567..word_1568" mentiontype="ne"  coref_class="set_149"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_385" span="word_1552..word_1553" mentiontype="ne"  coref_class="set_149"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_388" span="word_1589..word_1590" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_393" span="word_1857..word_1859" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_392" span="word_1712" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_395" span="word_1923" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_390" span="word_1605..word_1623" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_397" span="word_1936" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_399" span="word_1987" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  topic="longueuil"  coreftype="ident" />
+<markable id="markable_841" span="word_2513..word_2516" mentiontype="ne"  coref_class="set_107"  mmax_level="coref"  topic="université de sherbrooke"  coreftype="ident" />
+<markable id="markable_962" span="word_2830..word_2831" mentiontype="ne"  coref_class="set_172"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_840" span="word_2438..word_2440" mentiontype="np"  coref_class="set_107"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_601" span="word_360..word_361" mentiontype="ne"  coref_class="set_41"  mmax_level="coref"  topic="fort longueuil"  coreftype="ident" />
+<markable id="markable_722" span="word_1252" mentiontype="pro"  coref_class="set_70"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_964" span="word_2906" mentiontype="np"  coref_class="set_258"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_600" span="word_350" mentiontype="pro"  coref_class="set_181"  mmax_level="coref"  topic="nan"  coreftype="ident" />
+<markable id="markable_721" span="word_1249..word_1250" mentiontype="ne"  coref_class="set_70"  mmax_level="coref"  topic="pascan aviation"  coreftype="ident" />
+<markable id="markable_963" span="word_2903..word_2904" mentiontype="ne"  coref_class="set_258"  mmax_level="coref"  topic="rive-sud express"  coreftype="atr" />
+<markable id="markable_960" span="word_2897..word_2901" mentiontype="np"  coref_class="set_258"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_838" span="word_2405..word_2423" mentiontype="np"  coref_class="set_106"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_959" span="word_2833..word_2851" mentiontype="np"  coref_class="set_172"  mmax_level="coref"  topic="nan"  coreftype="atr" />
+<markable id="markable_973" span="word_214..word_220" mentiontype="np"  coref_class="set_179"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_972" span="word_211..word_212" mentiontype="np"  coref_class="set_179"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_975" span="word_265..word_267" mentiontype="ne"  coref_class="set_181"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_974" span="word_233..word_236" mentiontype="np"  coref_class="set_180"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_971" span="word_155..word_161" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_970" span="word_150" mentiontype="ne"  coref_class="set_190"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_969" span="word_62..word_79" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_966" span="word_11" mentiontype="ne"  coref_class="set_4"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_965" span="word_6..word_9" mentiontype="np"  coref_class="set_190"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_968" span="word_79" mentiontype="ne"  coref_class="set_4"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_967" span="word_74" mentiontype="ne"  coref_class="set_190"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_984" span="word_381..word_382" mentiontype="ne"  coref_class="set_41"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_983" span="word_350..word_351" mentiontype="ne"  coref_class="set_185"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_986" span="word_405" mentiontype="pro"  coref_class="set_41"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_985" span="word_397" mentiontype="pro"  coref_class="set_41"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_980" span="word_288..word_298" mentiontype="np"  coref_class="set_181"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_982" span="word_327..word_328" mentiontype="ne"  coref_class="set_129"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_981" span="word_339" mentiontype="pro"  coref_class="set_129"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_977" span="word_265..word_277" mentiontype="np"  coref_class="set_181"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_976" span="word_269..word_277" mentiontype="ne"  coref_class="set_181"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_979" span="word_294..word_295" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_978" span="word_288..word_290" mentiontype="ne"  coref_class="set_181"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_995" span="word_546..word_551" mentiontype="np"  coref_class="set_129"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_994" span="word_485..word_495" mentiontype="ne"  coref_class="set_235"  mmax_level="coref"  coreftype="atr" />
+<markable id="markable_997" span="word_627" mentiontype="ne"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_996" span="word_569" mentiontype="ne"  coref_class="set_190"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_991" span="word_457..word_461" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_990" span="word_425..word_430" mentiontype="np"  coref_class="set_187"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_993" span="word_481..word_483" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_992" span="word_466..word_471" mentiontype="np"  coref_class="set_235"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_988" span="word_437..word_438" mentiontype="np"  coref_class="set_187"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_987" span="word_420..word_421" mentiontype="ne"  coref_class="set_41"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_989" span="word_416..word_421" mentiontype="np"  coref_class="set_187"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_999" span="word_621" mentiontype="ne"  coref_class="set_243"  mmax_level="coref"  coreftype="ident" />
+<markable id="markable_998" span="word_588" mentiontype="ne"  coref_class="set_223"  mmax_level="coref"  coreftype="ident" />
+</markables>
