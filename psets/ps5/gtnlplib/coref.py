@@ -231,6 +231,19 @@ def read_data(page_name,
     
     return markables,words
 
+def get_entities(markables):
+    """Given list of markables, return list of lists of mention indices (one list per entity)
+
+    :param markables: list of markables, probably from getMarkablesAndWords
+    :returns: list of list of mention indices 
+    :rtype: list
+
+    """
+
+    entities = set([markable['entity'] for markable in markables])
+    C_dict = {entity:[i for i,markable in enumerate(markables) if markable['entity']==entity] for entity in entities}
+    return C_dict.values()
+
 def get_true_antecedents(markables):
     """Given a list of markables (from getMarkablesAndWords), return list of antecedent indices.
     The antecedent is always the most recent mention in the cluster.
