@@ -167,7 +167,7 @@ def eval_predictions(pred_file,markables):
 def read_dataset(basedir,tagger=None,max_markables=300):
     markables_list = []
     words_list = []
-    for filename in glob(os.path.join(basedir,"*")):
+    for filename in sorted(glob(os.path.join(basedir,"*"))):
         markables,words = read_data(os.path.basename(filename).replace('_',' '),
                                     basedir=basedir,
                                     tagger=tagger,

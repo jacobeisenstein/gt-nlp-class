@@ -147,15 +147,15 @@ def test_test_acc_f1_d2_6():
 # deliverable 3.1 (1 point)
 def test_minimal_features_d3_1():
     global all_markables
-    f=coref_features.minimal_features(all_markables[7],0,1)
+    f=coref_features.minimal_features(all_markables[14],0,1)
     assert(len(f)==0)
-    f=coref_features.minimal_features(all_markables[7],1,1)
+    f=coref_features.minimal_features(all_markables[14],1,1)
     assert(f['new-entity']==1 and len(f)==1)
-    f = coref_features.minimal_features(all_markables[7],0,3)
+    f = coref_features.minimal_features(all_markables[14],0,3)
     assert(len(f)==1 and f['last-token-match']==1)
-    f = coref_features.minimal_features(all_markables[7],6,7)
+    f = coref_features.minimal_features(all_markables[14],6,7)
     assert(len(f)==1 and f['crossover']==1)
-    f = coref_features.minimal_features(all_markables[7],3,14)
+    f = coref_features.minimal_features(all_markables[14],3,14)
     assert(len(f)==3 and f['exact-match']==1 and f['last-token-match']==1 and f['content-match']==1)
 
 # deliverable 3.2 (1 point)
@@ -167,12 +167,12 @@ def test_mention_rank_d3_2():
                                 'content-match':0.7,
                                 'exact-match':1.}
     )
-    assert(coref_learning.mention_rank(all_markables[3],
+    assert(coref_learning.mention_rank(all_markables[12],
                                        1,
                                        coref_features.minimal_features,
                                        hand_weights)
            ==1)
-    assert(coref_learning.mention_rank(all_markables[3],
+    assert(coref_learning.mention_rank(all_markables[12],
                                        7,
                                        coref_features.minimal_features,
                                        hand_weights)
@@ -188,19 +188,19 @@ def test_compute_instance_update_d3_3():
                                 'exact-match':1.}
     )
     update=coref_learning.compute_instance_update(
-        all_markables[7],14,3,coref_features.minimal_features,hand_weights)
+        all_markables[14],14,3,coref_features.minimal_features,hand_weights)
     assert(len(update)==0)
     update=coref_learning.compute_instance_update(
-        all_markables[7],14,10,coref_features.minimal_features,hand_weights)
+        all_markables[14],14,10,coref_features.minimal_features,hand_weights)
     assert(len(update)==0)
     update=coref_learning.compute_instance_update(
-        all_markables[7],14,12,coref_features.minimal_features,hand_weights)
+        all_markables[14],14,12,coref_features.minimal_features,hand_weights)
     assert(len(update)==3 and\
            update['exact-match']==-1 and\
            update['last-token-match']==-1 and\
            update['content-match']==-1)
     update=coref_learning.compute_instance_update(
-        all_markables[7],14,1,coref_features.minimal_features,hand_weights)
+        all_markables[14],14,1,coref_features.minimal_features,hand_weights)
     assert(len(update)==3 and\
            update['exact-match']==-1 and\
            update['last-token-match']==-1 and\
@@ -209,7 +209,7 @@ def test_compute_instance_update_d3_3():
 # deliverable 3.4 (1 point)
 def test_average_perceptron_d3_4a():
     global all_markables
-    theta_simple = coref_learning.train_avg_perceptron([all_markables[0][:10]],coref_features.minimal_features,N_its=2)
+    theta_simple = coref_learning.train_avg_perceptron([all_markables[3][:10]],coref_features.minimal_features,N_its=2)
     assert(theta_simple[-1]['content-match']==0.6)
     assert(theta_simple[-1]['crossover']==0.0)
     assert(theta_simple[-1]['new-entity']==0.2)
@@ -226,28 +226,28 @@ def test_average_perceptron_d3_4b():
 def test_distance_features_d3_5():
     global all_markables
 
-    f = coref_features.distance_features(all_markables[8],0,0)
+    f = coref_features.distance_features(all_markables[9],0,0)
     assert len(f)==0
 
-    f = coref_features.distance_features(all_markables[8],0,1)
+    f = coref_features.distance_features(all_markables[9],0,1)
     assert f['token-distance-8'] == 1
     assert f['mention-distance-1'] == 1
     assert len(f) == 2
     
-    f = coref_features.distance_features(all_markables[8],0,2)
+    f = coref_features.distance_features(all_markables[9],0,2)
     assert f['token-distance-10'] == 1
     assert f['mention-distance-2'] == 1
     assert len(f) == 2
     
-    f = coref_features.distance_features(all_markables[8],1,3)
+    f = coref_features.distance_features(all_markables[9],1,3)
     assert f['token-distance-6'] == 1
     assert f['mention-distance-2'] == 1
     assert len(f) == 2
 
-    f = coref_features.distance_features(all_markables[8],11,11)
+    f = coref_features.distance_features(all_markables[9],11,11)
     assert len(f) == 0
 
-    f = coref_features.distance_features(all_markables[8],0,30)
+    f = coref_features.distance_features(all_markables[9],0,30)
     assert len(f) == 2
     assert f['token-distance-10'] == 1
     assert f['mention-distance-10'] == 1
@@ -257,18 +257,18 @@ def test_feature_union_d3_6():
     global all_markables
     joint_feats1 = coref_features.make_feature_union([coref_features.minimal_features,
                                                       coref_features.distance_features])
-    f = joint_feats1(all_markables[3],1,3)
+    f = joint_feats1(all_markables[12],1,3)
     assert len(f) == 2 and f['token-distance-6']==1
-    f = joint_feats1(all_markables[3],0,7)
+    f = joint_feats1(all_markables[12],0,7)
     assert len(f) == 3 and f['mention-distance-7']==1 and f['last-token-match']==1
-    f = joint_feats1(all_markables[3],10,10)
+    f = joint_feats1(all_markables[12],10,10)
     assert len(f) == 1 and f['new-entity']==1
 
 # 0.25 points
 def test_feature_product_d3_7():
     prod_feats1 = coref_features.make_feature_cross_product(coref_features.minimal_features,
                                                             coref_features.distance_features)
-    f = prod_feats1(all_markables[7],3,14)
+    f = prod_feats1(all_markables[14],3,14)
     assert len(f) == 6\
         and f['content-match-mention-distance-10'] == 1\
         and f['exact-match-mention-distance-10']==1\
@@ -277,7 +277,7 @@ def test_feature_product_d3_7():
         and f['last-token-match-token-distance-10']==1\
         and f['exact-match-token-distance-10']==1
 
-    f = prod_feats1(all_markables[3],0,7)
+    f = prod_feats1(all_markables[12],0,7)
     assert len(f) == 2\
         and f['last-token-match-mention-distance-7']==1\
         and f['last-token-match-token-distance-10']==1
