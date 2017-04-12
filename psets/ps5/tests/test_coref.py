@@ -87,9 +87,7 @@ def test_match_nopro_f1_d2_2():
     f,r,p = coref.eval_on_dataset(
         coref_rules.make_resolver(coref_rules.exact_match_no_pronouns),
         all_markables)
-    assert_greater(f,.64)
-    assert_greater(r,.48)
-    assert_greater(p,.94)
+    assert (r >.48 and p > .94) or (r>.41 and p>.979)
 
 # deliverable 2.3 (0.5/0.25 pts)
 def test_match_last_tok_d2_3():
