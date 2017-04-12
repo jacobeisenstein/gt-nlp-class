@@ -87,7 +87,11 @@ def test_match_nopro_f1_d2_2():
     f,r,p = coref.eval_on_dataset(
         coref_rules.make_resolver(coref_rules.exact_match_no_pronouns),
         all_markables)
-    assert (r >.48 and p > .94) or (r>.41 and p>.979)
+    print f,r,p
+    case_1 = [.48,.94] 
+    case_2 = [.41,.979]
+    case_3 = [.43,.97]
+    assert any(r > case[0] and p > case[1] for case in [case_1,case_2,case_3])
 
 # deliverable 2.3 (0.5/0.25 pts)
 def test_match_last_tok_d2_3():
