@@ -5,7 +5,7 @@ CS 4650 and 7650
 - **Instructor**: Jacob Eisenstein
 - **Semester**: Spring 2017
 - **Time**: Mondays and Wednesdays, 3:05-4:25pm
-- **TAs**: Umashanthi Pavalanathan, Robert Guthrie, James Mullenbach
+- **TAs**: Umashanthi Pavalanathan, Murali Raghu Babu, Robert Guthrie, James Mullenbach
 - [Schedule](https://docs.google.com/spreadsheets/d/178zOzls_H7LBwRRtKDhCUFd4b_pEaZVlTKI7PSj1vqw/edit?usp=sharing)
 - [Synopses](https://docs.google.com/document/d/1Dr6NnaPrw6vL2g-KN28G1EjD1Kxu8BlCBVbe4CZPH7o/edit?usp=sharing) of previous classes
 
