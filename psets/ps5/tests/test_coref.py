@@ -89,9 +89,8 @@ def test_match_nopro_f1_d2_2():
         all_markables)
     print f,r,p
     case_1 = [.48,.94] 
-    case_2 = [.41,.979]
-    case_3 = [.43,.97]
-    assert any(r > case[0] and p > case[1] for case in [case_1,case_2,case_3])
+    case_2 = [.405,.97]
+    assert any(r > case[0] and p > case[1] for case in [case_1,case_2])
 
 # deliverable 2.3 (0.5/0.25 pts)
 def test_match_last_tok_d2_3():
