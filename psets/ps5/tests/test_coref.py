@@ -179,7 +179,7 @@ def test_mention_rank_d3_2():
                                        hand_weights)
            ==0)
 
-# deliverable 3.3 (0.5 points)
+# deliverable 3.3 (1 point)
 def test_compute_instance_update_d3_3():
     global all_markables
     hand_weights = defaultdict(float,
