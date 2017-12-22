@@ -7,7 +7,7 @@ CS 4650 and 7650
 - **Time**: Mondays and Wednesdays, 3:00-4:15pm
 - **TAs**: Murali Raghu Babu, James Mullenbach, Yuval Pinter, Zhewei Sun
 - [Schedule](https://docs.google.com/spreadsheets/d/1BuvRjPhfHmy7XAfpc5KoygdfqI3Cue3bbmiO6yYuX_E/edit?usp=sharing)
-- <!--[Synopses](https://docs.google.com/document/d/1Dr6NnaPrw6vL2g-KN28G1EjD1Kxu8BlCBVbe4CZPH7o/edit?usp=sharing) of previous classes-->
+<!-- - [Synopses](https://docs.google.com/document/d/1Dr6NnaPrw6vL2g-KN28G1EjD1Kxu8BlCBVbe4CZPH7o/edit?usp=sharing) of previous classes-->
 
 This course gives an overview of modern data-driven techniques for natural language processing. The course moves from shallow bag-of-words models to richer structural representations of how words interact to create meaning. At each level, we will discuss the salient linguistic phemonena and most successful computational models. Along the way we will cover machine learning techniques which
 are especially relevant to natural language processing.
@@ -35,7 +35,7 @@ Readings will be drawn mainly from my [notes](https://github.com/jacobeisenstein
 
 These are completely optional, but might deepen your understanding of the material.
 
-- [Speech and Language Processing](http://www.amazon.com/Speech-Language-Processing-2nd-Edition/dp/0131873210/) is the textbook most often used in NLP courses. It's a great reference for both the linguistics and algorithms we'll encounter in this course. Several chapters from the [third edition](https://web.stanford.edu/~jurafsky/slp3/) are online.
+- [Speech and Language Processing](http://www.amazon.com/Speech-Language-Processing-2nd-Edition/dp/0131873210/) is the textbook most often used in NLP courses. It's a great reference for both the linguistics and algorithms we'll encounter in this course. Several chapters from the upcoming [third edition](https://web.stanford.edu/~jurafsky/slp3/) are free online.
 - [Natural Language Processing with Python](http://www.amazon.com/Natural-Language-Processing-Python-Steven/dp/0596516495)
 shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and also brings a strong linguistic perspective.
 - [Schaum's Outline of Probability and Statistics](http://www.amazon.com/Schaums-Outline-Probability-Statistics-Edition/dp/007179557X/ref=pd_sim_b_1?ie=UTF8&refRID=1R57HWNCW6EEWD1ZRH4C) can help you review the probability and statistics that we use in this course.
@@ -69,15 +69,13 @@ Please use Piazza rather than personal email to ask questions. This helps other 
 
 Attendance will not be taken, but **you are responsible for knowing what happens in every class**. If you cannot attend class, make sure you check up with someone who was there.
 
-Respect your classmates and your instructor by avoiding distractions. This means be there on time, turn off your cellphone, and save side conversations for after class. If you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
+Respect your classmates and your instructor by avoiding distractions. This means be on time, turn off your cellphone, and save side conversations for after class. If you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
 
-Using a laptop in class -- even for taking notes -- reduces students' education attainment, as shown by the multiple studies discussed in the following articles:
+**Using a laptop in class is likely to reduce your education attainment**. This has been documented by multiple studies, which are nicely summarized in the following article:
 
 - https://www.nytimes.com/2017/11/22/business/laptops-not-during-lecture-or-meeting.html
-- http://www.newyorker.com/online/blogs/elements/2014/06/the-case-for-banning-laptops-in-the-classroom.html
-- https://www.washingtonpost.com/news/wonk/wp/2016/05/16/why-smart-kids-shouldnt-use-laptops-in-class/?utm_term=.b43a94a87646
 
-I suggest you try pen and paper for a few weeks, and see if it helps you concentrate. Whatever technology you decide to use, it is your responsibility to ensure that it does not distract your classmates or me. 
+I am not going to ban laptops, as long as they are not a distraction to anyone but the user. But I suggest you try pen and paper for a few weeks, and see if it helps you concentrate.
 
 ## Prerequisites
 <a name="prerequisites"/>
