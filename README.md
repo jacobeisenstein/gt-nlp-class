@@ -1,6 +1,8 @@
 CS 4650 and 7650
 ==========
 
+(**Note about registration**: registration is currently restricted to students pursuing CS degrees for which this course is an essential requirement. Unfortunately, the enrollment is already at the limit of the classroom space, so this restriction is unlikely to be lifted.)
+
 - **Course**: Natural Language Understanding
 - **Instructor**: Jacob Eisenstein
 - **Semester**: Spring 2018
