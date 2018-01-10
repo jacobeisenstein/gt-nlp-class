@@ -47,13 +47,15 @@ shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and
 
 The graded material for the course will consist of:
 
-- Seven short homework assignments, of which you must do five. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than an hour. Each homework is worth 2 points (10 total). 
-- Five assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth ten points (50 total). Students enrolled in CS 7650 will have an additional, research-oriented component to the problem sets.
-- An in-class midterm exam, worth 20 points, and a final exam, worth 20 points. The purpose of these exams are to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. Barring a personal emergency or an institute-approved absence, you must take the exam on the days indicated in the schedule. See [here](http://www.deanofstudents.gatech.edu/content/25/absences) and [here](http://www.registrar.gatech.edu/students/formlanding/iaabsences.php) for more information on GT policy about absences.
+- Seven short homework assignments, of which you must do six. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than an hour. Each homework is worth 2 points (12 total). 
+- Four assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth ten points (48 total). Students enrolled in CS 7650 will have an additional, research-oriented component to the problem sets.
+- An in-class midterm exam, worth 20 points, and a final exam, worth 20 points. The purpose of these exams is to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. 
+
+Barring a personal emergency or an institute-approved absence, you must take each exam on the day indicated in the schedule. Job interviews and travel plans are generally not a reason for an institute-approved absence. See [here](https://registrar.gatech.edu/info/institute-approved-absence-form-for-students) for more information on GT policy about absences.
 
 ## Late policy
 
-Problem sets will be accepted up to 72 hours late, at a penalty of 20% per 24 hours. (Maximum score after missing the deadline: 8/10; maximum score 24 hours after the deadline: 6/10, etc.)  It is usually best just to turn in what you have at the due date. Late homeworks will not be accepted. This late policy is intended to ensure fair and timely evaluation.
+Problem sets will be accepted up to 72 hours late, at a penalty of 2 points per 24 hours. (Maximum score after missing the deadline: 10/12; maximum score 24 hours after the deadline: 8/12, etc.)  It is usually best just to turn in what you have at the due date. Late homeworks will not be accepted. This late policy is intended to ensure fair and timely evaluation.
 
 # Getting help
 <a name="help"/>
@@ -71,13 +73,13 @@ Please use Piazza rather than personal email to ask questions. This helps other 
 
 Attendance will not be taken, but **you are responsible for knowing what happens in every class**. If you cannot attend class, make sure you check up with someone who was there.
 
-Respect your classmates and your instructor by avoiding distractions. This means be on time, turn off your cellphone, and save side conversations for after class. If you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
+Respect your classmates and your instructor by preventing distractions. This means be on time, turn off your cellphone, and save side conversations for after class. If you can't read something I wrote on the board, or if you think I made a mistake in a derivation, please raise your hand and tell me!
 
 **Using a laptop in class is likely to reduce your education attainment**. This has been documented by multiple studies, which are nicely summarized in the following article:
 
 - https://www.nytimes.com/2017/11/22/business/laptops-not-during-lecture-or-meeting.html
 
-I am not going to ban laptops, as long as they are not a distraction to anyone but the user. But I suggest you try pen and paper for a few weeks, and see if it helps you concentrate.
+I am not going to ban laptops, as long as they are not a distraction to anyone but the user. But I suggest you try pen and paper for a few weeks, and see if it helps.
 
 ## Prerequisites
 <a name="prerequisites"/>
