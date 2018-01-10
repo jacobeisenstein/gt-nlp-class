@@ -31,7 +31,7 @@ are especially relevant to natural language processing.
 # Readings #
 <a name="readings"/>
 
-Readings will be drawn mainly from my [notes](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf). Additional readings may be assigned from published papers, blogposts, and tutorials.
+Readings will be drawn mainly from my [notes](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes). Additional readings may be assigned from published papers, blogposts, and tutorials.
 
 ## Supplemental textbooks ##
 
