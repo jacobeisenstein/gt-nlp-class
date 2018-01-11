@@ -62,7 +62,13 @@ Problem sets will be accepted up to 72 hours late, at a penalty of 2 points per 
 
 ## Office hours
 
-- TBD
+My office hours follow Wednesday classes (4:15-5:15PM) and take place in class when available.
+
+TA office hours are in CCB commons (1st floor) unless otherwise announced on Piazza.
+- Murali: Friday   10AM-11AM
+- James:  Thursday 11AM-12PM
+- Yuval:  Tuesday  3PM-4PM
+- Zhewei: Monday   1PM-2PM
 
 ## Online help
 
