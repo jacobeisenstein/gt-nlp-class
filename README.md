@@ -9,7 +9,7 @@ CS 4650 and 7650
 - **Time**: Mondays and Wednesdays, 3:00-4:15pm
 - **TAs**: Murali Raghu Babu, James Mullenbach, Yuval Pinter, Zhewei Sun
 - [Schedule](https://docs.google.com/spreadsheets/d/1BuvRjPhfHmy7XAfpc5KoygdfqI3Cue3bbmiO6yYuX_E/edit?usp=sharing)
-<!-- - [Synopses](https://docs.google.com/document/d/1Dr6NnaPrw6vL2g-KN28G1EjD1Kxu8BlCBVbe4CZPH7o/edit?usp=sharing) of previous classes-->
+- [Recaps](https://docs.google.com/document/d/1loefqZhmOaF2mP8yQPEx91jZ7BHylWixVtYlFhpIlGM/edit?usp=sharing) from previous classes
 
 This course gives an overview of modern data-driven techniques for natural language processing. The course moves from shallow bag-of-words models to richer structural representations of how words interact to create meaning. At each level, we will discuss the salient linguistic phemonena and most successful computational models. Along the way we will cover machine learning techniques which
 are especially relevant to natural language processing.
