@@ -9,7 +9,7 @@ CS 4650 and 7650
 - **Time**: Mondays and Wednesdays, 3:00-4:15pm
 - **TAs**: Murali Raghu Babu, James Mullenbach, Yuval Pinter, Zhewei Sun
 - [Schedule](https://docs.google.com/spreadsheets/d/1BuvRjPhfHmy7XAfpc5KoygdfqI3Cue3bbmiO6yYuX_E/edit?usp=sharing)
-<!-- - [Synopses](https://docs.google.com/document/d/1Dr6NnaPrw6vL2g-KN28G1EjD1Kxu8BlCBVbe4CZPH7o/edit?usp=sharing) of previous classes-->
+- [Recaps](https://docs.google.com/document/d/1loefqZhmOaF2mP8yQPEx91jZ7BHylWixVtYlFhpIlGM/edit?usp=sharing) from previous classes
 
 This course gives an overview of modern data-driven techniques for natural language processing. The course moves from shallow bag-of-words models to richer structural representations of how words interact to create meaning. At each level, we will discuss the salient linguistic phemonena and most successful computational models. Along the way we will cover machine learning techniques which
 are especially relevant to natural language processing.
@@ -47,7 +47,7 @@ shows how to do hands-on work with Python's Natural Language Toolkit (NLTK), and
 
 The graded material for the course will consist of:
 
-- Seven short homework assignments, of which you must do six. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than an hour. Each homework is worth 2 points (12 total). 
+- Seven short homework assignments, of which you must do six. Most of these involve performing linguistic annotation on some text of your choice. The purpose is to get a basic understanding of key linguistic concepts. Each assignment should take less than an hour. Each homework is worth 2 points (12 total). (Many of these homeworks are implemented at **quizzes** on Canvas.)
 - Four assigned problem sets. These involve building and using NLP techniques which are at or near the state-of-the-art. The purpose is to learn how to implement natural language processing software, and to have fun. These assignments must be done individually. Each problem set is worth ten points (48 total). Students enrolled in CS 7650 will have an additional, research-oriented component to the problem sets.
 - An in-class midterm exam, worth 20 points, and a final exam, worth 20 points. The purpose of these exams is to assess understanding of the core theoretical concepts, and to encourage you to review and synthesize your understanding of these concepts. 
 
