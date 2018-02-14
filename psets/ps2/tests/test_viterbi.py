@@ -73,7 +73,7 @@ def test_viterbi_step_init():
     eq_(bptrs[3],0)
     
     
-    prev_scores = torch.autograd.Variable(torch.from_numpy(np.array([-np.inf, -2, -13, -np.inf]).astype(np.float32))) 
+    prev_scores = torch.autograd.Variable(torch.from_numpy(np.array([-np.inf, -2, -13, -np.inf]).astype(np.float32))).view(1,-1) 
     viterbivars, bptrs = viterbi.viterbi_step(all_tags, tag_to_ix,
                                               emission_probs[1],
                                               tag_transition_probs,
