@@ -1,0 +1,14 @@
+pset3.ipynb
+en_3_2-dev.preds
+en_3_2-test.preds
+no_3_3-dev.preds
+no_3_3-test.preds
+en_4_6-dev.preds
+en_4_6-test.preds
+no_4_7-dev.preds
+no_4_7-test.preds
+bakeoff-dev-en.preds
+bakeoff-test-en.preds
+bakeoff-dev-nr.preds
+bakeoff-test-nr.preds
+gtnlplib/*.py
