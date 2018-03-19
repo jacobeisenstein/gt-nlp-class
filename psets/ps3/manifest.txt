@@ -11,4 +11,5 @@ bakeoff-dev-en.preds
 bakeoff-test-en.preds
 bakeoff-dev-nr.preds
 bakeoff-test-nr.preds
+text-answers.md
 gtnlplib/*.py
