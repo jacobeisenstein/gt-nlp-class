@@ -412,6 +412,9 @@ def test_suff_word_embeds_d4_2():
             [-0.19550958, -0.96563596, -0.90807337,  0.54227364],
             [ 0.66135216,  0.26692411,  3.5869894 , -1.83129013])
 
+    pairs = zip(embeds_list, true)
+    check_tensor_correctness(pairs)
+
 def test_pretrained_embeddings_d4_3():
     torch.manual_seed(1)
     word_to_ix = { "interest": 0, "rate": 1, "swap": 2 }
