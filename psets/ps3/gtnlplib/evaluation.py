@@ -65,10 +65,7 @@ def compute_metric(parser, data, metric):
     for sentence, actions in data:
         if len(sentence) > 1:
             gold = dependency_graph_from_oracle(sentence, actions)
-            try:
-                predicted = parser.predict(sentence)
-            except:
-                import pdb; pdb.set_trace()
+            predicted = parser.predict(sentence)
             val += metric(predicted, gold)
     return val / len(data)
 
