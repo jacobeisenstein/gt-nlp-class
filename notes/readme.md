@@ -16,7 +16,7 @@ Several instructors have asked for slides related to this material. I usually te
 - Maryland: http://www.cs.umd.edu/class/fall2018/cmsc470//syllabus/
 - UMass: https://people.cs.umass.edu/~brenocon/anlp2018/schedule.html, https://people.cs.umass.edu/~miyyer/cs585/schedule.html
 - Ohio State: http://aritter.github.io/courses/5525_spring19.html
-- University of Texas: http://www.cs.utexas.edu/~gdurrett/courses/fa2018/cs388.shtml
+- University of Texas: http://www.cs.utexas.edu/~gdurrett/courses/sp2019/cs378.shtml, http://www.cs.utexas.edu/~gdurrett/courses/fa2018/cs388.shtml
 - University of Virginia: http://yangfengji.net/uva-nlp-class/
 - University of Washington: https://courses.cs.washington.edu/courses/cse517/18sp/, https://courses.cs.washington.edu/courses/cse447/19wi/
 
