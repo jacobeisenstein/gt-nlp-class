@@ -10,7 +10,7 @@ You are welcome to use the book and other material here for your own learning or
 
 # Courses using this textbook
 
-Several instructors have asked for slides related to this material. I usually teach from the whiteboard, but I'm working on slides now, and a few decks are available [here](https://github.com/jacobeisenstein/gt-nlp-class/tree/master/slides).
+Several instructors have asked for slides related to this material. I usually teach from the whiteboard, but I'm working on slides now, and a few decks are available [here](slides).
 
 In the meantime, here are some links to courses that are using this textbook, which may have useful material for you:
 
