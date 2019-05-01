@@ -3,7 +3,7 @@
 May 1, 2019: The book is now in late stages of editing, and the publisher is in control of the LaTeX source files. 
 As a result, I will no longer be updating this PDF.
 Errata will be posted here if they cannot be addressed in the print version.
-When the print version is available, the publisher will create a free online reader (similarly to https://www.deeplearningbook.org/), which will include all edits made since November 2018.
+When the print version is available, the publisher will create a free online reader (similar to https://www.deeplearningbook.org/), which will include all edits made since November 2018.
 
 ## Chapter 9, page 194
 
