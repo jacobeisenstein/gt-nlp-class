@@ -4,7 +4,7 @@ This textbook was designed for the courses CS 4650 and CS 7650 ("Natural Languag
 
 The manuscript is under contract with MIT Press, and is posted here under the Creative Commons license CC-BY-NC-ND. More information about this license is available here: https://creativecommons.org/licenses/. One aspect of the license is that translations require permission, which must be negotiated with MIT Press. A Chinese translation has already been arranged. The print edition is expected to be ready in 2019. 
 
-Feedback of any kind is welcome, and github issues is a good way to identify typos and other local fixes. Please add your full name in the issue if you want to be acknowledged. The book is in production as of November 2018, so for now, edits will go to an errata page.
+Feedback of any kind is welcome, and github issues is a good way to identify typos and other local fixes. Please add your full name in the issue if you want to be acknowledged. The book is in production as of November 2018, so for now, edits will go to an [errata page](errata.md).
 
 You are welcome to use the book and other material here for your own learning or teaching, assuming you give attribution. If you do use the textbook to teach a class, please tell me! You can reach me directly at the username jacobe, at the website gmail dot com.
 
