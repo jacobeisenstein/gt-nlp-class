@@ -15,6 +15,7 @@ Several instructors have asked for slides related to this material. I usually te
 In the meantime, here are some links to courses that are using this textbook, which may have useful material for you:
 
 - UC Berkeley: http://people.ischool.berkeley.edu/~dbamman/nlp18.html
+- Columbia: http://www.cs.columbia.edu/~kathy/NLP/2019/
 - Maryland: http://www.cs.umd.edu/class/fall2018/cmsc470//syllabus/
 - UMass: https://people.cs.umass.edu/~brenocon/anlp2018/schedule.html, https://people.cs.umass.edu/~miyyer/cs585/schedule.html
 - University of Melbourne: https://trevorcohn.github.io/comp90042/
