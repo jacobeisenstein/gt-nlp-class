@@ -7,3 +7,7 @@ In "Computational properties of finite state acceptors", it is stated that Dijks
 ## Chapter 4, page 93
 
 In line (6) of Algorithm 8, the denominator should include a summation $\sum_{i=1}^N$. (Credit: Janina Sarol)
+
+## Chapter 12, page 273 of the printed version
+
+In the paragraph "functions", the example should be $[\textsc{capital-of}(\textsc{georgia})] = [\textsc{atlanta}]$, not $[\textsc{capital-of}][(\textsc{georgia})] = [\textsc{atlanta}]$.
