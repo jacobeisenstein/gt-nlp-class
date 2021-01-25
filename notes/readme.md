@@ -25,3 +25,4 @@ In the meantime, here are some links to courses that are using this textbook, wh
 - University of Texas: http://www.cs.utexas.edu/~gdurrett/courses/sp2019/cs378.shtml, http://www.cs.utexas.edu/~gdurrett/courses/fa2018/cs388.shtml
 - University of Virginia: http://yangfengji.net/uva-nlp-class/
 - University of Washington: https://courses.cs.washington.edu/courses/cse517/18sp/, https://courses.cs.washington.edu/courses/cse447/19wi/
+- University of Pennsylvania: http://markyatskar.com/cis530_sp2021/
