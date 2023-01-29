@@ -19,3 +19,7 @@ In the paragraph "functions", the example should be $[\textsc{capital-of}(\texts
 ## Exercise 6.4
 
 This problem was intended to have a short and fairly simple solution, but the derivation that I had in mind is not correct. The fully correct derivation is much longer, but leads to very nearly the same answer for practical value of the parameters in the problem. (Credit: Sofia Serrano, Jungo Kasai, Lianhui Qin, Sewon Min, Harrison Bay, Pemi Nguyen, and Noah Smith)
+
+## Chapter 5, eq 5.14
+
+The term $\log p(z; \theta)$ should be $\log p(z; \mu)$.
