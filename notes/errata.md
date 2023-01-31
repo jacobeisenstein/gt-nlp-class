@@ -22,4 +22,4 @@ This problem was intended to have a short and fairly simple solution, but the de
 
 ## Chapter 5, eq 5.14
 
-The term $\log p(z; \theta)$ should be $\log p(z; \mu)$.
+The term $\log p(z; \theta)$ should be $\log p(z; \mu)$. (Credit: Jackson Gold)
